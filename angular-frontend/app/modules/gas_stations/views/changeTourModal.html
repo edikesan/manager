@@ -1,0 +1,28 @@
+<div class="modal fade ng-scope in" id="changeTourModal" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="changeTourModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="width:20%">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <button ng-if="mobile == 1" style="margin-bottom: 10px;" class="btn btn-danger change pull-left" ng-click="cancelUpdate(tour)"><i class="fa fa-ban"></i> Cancel</button>
+                <button ng-if="mobile == 1" style="margin-bottom: 10px;" class="btn btn-success change pull-right" ng-click="updateTour(tour)"><i class="fa fa-save"></i>  Save</button>
+                <div class="table-responsive">
+                    <table id="TourModalTable" class="table table-striped table-hover table-fixed ellipsis-table">
+                        <thead>
+                            <tr style="font-weight: bold; font-size: 110%;">
+                                <td>Tour</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="tour in touren"  class="cursor-action">
+                                <td ng-click="setChangesTour(tour);" id="tour_{{tour.name}}" class="info">{{tour.name}}, Ladedatum: {{tour.ladedatum}}, Terminal: {{tour.lager}}
+                                    <i ng-if="tour_name == tour.name" style="font-size: 150%;" class="glyphicon glyphicon-ok success pull-right"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button ng-if="mobile == 0" style="margin-bottom: 1px;" class="btn btn-danger change pull-left" ng-click="cancelUpdate(tour)"><i class="fa fa-ban"></i> Cancel</button>
+                    <button ng-if="mobile == 0" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="updateTour(tour);"><i class="fa fa-save"></i> Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

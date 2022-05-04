@@ -1,0 +1,57 @@
+version: '2'
+services: 
+    web:
+        #build: 
+        #    context: .
+        #    dockerfile: .docker/Dockerfile
+        image: rsd_apache2
+        depends_on:
+          - mysql
+        ports:
+         - "80:80"
+        volumes:
+         - .:/var/www/html
+        networks:
+         - rsd-dev
+        ## stdin_open: true
+        ## tty: true
+    mysql:
+        image: mysql:5.7
+        container_name: rsd_mysql
+        ports:
+         - "3306:3306"
+        environment:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: rsd_dev
+          MYSQL_USER: rsd
+          MYSQL_PASSWORD: rsd
+        volumes:
+         - ./.sql/rsd.sql:/docker-entrypoint-initdb.d/dump.sql
+         - mysqldata:/var/lib/mysql
+        networks:
+         - rsd-dev
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: rsd_phpmyadmin
+        links:
+          - mysql
+        environment:
+          PMA_HOST: mysql
+          PMA_PORT: 3306
+        ports:
+          - '8080:80'
+        volumes:
+          - /sessions
+        networks:
+          - rsd-dev
+networks:
+  rsd-dev:
+    driver: "bridge"
+volumes:
+  mysqldata:
+    driver: "local"
+    
+    
+    
+ 
+     

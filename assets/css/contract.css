@@ -1,0 +1,132 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 9pt;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contract_headline{
+    font-size: 22pt;
+    color: #00325F;
+    text-align:left;
+}
+
+.contract_sub_headline{
+    font-size: 14pt;
+    color: #8AA0C6;
+    text-align:left;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.signatures{
+
+    display: none;
+}
+
+.signatures_pdf {
+
+    display: block;
+}
+
+.topic_bg{
+
+    width: 200px;
+    background-color: #E6E6E6;
+}
+
+.topic_bg_pdf{
+
+    width: 200px;
+    background-color: #E6E6E6;
+}
+
+.contract_part{
+
+    margin-top: 20px;
+}
+
+.contract_part_no_margin{
+
+    margin: 0px;
+}
+
+
+.company_data{
+
+    position:absolute;
+    right: 50px;
+    top: 90px;
+    width: 350px;
+    font-size: 10pt;
+}
+
+.company_data_pdf {
+
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    width: 290px;
+    font-size: 9pt;
+}
+
+.contract-bg {
+
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+.contract {
+
+    background-color: #FFFFFF;
+    padding: 0px 40px 130px 40px;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+.contract_pdf {
+
+    background-color: #FFFFFF;
+    padding: 0px;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+.contract_address_label{
+
+    border-top: dotted #000000 1px;
+    padding-left: 10px;
+    font-size: 7pt;
+}
+
+.contract_address_value {
+
+    padding: 10px 0px 3px 10px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.customer_signature_field {
+
+    display: block;
+}
+
+
+.salesstaff_signature_field {
+
+    display: block;
+}
+
+.customer_signature_field_hidden {
+
+    display: none;
+}
+
+.salesstaff_signature_field_hidden {
+
+    display: none;
+}

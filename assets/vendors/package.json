@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "angular-loader": "^1.8.2",
+    "angular-touch": "^1.8.2",
+    "angular-ui": "^1.0.0",
+    "angularjs-dropdown-multiselect": "^2.0.0-beta.10",
+    "lodash": "^4.17.21"
+  }
+}

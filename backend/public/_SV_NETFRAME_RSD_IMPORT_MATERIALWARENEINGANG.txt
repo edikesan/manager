@@ -1,0 +1,18 @@
+
+---------- 05-20-20 10:56:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"728001","lagernr":"1011","datum":"20.05.2020","positionen":[{"artikel":{"artikelnr":"1000","menge":"1"}},{"artikel":{"artikelnr":"1001","menge":"2"}}]}
+
+---------- 05-20-2020 10:57:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"728001","lagernr":"1011","datum":"20.05.2020","positionen":[{"artikel":{"artikelnr":"1000","menge":"1"}},{"artikel":{"artikelnr":"1001","menge":"2"}}]}
+---------- 05-20-2020 10:58:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"728001","lagernr":"1011","datum":"20.05.2020","positionen":[{"artikel":{"artikelnr":"1000","menge":"2"}},{"artikel":{"artikelnr":"1002","menge":"3"}}]}
+---------- 05-25-2020 11:09:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"728001","lagernr":"1011","datum":"25.05.2020","positionen":[{"artikel":{"artikelnr":"1000","menge":"3"}},{"artikel":{"artikelnr":"992","menge":"2"}}]}
+---------- 05-29-2020 09:54:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"728001","lagernr":"1414","datum":"29.05.2020","lieferscheinnr":"undefined","positionen":[{"artikel":{"artikelnr":"1000","menge":"1"}},{"artikel":{"artikelnr":"1001","menge":"2"}}]}
+---------- 04-26-2121 12:50:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"704972","lagernr":"1368","datum":"26.04.2021","lieferscheinnr":"TEST1","positionen":[{"artikel":{"artikelnr":"1000","menge":"1,8"}}]}
+---------- 04-26-2121 12:51:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"704972","lagernr":"1368","datum":"26.04.2021","lieferscheinnr":"TEST1","positionen":[{"artikel":{"artikelnr":"1000","menge":"1,8"}}]}
+---------- 10-25-2121 14:54:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALWARENEINGANG","lieferantennr":"704972","lagernr":"1368","datum":"25.10.2021","lieferscheinnr":"12121212","positionen":[{"artikel":{"artikelnr":"1000","menge":"1"}},{"artikel":{"artikelnr":"1001","menge":"1"}}]}

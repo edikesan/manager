@@ -1,0 +1,69 @@
+<style>
+    small {
+        font-size: smaller;
+    },
+    table{
+        font-size: 10px;
+    }
+</style>
+<script type="text/php">
+        $text = 'Seite {PAGE_NUM} von {PAGE_COUNT}';
+        $size = 10;
+        $font = Font_Metrics::get_font("helvetica", "normal");
+        $width = Font_Metrics::get_text_width($text, $font, $size) / 2;
+        $x = ($pdf->get_width() - $width) / 2;
+        $y = $pdf->get_height() - 35;
+        $pdf->page_text($x, $y, $text, $font, $size);
+        $pdf->page_text(510, 823, $text, $font, 8);
+ </script>
+<body>
+<table width="100%">
+    <tr>
+        <td width="50%">
+            <img style="margin-top: -17px;margin-left: -13px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAACRElEQVR4nO2c0WrDMAwA27L//+Syh0FgZCg6WY7T5e6xSWxzSCh27D7f7/dDcrxWD+CTUBZAWQBlAZQFUBZAWQBlAZQFUBZAWYCvzE2v15DTbfq5tZOZkAad7h/vGuHBkEb6uBvKAqTScAOt56DU2N8cJG+QzvNG+DCyEMoCsDTcQKUqeHy7eZ9igwyO8O82q4O5I8oCFNOwi8xrau2ddgZGFkBZgFPTsFbyuurjOFcZx0egLEAxDWv1KJNQg9O9wadijCyAsgAsDbsKU1AWMwsywdvp1NJpZAGUBXiu3cyGFkj3T508eCMLoCxA8bshKkOZZOlaKQ1KZ6b3g8bLw7ohygK0VcP2CpXJ60zSNRZTIwugLED/LprMe+aezMoMGsaMaaORBVAWIFUNMyUm83ht3teefeUPkUYWQFmA4mY2lCxd2dfVexkjC6AsQLEaBqC5WFehdG54OZQFSFXDIFyDDEWXMr9kLrXvTf3Vb3uL/xhlAU79bjh4jGKw9mU6PRh/5ib5QVmAtpXS2jStfZbnLpqroCzAmmpY25aGqtiMnTZGFkBZgFNP36OMQB/+UGIGXcQYWQBlAU49fR+c9g3uqU0Jg2EEfcUYWQBlAdacvg8aREudtTJdXk01sgDKAqw59htcmjdbDNpJYmQBlAW4yp9goEu1ijl+oNjIAigLsOb0ffBPUJlfBk8pljGyAMoCrDl9v6d2PHDwA6JLNBNRFmDx6fvPwsgCKAugLICyAMoCKAugLICyAMoCKAugLICyAN/7KHUI0LFBPgAAAABJRU5ErkJggg==">
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="40%">
+            <strong>Propan Rheingas GmbH & Co. KG</strong><br>
+            Fischenicher Str. 23<br>
+            50321 Brühl<br>
+            <small>www.rheingas.de</small>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><span style="font-size:6pt;">Rheingas GmbH & Co. KG - Postfach 17 20 - 50309 Brühl</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>KD123</td>
+        <td>&nbsp;</td>
+        <td><strong>Kundenservice</strong></td>
+    </tr>
+    <tr>
+        <td>KD123</td>
+        <td>&nbsp;</td>
+        <td>Telefon: 0800 / 65 65 65 8 (gebührenfrei)</td>
+    </tr>
+    <tr>
+        <td>KD123</td>
+        <td>&nbsp;</td>
+        <td>Telefax: 01801 / 862 862</td>
+    </tr>
+    <tr>
+        <td>KD123</td>
+        <td>&nbsp;</td>
+        <td><small>E-Mail: flschengas@rheingas.de</small></td>
+    </tr>
+    <tr>
+        <td height="100">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</body>

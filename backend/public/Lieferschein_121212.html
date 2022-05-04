@@ -1,0 +1,299 @@
+<style>
+    small {
+        font-size: smaller;
+    },
+    body{
+        font-family: "Sans-serif";
+    },
+    table{
+        font-size: 11px;
+    },
+    td.adresse {
+        font-size: 12px;
+    },
+    td.kopf_links {
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+        border-left:1px solid black;
+    },
+    td.kopf_mitte {
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+    },
+    td.kopf_rechts {
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+        border-right:1px solid black;
+    },
+    table.gg{
+        font-size: 7px;
+    },
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 115px;
+        width: 100%;
+        color: black;
+        text-align: left;
+    },
+    .erklaerung {
+        font-size: xx-small;
+    },
+    .belehrung {
+        border: 1px solid black;
+        font-size: xx-small;
+        padding: 5px;
+    }
+</style>
+<body>
+<script type="text/php">
+        $text = 'Seite {PAGE_NUM} von {PAGE_COUNT}';
+        $size = 10;
+        $font = Font_Metrics::get_font("Sans-serif", "normal");
+        $width = Font_Metrics::get_text_width($text, $font, $size) / 2;
+        $pdf->page_text(352, 220, $text, $font, 7);
+        $pdf->page_text(450, 220, "VAF", $font, 7);
+ </script>
+<table width="100%">
+    <tr>
+        <td width="50%">
+            <img style="margin-top: -17px;margin-left: -13px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAACQklEQVR4nO2cy25CMQwFC+r/fzLqLlIVlHps3wTKzLLk1SNbxk7M7fF4fEmM++kDvBOKBVAsgGIBFAugWADFAigWQLEAigVQLMB3ZND9XtJ0pJ9jnUhCuth0nt51wj+OVNnj01AsQMgNB6ieg1xjHpxz3utO+KVlIRQLwNxwgELVYvoYPDtdkeIJn6+ZPcwnoliApBt2EYl0ubB4BVoWQLEAW90wF/K64mOdVznHW6BYgKQb5uJRxKHmlXN7XRExtSyAYgGYG3YFpkVYnL95Rv7SfsKnaFkAxQLczj5mQwXSxeA9aFkAxQIk7w1RGEIXDcVwFnHexe5/LJ4+1geiWIBQNCyGoVyFM+LXuYiZrrhqWQDFAvTfG+amRyozY1YuwNXTRi0LoFiAZG5YvMKL1FhyBRk0hv4XWhZAsQAXVkpzDhXJ6dDgxvc5WhZAsQCsRBO5aBgUHQrldJHcsP4aR8sCKBYg5IYLc134UbGfIhK8NrxN/bVd+4r/GMUCtN0bdl2pF7uizA1fBcUCVPsN5zA0z0Jmj4JgbnoaLQugWICtr2jQ/WPx2v2KdgwtC6BYgK3d9yh/RB6ai7OWaC5EsQBbu+9zT1y6wuLiI3PDfhQLcKb7Pud9i2CKSFdTtSyAYgHOtP0uPtpQ80x/x9ayAIoFOPMjGLn3AF17DcwNL0SxAGe677t+eWZzR7CWBVAswJnu+5lcvtZ1/2iJph/FAhzuvn8vtCyAYgEUC6BYAMUCKBZAsQCKBVAsgGIBFAugWIAf3jFpC2pPqdwAAAAASUVORK5CYII=">
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="40%">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td width="40%">
+            <strong>Propan Rheingas GmbH & Co. KG</strong><br>
+            Fischenicher Str. 23<br>
+            50321 Brühl<br>
+            <small>www.rheingas.de</small>
+        </td>
+    </tr>
+    <tr>
+        <td><span style="font-size:6pt;">Propan Rheingas GmbH & Co. KG - Postfach 17 20 - 50307 Brühl</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="adresse">Musterfirma</td>
+        <td>&nbsp;</td>
+        <td><strong>Kundenservice</strong></td>
+    </tr>
+    <tr>
+        <td class="adresse">237686</td>
+        <td>&nbsp;</td>
+        <td>Telefon: 0800 / 65 65 65 8 (gebührenfrei)</td>
+    </tr>
+    <tr>
+        <td class="adresse">237686</td>
+        <td>&nbsp;</td>
+        <td>Telefax: 01801 / 862 862</td>
+    </tr>
+    <tr>
+        <td class="adresse">237686</td>
+        <td>&nbsp;</td>
+        <td><small>E-Mail: flaschengas@rheingas.de</small></td>
+    </tr>
+    <tr>
+        <td height="20">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+            <table cellspacing="0" width="90%">
+                <tr>
+                    <td align="center" style="border-left:1px solid black; border-top:1px solid black"><strong> Kunden-Nr. </strong></td>
+                    <td align="center" style="border-right:1px solid black; border-top:1px solid black"><strong> Beleg-Nr. </strong></td>
+                    <td align="center"><strong>Datum</strong></td>
+                </tr>
+                <tr>
+                    <td align="center" style="border-left:1px solid black; border-bottom:1px solid black">237686</td>
+                    <td align="center" style="border-right:1px solid black; border-bottom:1px solid black">3060102 </td>
+                    <td align="center" style="padding-left: 5px;">23.10.2019</td>
+                </tr>
+            </table>
+            <span style="font-size:6pt;">bei Zahlung und Rückfragen immer angeben</span>
+            <span style="font-size:6pt;">&nbsp;</span>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+            <table cellspacing="0" width="90%">
+                <tr>
+                    <td>Bestell-Nr.: </td>
+                    <td>per Fax</td>
+                </tr>
+                <tr>
+                    <td>Telefon-Nr. Kunde(LA)</td>
+                    <td>3060102 </td>
+                </tr>
+                <tr>
+                    <td>Mobil-Tel-Nr. Kunde</td>
+                    <td>3060102 </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><span style="font-size:16pt;">Lieferschein</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<table cellspacing="0" style="margin-top: 10px; margin-bottom: 30px;" cellpadding="5">
+    <tr>
+        <td width="8%" class="kopf_links">Artikel-Nummer</td>
+        <td width="38%" class="kopf_mitte">Bezeichnung</td>
+        <td width="6%" align="center" class="kopf_mitte">Bestell-menge</td>
+        <td width="8%" align="center" class="kopf_mitte">Einheit</td>
+        <td width="8%" align="center" class="kopf_mitte">Liefer-<br>menge</td>
+        <td width="8%" align="center" class="kopf_mitte">Anzahl Leergut</td>
+        <td width="12%" class="kopf_mitte">Einzelpreis<br>netto</td>
+        <td width="12%" class="kopf_rechts">Gesamtpreis<br>netto</td>
+    </tr>
+        <tr>
+        <td> 210 </td>
+        <td> 03 KG Brenngas grau Füllung DIN 51622 </td>
+        <td align="center"> 1 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 1 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 220 </td>
+        <td> 05 KG Brenngas grau Füllung DIN 51622 </td>
+        <td align="center"> 2 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 2 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 230 </td>
+        <td> 11 KG Brenngas grau Füllung DIN 51622 </td>
+        <td align="center"> 3 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 3 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 300 </td>
+        <td> 02 KG Brenngas Eigentum Füllung </td>
+        <td align="center"> 4 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 2 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 370 </td>
+        <td> 11 KG Brenngas Alu Füllung DIN 51622 </td>
+        <td align="center"> 5 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 5 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 400 </td>
+        <td> 11 KG Autogas Pfand Füllung DIN 51622 </td>
+        <td align="center"> 6 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 6 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 490 </td>
+        <td> 14 KG Autogas Aluflasche Füllung DRIVE </td>
+        <td align="center"> 7 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 7 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td> 180 </td>
+        <td> 03 KG Brenngas Pfand Füllung DIN 51622 </td>
+        <td align="center"> 8 </td>
+        <td align="center">Stück</td>
+        <td align="center">______</td>
+        <td align="center"> 8 </td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+            <tr>
+        <td align="center">_______</td>
+        <td align="center">______________________________________</td>
+        <td align="center">_______</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">______</td>
+        <td align="center">______</td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+        <tr>
+        <td align="center">_______</td>
+        <td align="center">______________________________________</td>
+        <td align="center">_______</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">______</td>
+        <td align="center">______</td>
+        <td align="center">___________</td>
+        <td align="center">___________</td>
+    </tr>
+    </table>
+<span style="font-size: 8px;"><strong>Gefahrgutangaben zur Beförderung nach ADR/RID</strong></span>
+<table width="100%" cellspacing="0" style="margin-bottom: 30px;" cellpadding="5">
+    <tr>
+        <td width="10%" class="kopf_links">UN-Nr.</td>
+        <td width="60%" class="kopf_mitte">Stoffbezeichnung</td>
+        <td width="10%" class="kopf_mitte">Flaschen</td>
+        <td width="10%" class="kopf_mitte">Punkte</td>
+        <td width="10%" class="kopf_rechts">Nettomasse</td>
+    </tr>
+</table>
+<div class="footer">
+    <table width="100%" cellspacing="0" cellpadding="0" class="gg">
+        <tr>
+            <td align="left">_________________________</td>
+            <td align="center">_________________________</td>
+            <td align="right">___________________________</td>
+        </tr>
+        <tr>
+            <td align="left">Unterschrift Kunde</td>
+            <td align="center">Unterschrift Auslieferer</td>
+            <td align="right">Auszahlung (Unterschrift Kunde)</td>
+        </tr>
+    </table><br>
+    <div class="erklaerung">Lieferscheindatum gleich Leistungsdatum - bei Zahlung und Schriftverkehr bitte Beleg-Nr. und Kunden-Nr. angeben!<br>
+       Die Ware bleibt bis zur restlosen Zahlung unser Eigentum. Gerichtsstand und Erfüllungsort ist Sitz der Gesellschaft</div>
+    <div class="belehrung">
+        Steuerbegünstigtes Mineralöl! Steuerbegünstigstes Energieerzeugnis!<br>
+        Darf nicht als Kraftstoff verwendet werden, es sein denn, eine solche Verwendung ist nach dem Energiesteuergesetz oder der Energiesteuer-Durchführungsverordnung zulässig.
+        Jede andere Verwendung als Kraftstoff hat steuer- und strafrechtliche Folgen!<br>
+        In Zweifelsfällen wenden Sie sich bitte an Ihr zuständiges Hauptzollamt. Autogas ist nach $2 Abs.2 Nr.2 EnergieStG versteuert
+    </div>
+    <div class="erklaerung"><br>
+        VOLLGUT: UN 1965 Kohlenwasserstoffgas, Gemisch, verflüssigt, n.a.g. (Gemisch C), 2.1, (B/D)'Ausnahme 18'<br>
+        LEERGUT: leere Gefässe, 2 ggf.: Beförderung gemäß Unterabschnitt 4.1.6.10 ADR
+    </div>
+</div>
+</body>

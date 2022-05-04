@@ -1,0 +1,440 @@
+---------- 01-28-2222 12:09:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"1522"}
+---------- 01-28-2222 12:10:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:29:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:33:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:55:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:56:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:57:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 12:58:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:02:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:04:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:05:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:06:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:09:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:13:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:16:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:24:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:25:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:28:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:38:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:45:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:46:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:51:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:52:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:53:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 13:56:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:05:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01"}
+---------- 01-28-2222 14:07:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:08:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:09:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:11:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:13:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:36:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:36:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:36:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-28-2222 14:37:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-31-2222 15:52:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"1368"}
+---------- 01-31-2222 15:54:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01"}
+---------- 01-31-2222 15:55:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01"}
+---------- 01-31-2222 15:56:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-31-2222 17:21:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-31-2222 17:21:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-31-2222 17:23:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 01-31-2222 17:25:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 08:51:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 08:53:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 08:54:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:37:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:44:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:48:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:49:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:51:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 09:55:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 10:28:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 10:30:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 10:32:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 10:36:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 10:59:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:01:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:02:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:02:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:03:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:25:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 11:27:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-01-2222 11:28:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"89"}
+---------- 02-01-2222 11:28:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-01-2222 11:29:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-01-2222 11:54:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 12:17:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 12:19:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 12:20:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 14:35:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 14:37:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:24:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:26:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:27:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:29:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:31:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:38:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:42:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:42:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:42:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:45:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:45:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:50:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 15:57:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:00:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:02:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:03:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:05:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:06:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:07:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:09:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:11:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:17:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:27:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:31:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:31:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 16:36:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-01-2222 16:36:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"89"}
+---------- 02-01-2222 16:46:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-01-2222 16:46:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"732"}
+---------- 02-01-2222 16:46:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"897"}
+---------- 02-01-2222 16:46:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"3076"}
+---------- 02-01-2222 16:46:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"3959"}
+---------- 02-01-2222 17:01:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 17:01:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-01-2222 17:01:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"89"}
+---------- 02-01-2222 17:01:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-01-2222 17:02:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"732"}
+---------- 02-01-2222 17:02:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"897"}
+---------- 02-01-2222 17:02:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"3076"}
+---------- 02-01-2222 17:02:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"3959"}
+---------- 02-01-2222 17:16:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 17:19:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-01-2222 17:19:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-01-2222 17:21:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"407"}
+---------- 02-02-2222 11:34:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-02-2222 11:42:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 14:43:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 14:44:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 14:49:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 14:51:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:03:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:09:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:17:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:18:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:19:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 15:50:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:24:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:35:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:36:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:39:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:40:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:50:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:54:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:55:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 16:56:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 17:03:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 17:06:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 17:10:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-03-2222 17:14:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 09:58:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:01:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:04:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:09:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:18:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:21:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:22:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:28:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:30:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:30:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:41:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 10:44:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 11:03:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 11:03:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 11:07:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 11:33:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:14:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:16:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:19:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:20:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:21:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:23:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:29:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:31:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:32:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:33:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:34:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-07-2222 12:36:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-08-2222 13:07:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 10:08:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 10:25:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 10:29:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 10:29:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 10:29:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"732"}
+---------- 02-09-2222 10:29:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"897"}
+---------- 02-09-2222 15:16:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:14:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:14:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"3076"}
+---------- 02-09-2222 16:27:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:27:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:29:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:29:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:32:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:32:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:37:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:37:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:39:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:39:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:41:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:41:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 16:53:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 16:53:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-09-2222 17:00:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-09-2222 17:00:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-10-2222 09:27:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 09:27:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-10-2222 13:33:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 13:33:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-10-2222 13:38:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 13:38:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 02-10-2222 13:52:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 13:53:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 13:54:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 14:50:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 14:56:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 15:00:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 15:01:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 15:03:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 16:02:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-10-2222 16:46:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 02-11-2222 09:18:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 03-03-2222 13:31:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 03-03-2222 13:31:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"2217"}
+---------- 03-07-2222 12:03:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 03-07-2222 12:05:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 03-07-2222 12:07:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}
+---------- 03-16-2222 09:34:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"1368","artikelid":"4744"}
+---------- 03-16-2222 09:36:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"1368","artikelid":"4744"}
+---------- 03-16-2222 09:36:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_ABGANGSLAGER_SN_BESTAND","abgangslagernr":"E01","artikelid":"4744"}

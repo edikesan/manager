@@ -1,0 +1,70 @@
+<div class="modal fade ng-scope in" id="changeProductModal" style="{{width_product_modal}}" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="changeProductModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="{{width}}">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <button ng-if="mobile == 1" style="margin-bottom: 10px;" class="btn btn-success change pull-right" ng-click="updateData(product, 'product')"><i class="fa fa-save"></i>  Speichern</button>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-fixed ellipsis-table">
+                        <tr style="font-weight: bold; font-size: 110%;">
+                            <td>Produkt</td>
+                        </tr>
+                        <tr ng-repeat="product in supplier_products.data"  class="cursor-action" id="getProductList">
+                            <td ng-click="setChanges(product, 'product');" id="getProduct_{{product.id}}" class="info">{{product.product_name}}
+                                <i ng-if="product_id == product.id" style="font-size: 150%;" class="glyphicon glyphicon-ok success pull-right"></i></td>
+                        </tr>
+                    </table>
+                    <button ng-if="mobile == 0" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="updateData(product, 'product')"><i class="fa fa-save"></i>  Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade ng-scope in" id="changeSpeditionModal" style="z-index:1060;" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="changeSpeditionModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="{{width}}">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <span ng-if="mobile == 1" class="pull-right" style="font-size: 200%; font-weight: bold; color: #4E4E4E; margin-right: 5px; margin-top: -10px;" ng-click="closeModal('spedition');">x</span>
+                <button ng-if="mobile == 1" style="margin-bottom: 10px; margin-right: 20px;" class="btn btn-success change pull-right" ng-click="updateData(supplier, 'spedition')"><i class="fa fa-save"></i>  Speichern</button>
+                <div class="clearfix"></div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-fixed ellipsis-table">
+                        <tr style="font-weight: bold; font-size: 110%;">
+                            <td>Speditions Nr.</td>
+                            <td>Spedition</td>
+                        </tr>
+                        <tr ng-repeat="supplier in suppliers.data"  class="cursor-action" id="getSpeditionList">
+                            <td ng-click="setChanges(supplier, 'spedition');" id="getSpeditionnr_{{supplier.id}}" class="info">{{supplier.supplier_number}}</td>
+                            <td ng-click="setChanges(supplier, 'spedition');" id="getSpedition_{{supplier.id}}" class="info">{{supplier.supplier}}<i ng-if="supplier_id == supplier.id" style="font-size: 150%;" class="glyphicon glyphicon-ok success pull-right"></i></td>
+                        </tr>
+                    </table>
+                    <button ng-if="mobile == 0" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="updateData(supplier, 'spedition')"><i class="fa fa-save"></i>  Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade ng-scope in" id="changeLagerModal" style="z-index:1060;" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="changeLagerModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="{{width}}">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <span ng-if="mobile == 1" class="pull-right" style="font-size: 200%; font-weight: bold; color: #4E4E4E; margin-right: 5px; margin-top: -10px;" ng-click="closeModal('lager');">x</span>
+                <button ng-if="mobile == 1" style="margin-bottom: 10px; margin-right: 20px;" class="btn btn-success change pull-right" ng-click="updateData(store, 'lager')"><i class="fa fa-save"></i>  Speichern</button>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-fixed ellipsis-table">
+                        <tr style="font-weight: bold; font-size: 110%;">
+                            <td>Lager Nr.</td>
+                            <td>Lager</td>
+                        </tr>
+                        <tr ng-repeat="store in stores.data"  class="cursor-action" id="getLagerList">
+                            <td ng-click="setChanges(store, 'lager');" id="getLagernr_{{store.id}}" class="info">{{store.store_number}}</td>
+                            <td ng-click="setChanges(store, 'lager');" id="getLager_{{store.id}}" class="info">{{store.store}}<i ng-if="store_id == store.id" style="font-size: 150%;" class="glyphicon glyphicon-ok success pull-right"></i></td>
+                        </tr>
+                    </table>
+                    <button ng-if="mobile == 0" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="updateData(store, 'lager')"><i class="fa fa-save"></i>  Speichern</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

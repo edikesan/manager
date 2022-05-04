@@ -1,0 +1,346 @@
+# Webalizer V2.23-08 Incremental Data - 09/03/2016 18:14:33
+2016 9 3 18 14 33
+364 311 4 100 5 1 2877960 26 8 0 0 0
+1 97 100 1 3
+202 202 1937917 1 14 2 0 0
+62 9 19391 2 5 4 0 0
+100 100 920652 1 7 2 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 3 6462 1 0 0
+97 97 914190 6 0 0
+8 8 109544 2 0 0
+3 3 6463 1 0 0
+97 97 914186 6 0 0
+0 0 0 0 0 0
+56 3 6465 3 0 0
+0 0 0 0 0 0
+3 3 6463 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+97 97 914187 6 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0
+0
+0
+311
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+53
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/Developer/angular-frontend/app/shared/views/postman.html
+0 1 0 2224 0 1 0 0
+/Developer/assets/img/gallery/thumb/thumb03-50x50.jpg
+1 3 0 5706 0 0 0 0
+/Developer/assets/img/preloader/material.gif
+1 4 0 328377 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-jq/ui-jq.min.js
+1 4 0 1407 0 0 0 0
+/Developer/assets/js/yep-script.js
+1 9 0 37215 0 0 0 0
+/Developer/assets/img/gallery/postman.jpg
+1 1 0 30340 0 0 0 0
+/Developer/assets/css/yep-vendors.css
+1 4 0 25389 0 0 0 0
+/Developer/angular-frontend/app/shared/controllers/AdminCtrl.js
+1 3 0 3474 0 0 0 0
+/Developer/assets/vendors/bootstrap-daterangepicker/css/daterangepicker.min.css
+1 3 0 3531 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-translate/angular-translate.min.js
+1 4 0 20469 0 0 0 0
+/Developer/angular-frontend/app/directives/morris.js
+1 3 0 1980 0 0 0 0
+/Developer/assets/img/rg_logo.gif
+1 4 0 8946 0 0 0 0
+/Developer/assets/vendors/morrisjs/js/morris.min.js
+1 3 0 30081 0 0 0 0
+/Developer/angular-frontend/app/vendors/ui-router/angular-ui-router.min.js
+1 4 0 33831 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-translate-loader-partial/angular-translate-loader-partial.min.js
+1 4 0 4074 0 0 0 0
+/Developer/assets/img/gallery/a9.jpg
+1 3 0 85191 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-hotkeys/css/hotkeys.min.css
+1 4 0 1599 0 0 0 0
+/Developer/assets/vendors/fullcalendar/js/fullcalendar.min.js
+1 3 0 84426 0 0 0 0
+/Developer/assets/img/bg/bg_p3.jpg
+1 3 0 4944 0 0 0 0
+/Developer/laravel-backend/public/uploads/no_avatar.jpg
+1 3 0 6096 0 0 0 0
+/Developer/assets/img/skin/skin-1.png
+1 3 0 858 0 0 0 0
+/Developer/assets/img/bg/bg_p6.jpg
+1 3 0 4806 0 0 0 0
+/Developer/assets/vendors/jquery-ui/js/jquery-ui.min.js
+1 4 0 194208 0 0 0 0
+/Developer/angular-frontend/app/shared/views/login.html
+0 4 0 2976 0 0 0 0
+/Developer/angular-frontend/app/shared/services/TranslationsFactory.js
+1 4 0 915 0 0 0 0
+/Developer/assets/img/bg/bg_p7.jpg
+1 3 0 11475 0 0 0 0
+/Developer/assets/img/bg/bg_p1.jpg
+1 4 0 8283 0 0 0 0
+/Developer/assets/vendors/morrisjs/js/raphael.min.js
+1 3 0 92790 0 0 0 0
+/Developer/assets/vendors/jquery-sparkline/js/jquery.sparkline.min.js
+1 3 0 38895 0 0 0 0
+/Developer/assets/vendors/momentjs/js/moment.min.js
+1 3 0 35637 0 0 0 0
+/Developer/assets/img/bg/bg_p5.jpg
+1 3 0 5628 0 0 0 0
+/Developer/assets/css/yep-rtl.min.css
+1 4 0 8307 0 0 0 0
+/Developer/angular-frontend/app/vendors/ng-aa/ng-aa.js
+1 4 0 21636 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-router-anim-in-out/js/anim-in-out.min.js
+1 4 0 1569 0 0 0 0
+/Developer/assets/vendors/fullcalendar/css/fullcalendar.min.css
+1 3 0 8367 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular.min.js
+1 4 0 157602 0 0 0 0
+/Developer/angular-frontend/app/shared/controllers/Preloader.js
+1 4 0 546 0 0 0 0
+/Developer/assets/vendors/font-awesome/css/font-awesome.min.css
+1 4 0 16323 0 0 0 0
+/Developer/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2
+0 4 0 170340 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-translate-storage-local/angular-translate-storage-cookie.min.js
+1 4 0 774 0 0 0 0
+/Developer/assets/img/avatars/female.png
+1 3 0 852 0 0 0 0
+/Developer/assets/img/avatars/avatar2.png
+1 3 0 36021 0 0 0 0
+/Developer/angular-frontend/app/shared/views/admin.html
+0 3 0 24249 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular-sanitize.min.js
+1 4 0 9354 0 0 0 0
+/Developer/assets/vendors/bootstrap/js/bootstrap.min.js
+1 4 0 28617 0 0 0 0
+/Developer/angular-frontend/app/vendors/ui-bootstrap/ui-bootstrap-paginaton.min.js
+1 3 0 5388 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular-cookies.min.js
+1 4 0 2391 0 0 0 0
+/Developer/angular-frontend/app/shared/lang/locale_de-de.json
+0 4 0 4932 0 0 0 0
+/Developer/assets/img/avatars/avatar.png
+1 3 0 18837 0 0 0 0
+/Developer/assets/img/avatars/avatar4.png
+1 3 0 4047 0 0 0 0
+/Developer/assets/img/gallery/thumb/thumb01-50x50.jpg
+1 3 0 7191 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-hotkeys/js/hotkeys.min.js
+1 4 0 12822 0 0 0 0
+/Developer/assets/vendors/easy-pie-chart/js/jquery.easypiechart.min.js
+1 3 0 4908 0 0 0 0
+/Developer/angular-frontend/app/vendors/restangular/restangular.min.js
+1 4 0 17547 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-notification/css/angular-ui-notification.min.css
+1 4 0 1644 0 0 0 0
+/Developer/angular-frontend/app/directives/panel-flat.js
+1 3 0 1737 0 0 0 0
+/Developer/assets/vendors/angularjs/js/i18n/angular-locale_de-de.js
+1 4 0 2832 0 0 0 0
+/Developer/angular-frontend/
+0 4 0 3930 3 0 0 0
+/Developer/assets/img/avatars/avatar3.png
+1 3 0 10023 0 0 0 0
+/Developer/angular-frontend/app/vendors/ng-daterange/ng-daterange.min.js
+1 3 0 1914 0 0 0 0
+/Developer/angular-frontend/app/directives/yep-sparkline.js
+1 3 0 906 0 0 0 0
+/Developer/assets/img/skin/skin-3.png
+1 3 0 936 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-cache/angular-cache.min.js
+1 4 0 13071 0 0 0 0
+/Developer/assets/img/gallery/thumb/thumb02-50x50.jpg
+1 3 0 5181 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-breadcrumb/angular-breadcrumb.min.js
+1 4 0 5274 0 0 0 0
+/Developer/assets/fonts/Lato-Regular.woff2
+0 4 0 548124 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-notification/js/angular-ui-notification.min.js
+1 4 0 4710 0 0 0 0
+/Developer/assets/vendors/jquery-searchable/js/jquery.searchable.min.js
+1 4 0 3249 0 0 0 0
+/Developer/angular-frontend/app/shared/controllers/DashboardCtrl.js
+1 3 0 6099 0 0 0 0
+/Developer/assets/vendors/jquery/jquery.min.js
+1 4 0 101295 0 0 0 0
+/Developer/assets/vendors/bootstrap/css/bootstrap.min.css
+1 4 0 57762 0 0 0 0
+/Developer/angular-frontend/app/app.js
+1 4 0 2181 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular-resource.js
+1 4 0 25356 0 0 0 0
+/Developer/laravel-backend/public/api/authenticate
+0 8 0 5267 5 3 0 0
+/Developer/angular-frontend/app/shared/lang/locale_en-us.json
+0 4 0 4473 0 0 0 0
+/Developer/assets/vendors/morrisjs/css/morris.min.css
+1 3 0 750 0 0 0 0
+/Developer/angular-frontend/app/config.router.js
+1 4 0 18546 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-router-anim-in-out/css/anim-in-out.min.css
+1 4 0 1590 0 0 0 0
+/Developer/assets/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff2
+0 3 0 54084 0 0 0 0
+/Developer/assets/css/yep-style.css
+1 4 0 72126 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-ui-load/ui-load.min.js
+1 4 0 1227 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-jwt/angular-jwt.min.js
+1 4 0 2379 0 0 0 0
+/Developer/assets/css/yep-custom.css
+1 4 0 3345 0 0 0 0
+/Developer/angular-frontend/app/shared/views/dashboard.html
+0 3 0 17442 0 0 0 0
+/Developer/assets/img/skin/skin-2.png
+1 3 0 870 0 0 0 0
+/Developer/assets/vendors/jquery-fullscreen/js/jquery.fullscreen.min.js
+1 4 0 1623 0 0 0 0
+/Developer/angular-frontend/app/vendors/angular-dynamic-locale/tmhDynamicLocale.min.js
+1 4 0 3882 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular-animate.min.js
+1 4 0 27174 0 0 0 0
+/Developer/assets/img/bg/bg_p4.jpg
+1 3 0 5073 0 0 0 0
+/Developer/angular-frontend/app/vendors/ng-storage/ngStorage.min.js
+1 4 0 3243 0 0 0 0
+/Developer/assets/js/yep-demo.js
+1 9 0 15030 0 0 0 0
+/Developer/assets/vendors/angularjs/js/angular-route.min.js
+1 4 0 6171 0 0 0 0
+/Developer/assets/img/gallery/postman-auth.jpg
+1 1 0 64709 0 0 0 0
+/Developer/angular-frontend/app/config.constant.js
+1 4 0 7326 0 0 0 0
+/Developer/assets/vendors/bootstrap-daterangepicker/js/daterangepicker.min.js
+1 3 0 19980 0 0 0 0
+/Developer/assets/vendors/jquery-ui/js/jquery-ui.custom.min.js
+1 3 0 27342 0 0 0 0
+/Developer/assets/vendors/oclazyload/js/ocLazyLoad.min.js
+1 4 0 16452 0 0 0 0
+/Developer/assets/img/bg/bg_p2.jpg
+1 3 0 5112 0 0 0 0
+/Developer/assets/vendors/underscore/js/underscore.min.js
+1 4 0 17535 0 0 0 0
+/Developer/angular-frontend/app/shared/views/ncyBreadcrumb.tpl.bs3.html
+0 3 0 594 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+52-6-142-46.pool.kielnet.net
+0 100 100 920652 2 1472926473 0 0
+/Developer/angular-frontend/app/shared/views/ncyBreadcrumb.tpl.bs3.html
+243-54-142-46.pool.kielnet.net
+0 202 202 1937917 2 1472728486 0 0
+/Developer/angular-frontend/app/shared/views/ncyBreadcrumb.tpl.bs3.html
+193.158.97.85
+0 53 0 0 1 1472824415 0 0
+/Developer/angular-frontend/app/shared/views/login.html
+36-10-142-46.pool.kielnet.net
+0 9 9 19391 3 1472828638 0 0
+/Developer/laravel-backend/public/api/authenticate
+# End Of Table - sites (monthly)
+# -sites- (daily)
+52-6-142-46.pool.kielnet.net
+0 100 100 920652 2 1472926473 0 0
+/Developer/angular-frontend/app/shared/views/ncyBreadcrumb.tpl.bs3.html
+# End Of Table - sites (daily)
+# -referrers- 
+http://sam.rheingas.de/Developer/assets/vendors/bootstrap/css/bootstrap.min.css
+1 3
+http://sam.rheingas.de/Developer/assets/vendors/font-awesome/css/font-awesome.min.css
+1 4
+http://sam.rheingas.de/Developer/assets/css/yep-style.css
+1 8
+- (Direct Request)
+0 4
+http://sam.rheingas.de/Developer/angular-frontend/
+1 345
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+1 364
+Browser: Safari
+2 364
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
+0
+# -notfounderrors- 
+# End Of Table - notfounderrors

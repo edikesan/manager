@@ -1,0 +1,2 @@
+---------- 02-07-2222 12:21:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehlern":[{"zaelher":"68197"},{"zaelher":"67648"}]}},{"artikel":{"artikelnr":"1523","menge":"1""zaehlern":[]}}]}

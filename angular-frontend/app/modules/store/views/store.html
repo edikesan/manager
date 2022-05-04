@@ -1,0 +1,187 @@
+<style>
+    .single-article hr {
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #c9c7c7;
+        width:100%
+    }
+    .box {
+        border-radius: 5px;
+        color: #263238;
+        height: 40px;
+        width: 150px;
+        padding-left: 7px;
+        padding-top: 10px;
+        padding-right: 6px;
+        background-color: #C8CBCD;
+    }
+    .box2 {
+        border-radius: 5px;
+        color: #263238;
+        height: 40px;
+        width: 230px;
+        padding-left: 7px;
+        padding-top: 10px;
+        padding-right: 6px;
+        background-color: #C8CBCD;
+    }
+    .table_div {
+        padding: 5px;
+        border: 1px solid lightgrey;
+        cursor: pointer;
+    }
+</style>
+<!-- main content -->
+<div id="content">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="panel panel-default yep-card">
+            <div class="panel-heading card-head">
+                <div class="panel-title">
+                    <span class="bold head-title"> Lagerübersicht</span>
+                </div>
+            </div>
+            <div class="panel panel-body">
+                <div>
+                    <div class="form-group">
+                        <div class="pull-left">
+                            <select class="form-control" id="date_dropdown">
+                            </select>
+                        </div>
+                        <button style="margin-left: 10px;" class="btn btn-success change pull-left" ng-click="search()" ng-class="{'working':isDisabled===true}"><i class="glyphicon glyphicon-play"></i>  Suchen...</button>
+                        <div style="margin-left: 15px; font-weight: bold; margin-top: -5px;" ng-if="mobile == 1 && show_all_details == false" class="cursor-action pull-right box" ng-click="showAllData();">Alle Daten anzeigen</div>
+                        <div style="margin-left: 15px; font-weight: bold; margin-top: -5px;" ng-if="mobile == 1 && show_all_details == true" class="cursor-action pull-right box2" ng-click="hideAllData();">Optimierte Ansicht verwenden</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div ng-if="hideStationList == false" class="pull-lef ttable_div" style="padding-top: 10px"> <!--  style="{{width_suchbegriff}}"  -->
+                        <div ng-repeat="station in stations | orderBy: 'suchbegriff'" ng-click="searchStationDetail(station.station_id, station.suchbegriff);" class="table_div col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                            {{station.suchbegriff}}
+                        </div>
+                    </div>
+                    <div ng-if="showLoader == true && mobile == 0" align="center" style="background-color: white; opacity: 1; position: absolute; height: 100%; width: 120%; margin-left: -30px; margin-top: -80px; z-index: 9;">
+                        <img style="margin-top: 200px; margin-right: 15%;" src="../assets/img/ajax_loader_blue_128.gif"></span>
+                    </div>
+                    <div ng-if="showLoader == true && mobile == 1" align="center" style="background-color: white; opacity: 1; position: absolute; height: 100%; width: 120%; margin-left: -30px; margin-top: -80px; z-index: 9;">
+                        <img  style="margin-top: 100px; margin-right: 15%;" src="../assets/img/ajax_loader_blue_128.gif"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                    <div class="pull-left col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-4" ng-if="mobile == 0 || show_all_details == true"> <!--style="{{width_overview}}"-->
+                        <div ng-if="showStationDetail == true">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr ng-if="date_value">
+                                        <td style="font-weight: bold;">Jahr/Monat</td>
+                                        <td>{{date_value}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.suchbegriff">
+                                        <td style="font-weight: bold;">Suchbegriff</td>
+                                        <td>{{station_detail.suchbegriff}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.liefernat">
+                                        <td style="font-weight: bold;">Lieferant</td>
+                                        <td>{{station_detail.liefernat}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.ladestellennr || station_detail.ladestelle">
+                                        <td style="font-weight: bold;">Ladestelle</td>
+                                        <td>{{station_detail.ladestellennr}} {{station_detail.ladestelle}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.vertragsart">
+                                        <td style="font-weight: bold;">Vertragsart</td>
+                                        <td>{{station_detail.vertragsart}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.preisformel">
+                                        <td style="font-weight: bold;">Preisformel</td>
+                                        <td>{{station_detail.preisformel}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.molbo">
+                                        <td style="font-weight: bold;">Molbo</td>
+                                        <td>{{station_detail.molbo}}</td>
+                                    </tr>
+                                    <tr ng-if="station_detail.vertragsmenge">
+                                        <td style="font-weight: bold;">Menge</td>
+                                        <td>{{station_detail.vertragsmenge}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <hr ng-if="showStationDetail == true" style="border-top: 1px #ddd; margin-top: 0px; !important;">
+                <div ng-if="showStationDetail == true">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr style="font-weight: bold;">
+                                <td ng-if="show_all_details == true || mobile == 0">Lfd.Nr.</td>
+                                <td>Load ID</td>
+                                <td>LagerNr</td>
+                                <td ng-if="show_all_details == true || mobile == 0">Lager</td>
+                                <td>SpeditionsNr</td>
+                                <td ng-if="show_all_details == true || mobile == 0">Spedition</td>
+                                <td>Produkt</td>
+                                <td>B-Menge</td>
+                                <td ng-if="show_all_details == true || mobile == 0">E-Menge</td>
+                                <td style="width: 150px;">Laden am</td>
+                                <td style="width: 150px;">Entladen am</td>
+                                <td ng-if="show_all_details == true || mobile == 0">Bemerkung</td>
+                                <td ng-if="station.lager_row_id || station.spedition_row_id || station.produkt_row_id || station.ladedatum_changed || station.entladedatum_changed" style="color: transparent">t</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="station in station_detail.positionen.position">
+                                <td ng-if="show_all_details == true || mobile == 0">{{station.lfdnr}}</td>
+                                <td>{{station.loadid}}</td>
+                                <td>
+                                    {{station.lagernr}}
+                                    <i class="fa fa-pencil cursor-action pull-right" ng-click="changeLine(station, 'lager');"></i>
+                                </td>
+                                <td ng-if="show_all_details == true || mobile == 0">{{station.lager}}</td>
+                                <td>
+                                    {{station.speditionnr}}
+                                    <i class="fa fa-pencil cursor-action pull-right" ng-click="changeLine(station, 'spedition');"></i>
+                                </td>
+                                <td ng-if="show_all_details == true || mobile == 0">
+                                    {{station.spedition}}
+                                </td>
+                                <td>
+                                    <span class="pull-left" style="{{width_date}}">{{station.produkt}}</span>
+                                    <i ng-if="mobile == 0;" class="fa fa-pencil cursor-action pull-right" ng-click="changeLine(station, 'product');"></i>
+                                    <i ng-if="mobile == 1;" style="margin-left: -16px;" class="fa fa-pencil cursor-action pull-right" ng-click="changeLine(station, 'product');"></i>
+                                </td>
+                                <td>{{}}</td>
+                                <td ng-if="show_all_details == true || mobile == 0">{{}}</td>
+                                <td ng-if="indexLadedatum != $index">
+                                    <span class="pull-left" style="{{width_date}}">{{station.ladedatum}}</span>
+                                    <i ng-if="mobile == 0;" class="fa fa-pencil cursor-action pull-right" ng-click="showDate($index, 'ladedatum', station);"></i>
+                                    <i ng-if="mobile == 1;" style="margin-left: -16px;" class="fa fa-pencil cursor-action" ng-click="showDate($index, 'ladedatum', station);"></i>
+                                </td>
+                                <td ng-if="indexLadedatum == $index">
+                                    <input ng-if="mobile == 0;" type="text" ng-model="station.ladedatum" class="pull-left form-control" style="{{width_load}}">
+                                    <input ng-if="mobile == 1;" type="date" id="ladedatum" style="{{width_load}}" class="pull-left form-control" data-date-format="DD.MM.YYYY">
+                                    <i ng-click="acceptDate(station, 'ladedatum');" style="{{width_check}}" class="glyphicon glyphicon-ok success cursor-action"></i>
+                                </td>
+                                <td ng-if="indexEntladedatum != $index">
+                                    <span class="pull-left" style="{{width_date}}">{{station.entladedatum}}</span>
+                                    <i ng-if="mobile == 0;" class="fa fa-pencil cursor-action pull-right" ng-click="showDate($index, 'entladedatum', station);"></i>
+                                    <i ng-if="mobile == 1;" style="margin-left: -16px;" class="fa fa-pencil cursor-action" ng-click="showDate($index, 'entladedatum', station);"></i>
+                                </td>
+                                <td ng-if="indexEntladedatum == $index">
+                                    <input ng-if="mobile == 0;" type="text" ng-model="station.entladedatum" class="pull-left form-control" style="{{width_load}}">
+                                    <input ng-if="mobile == 1;" type="date" id="entladedatum" style="{{width_load}}" class="pull-left form-control" data-date-format="DD.MM.YYYY">
+                                    <i ng-click="acceptDate(station, 'entladedatum');" style="{{width_check}}" class="glyphicon glyphicon-ok success cursor-action"></i>
+                                </td>
+                                <td ng-if="show_all_details == true || mobile == 0" style="{{width_date}}">{{station.bemerkung}}</td>
+                                <td style="" ng-if="station.lager_row_id || station.spedition_row_id || station.produkt_row_id || station.ladedatum_changed || station.entladedatum_changed">
+                                    <button class="btn btn-success change pull-right" style="{{width_update_button}}" ng-click="updateLine(station)"><i class="fa fa-save"></i>Speichern</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div ng-include="'app/modules/store/views/change.html'"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

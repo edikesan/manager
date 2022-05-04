@@ -1,0 +1,64 @@
+<div class="modal fade ng-scope in" id="umbuchungBestaetigungFormModal" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="umbuchungFormModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="max-height: 600px; overflow: auto;">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <div class="table-responsive">
+                    <div align="center">
+                        <span style="font-size: larger;"><strong>Wollen Sie diese Bestandsbewegung erfassen?</strong></span>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>ArtikelNr</th><th>Seriennummern</th><th>Anzahl</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="artikel in gewaehlteArtikel.artikeln | orderBy: 'artikel.artikelnr': true track by $index">
+                            <td>
+                                {{artikel.artikelnr}} - {{artikel.artikelbezeichnung}}
+                            </td>
+                            <td style="align: left">
+                                    <div ng-if="artikel.artikelgruppennr=='4110'"
+                                          ng-dropdown-multiselect="" options="artikel.serienNrArray" aria-required="true" selected-model="artikel.serienNrSelectedArray"
+                                          extra-settings="{scrollableHeight: '200px',scrollable: true,enableSearch: true,selectionLimit:artikel.menge,selectedToTop:true}"
+                                          translation-texts="{
+                                                'checkAll': 'alle auswählen',
+                                                'uncheckAll': 'alle abwählen',
+                                                'buttonDefaultText': 'auswählen',
+                                                'dynamicButtonTextSuffix': 'ausgewählt',
+                                                'selectionCount': 'ausgewählt',
+                                                'searchPlaceholder': 'Suchfilter'
+                                          }"
+                                          events="multiSelectEvents" >
+                                    </div>
+                            </td>
+                            <td align="center">{{artikel.menge}}</td>
+                        </tr>
+                        <tr ng-show="modus=='lieferantenArtikel'">
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr ng-show="modus=='lieferantenArtikel'">
+                            <td>Lieferscheinnummer:</td>
+                            <td><input type="text" ng-model="gewaehlteArtikel.lieferscheinNr1"></td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div>&nbsp;
+                        <span ng-if="alleSeriennummernGewaehlt==false" style="color: red">
+                            Die Anzahl der ausgewählten Seriennummern soll der Artikelanzahl entsprechen
+                        </span>
+                    </div>
+                    <div style="margin-bottom: 60px; margin-top: 60px;">
+                        <button style="margin-bottom: 1px;" class="btn btn-danger change pull-left" ng-click="cancel('umbuchungBestaetigungFormModal')"><i class="fa fa-ban"></i>  Abbrechen</button>
+                        <button ng-if="modus=='artikelLagerbestand' && gewaehlteArtikel.artikeln.length>0 && alleSeriennummernGewaehlt" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="artikelLagerbestandUmbuchen()"><i class="fa fa-save"></i>  Erfassen</button>
+                        <button ng-if="modus=='lieferantenArtikel' && gewaehlteArtikel.artikeln.length>0 && gewaehlteArtikel.lieferscheinNr1!==undefined && gewaehlteArtikel.lieferscheinNr1.length>3" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="lieferantenArtikelUmbuchen(gewaehlteArtikel.lieferscheinNr1)"><i class="fa fa-save"></i>  Erfassen</button>
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pull-right" style="margin-right: 10px">
+                            <img ng-if="showLoader == true" src="../assets/img/ajax_loader_35.gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

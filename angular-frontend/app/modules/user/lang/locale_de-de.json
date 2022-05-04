@@ -1,0 +1,40 @@
+{
+  "user":{
+    "list":{
+      "name":"Name",
+      "email":"E-Mail",
+      "gender":"Geschlecht",
+      "location":"Standort",
+      "status":"Status",
+      "createdTime":"Erstellzeit",
+      "personalnummer":"Personalnummer"
+    },
+    "form":{
+      "active":"Aktiv",
+      "avatar":"Bild",
+      "male":"Männlich",
+      "female":"Weiblich",
+      "country":"Land",
+      "password":"Passwort",
+      "role":"Rolle",
+      "userAddSuccess":"Benutzer erfolgreich hinzugefügt",
+      "userUpdateSuccess":"Benutzer erfolgreich geändert"
+    },
+    "importWizard":{
+      "sampleFile":"Sample file:",
+      "sampleFileDescription":"If you don't have a sample xls or csv file to test Import Feature, you can download sample file.",
+      "sampleFileDownloadBtn":"Excel Sample File",
+      "nextMapping":"Next: Mapping",
+      "mapping":"Mapping:",
+      "mappingDescription":"You can map related fields to your columns with Import Mapping Feature. Drop down fields generate by your csv or xlsx file.You should map your file columns with module's fields.",
+      "mappingNote":"<b>Note:</b> you should config your fields in Model as <code>$import_fields</code>.",
+      "pleaseWait":"Please Wait...",
+      "pleaseWaitText":"It may take a few minutes",
+      "importResult":"Import Result",
+      "totalRecords":"Total records:",
+      "SuccessImport":"Successfully imported:",
+      "failedImport":"Failed importing:",
+      "errors":"Errors:"
+    }
+  }
+}

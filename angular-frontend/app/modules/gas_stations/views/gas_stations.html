@@ -1,0 +1,129 @@
+<!-- main content -->
+<style>
+    @media only screen and (max-device-width: 768px) {
+        .dataTables_length, .dataTables_info {
+            float: left;
+            margin-right: 50px;
+        }
+    }
+</style>
+<div id="content">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading card-head">
+                <div class="panel-title">
+                    <span class="bold head-title">Tankstellenbelieferung mit TSL</span>
+                </div>
+            </div>
+            <div class="panel panel-default panel-body col-md-12 col-xs-12 ">
+                <div class="clearfix"></div>
+                <div ng-if="showLoader == true" align="center" style="background-color: white; opacity: 1; position: absolute; height: 100%; width: 120%; margin-left: -30px; margin-top: -80px; z-index: 9;">
+                    <span><img style="margin-top: 200px; margin-right: 15%;" src="../assets/img/ajax_loader_blue_128.gif"></span>
+                </div>
+                <div class="table-responsive col-md-12 col-sm-12" style="margin-top: 20px;" ng-if="showData == true && gas_stations && gas_stations != ''">
+                    <table id="projektTable" ui-jq="dataTable" ui-options="datatable_options" class="table table-striped table-bordered width-100 cellspace-0 no-footer">
+                        <thead>
+                            <tr>
+                                <th>Projektnr</th>
+                                <th>Geo-L&auml;nge</th>
+                                <th>Geo-Breite</th>
+                                <th>Name1</th>
+                                <th>Strasse</th>
+                                <th>PLZ</th>
+                                <th>Ort</th>
+                                <th>Liefertage</th>
+                                <th>Terminal</th>
+                                <th>Beh&auml;lter</th>
+                                <th>Seriennr</th>
+                                <th>Anlieferzeiten</th>
+                                <th>Nachtlieferung</th>
+                                <th>Letzte Lieferung</th>
+                                <th>N&auml;chste Lieferung</th>
+                                <th>Entladen</th>
+                                <th>Tour</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="gas_stations_data in gas_stations | orderBy: 'gas_stations_data.projektnummer'"><!--id="{{gas_stations_data.projektid}}"-->
+                                <td>{{gas_stations_data.projektnummer}}</td>
+                                <td>{{gas_stations_data.geopos_laenge}}</td>
+                                <td>{{gas_stations_data.geopos_breite}}</td>
+                                <td>{{gas_stations_data.name1}}</td>
+                                <td>{{gas_stations_data.strasse}}</td>
+                                <td>{{gas_stations_data.plz}}</td>
+                                <td>{{gas_stations_data.ort}}</td>
+                                <td>{{gas_stations_data.liefertage}}</td>
+                                <td>{{gas_stations_data.raffinerieTerminal}}</td>
+                                <td>{{gas_stations_data.behaelter}}</td>
+                                <td>{{gas_stations_data.seriennr}}</td>
+                                <td>{{gas_stations_data.anlieferzeiten}}</td>
+                                <td align="center">{{gas_stations_data.nachtlieferung}}</td>
+                                <td>{{gas_stations_data.ltztLieferung}}</td>
+                                <td>{{gas_stations_data.nLieferung}}</td>
+                                <td>
+                                    <input ng-if="gas_stations_data.changed" type="text" style="width: 80px;" ng-model="gas_stations_data.entladedatum">
+                                    <span ng-if="!searchLoading[$index] && !gas_stations_data.changed">{{gas_stations_data.entladedatum}}</span>
+                                </td>
+                                <td>
+                                    <span class="pull-left" style="{{width_date}}">{{gas_stations_data.tour}}</span>
+                                    <i class="fa fa-pencil cursor-action pull-right ng-scope" ng-click="changeTour(gas_stations_data,$index);"></i>
+                                </td>
+                                <td align="center">
+                                    <i ng-if="gas_stations_data.changed" class="fa fa-save cursor-action ng-scope" ng-click="transmitTourToErp(gas_stations_data,$index,$event);"></i>
+                                    <!--i ng-if="gas_stations_data.searchLoading" class="fa fa-spinner cursor-action ng-scope"></i-->
+                                    <img ng-if="searchLoading[$index]" style="width: 20px;" src="../assets/img/ajax_loader_small.gif">
+                                    <div>
+                                        <i ng-if="!(searchLoading[$index] || gas_stations_data.changed) && gas_stations_data.showOk == 1" class="fa fa-check" style="color:green"></i>
+                                        <i ng-if="!searchLoading[$index] && gas_stations_data.showError == 1" class="fa fa-ban" style="color:red"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="panel panel-default panel-body col-md-8 col-xs-8 ">
+                        <div class="row">
+                            <div class="pull-left">
+                                <div class="table-responsive">
+                                    <table id="tourTable" class="table table-striped table-bordered width-100 cellspace-0 no-footer">
+                                        <thead>
+                                        <tr>
+                                            <td>Tour</td>
+                                            <td>Ladedatum</td>
+                                            <td>Terminal</td>
+                                            <td>Lademenge</td>
+                                            <td>Action</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr ng-repeat="tour in touren | orderBy: 'tour.name'">
+                                            <td>{{tour.name}}</td>
+                                            <td>{{tour.ladedatum}}</td>
+                                            <td>{{tour.lager}}</td>
+                                            <td>{{tour.lademenge}}</td>
+                                            <td><i class="fa fa-pencil cursor-action ng-scope" ng-click="tourBuild(tour)"></i></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-2 pull-left">
+                                <button type="button" ng-click="tourBuild(undefined)">New</button>
+                                <button ng-if="touren.length>0" type="button" ng-click="copyTourenToClipboard()">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12" ng-if="showData == true && (!gas_stations || gas_stations == '')" align="center" style="color: grey">
+                    <i class="fa fa-info-circle" style="font-size: 200%;"></i><br>
+                    <i style="font-weight: bold"> Für den Liefernaten sind keine Daten vorhanden.</i><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendors/jquery-datatables/js/Plugins/sorting/date-de.js"></script>
+<div ng-include="'app/modules/gas_stations/views/build_tour.html'"></div>
+<div ng-include="'app/modules/gas_stations/views/changeTourModal.html'"></div>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Golabi Admin - 2-Step Verification</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css">
+		
+		<!-- Related css to this page -->	
+		<link rel="stylesheet" href="../assets/vendors/animate/css/animate.min.css">
+		
+		<!-- Yeptemplate css --><!-- Please use *.min.css in production -->
+		<link rel="stylesheet" href="../assets/css/yep-style.css">
+		<link rel="stylesheet" href="../assets/css/yep-vendors.css">
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body id="login-page">
+		<canvas id="spiders" class="hidden-xs" ></canvas>
+		<div id="container" >
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 ">
+				<div class="page-header">
+				  	<h1 class="logo"><img src="../assets/img/logo.png" height="28" width="175" alt=""></h1>
+				  	<div class="login-links pull-right">
+		                <a  href="#"  > Try another way to sign in</a>		               
+		            </div>
+				</div>	
+
+				<!-- 2-Step Verification form -->
+				<div id="sign-form" class="panel panel-default  ">
+					
+					<div class="panel-body">
+						<h4>
+							2-Step Verification
+						</h4>						 
+						<div class="row">
+							<div class="alert alert-warning">
+								Haven't received the code yet? <a href="#">Resend code</a>
+							</div>
+							<div class="col-md-6 social" >
+								<h5><strong>Enter verification code</strong></h5>
+								A text message with a verification code has been sent to •••• ••• ••88							
+							</div>
+
+							<div class="col-md-6"  style=" border-left: 1px solid #ccc;" >
+								<form class="form-horizontal">
+									<fieldset>
+
+										<div class="spacing hidden-md"></div>
+										<div  class="input-group">
+	                                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+	                                        <input id="login-verify" type="text" class="form-control" name="login-verify"  placeholder="Enter 6-digit code">                                        
+	                                    </div>
+										
+										<div class="spacing"></div>
+										<div class="checkbox checkbox-primary"> <input id="remember" type="checkbox"  > <label for="remember"> Don't ask again on this computer </label> </div>
+										<button id="verify" name="verify" class="btn btn-info btn-sm pull-right">Verify</button>
+										
+									</fieldset>
+								</form>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<!-- /end 2-Step Verification -->
+				
+				<p>Copyright 2015 YEP Corporation. All right reserved.</p>
+			</div>
+
+		</div>
+
+		
+		<!-- General JS script library-->
+		<script type="text/javascript" src="../assets/vendors/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/jquery-ui/js/jquery-ui.min.js"></script>	
+		<script type="text/javascript" src="../assets/vendors/bootstrap/js/bootstrap.min.js"></script>						
+		<script type="text/javascript" src="../assets/vendors/jquery-searchable/js/jquery.searchable.min.js"></script>									
+		<script type="text/javascript" src="../assets/vendors/jquery-fullscreen/js/jquery.fullscreen.min.js"></script>																		
+		
+	
+		<!-- Yeptemplate JS Script --><!-- Please use *.min.js in production -->
+		<script type="text/javascript" src="../assets/js/yep-script.js"></script>
+
+		<!-- Related JavaScript Library to This Pagee -->
+		<script type="text/javascript" src="../assets/vendors/moving-nodes/js/moving-nodes.min.js"></script>
+
+
+		<!-- Plugins Script -->
+		<script type="text/javascript">
+			
+		</script>
+
+		<!-- Google Analytics Script -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-67070957-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	</body>
+</html>

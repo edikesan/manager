@@ -1,0 +1,68 @@
+<div ng-controller="Preloader" class="">
+	<div style="margin: 5% auto; position: relative; width: 400px;">
+		<!-- this is demo - you can remove it -->
+		<!--<div class="alert alert-warning">
+			<label>User : yep@gmail.com</label><br>
+			<label>Password : 123456</label>
+		</div>-->
+		<!--<div class="alert alert-warning">
+			<b>Note:</b> If this is the first time you sign-in ngLaravel please wait a few seconds...
+		</div>-->
+		<!-- error alert panel -->
+		<div class="alert alert-danger" ng-if="signinError.data.error">
+			<strong>Es ist ein Fehler aufgetreten: </strong> {{signinError.data.error}}
+			<br>Bitte versuchen Sie es erneut
+		</div>
+		<div id="sign-form" class="panel panel-default">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center">
+							<img src="../assets/img/vikings-logo.png" height="75" alt="Vikings Troisdorf Logo">
+							<h2>Vikings Manager {{programm_version}}</h2>
+							<h5 class="grey">Bitte loggen Sie sich ein</h5>
+							<br>
+						</div>
+						<!--  ng-submit should be signin() -->
+						<form ng-submit="signin()" role="form" autocomplete="off" class="form-horizontal">
+							<fieldset ng-disabled="loader">
+								<!--<div ng-hide="loader" class="text-center">
+									<img src="../assets/img/avatars/default.png" width="75" height="75" alt="avatar">
+								</div>-->
+								<div  ng-show="loader" class="text-center">
+									<img src="../assets/img/preloader/material.gif" alt="preloader">
+								</div>
+								<div class="spacing hidden-md"></div>
+								<div  class="input-group" style="width: 100%;">
+									<span class="input-group-addon" style="width: 50px;"><i class="fa fa-user"></i></span>
+									<input ng-model="user.email" type="text" class="form-control" id="email" placeholder="E-Mail Adresse" required>
+								</div>
+								<div class="spacing"></div>
+								<div  class="input-group" style="width: 100%;">
+									<span class="input-group-addon" style="width: 50px;"><i class="fa fa-key"></i></span>
+									<input ng-model="user.password" type="password" class="form-control" id="password" placeholder="Passwort">
+								</div>
+								<?php if(!in_array($_SERVER['REMOTE_ADDR'], $ips_without_2fa)){ ?>
+								<!--div class="spacing"></--div>
+								<div--  class="input-group" style="width: 100%;">
+									<span class="input-group-addon" style="width: 50px;"><i class="fa fa-mobile"></i></span>
+									<input ng-model="user.sec_key" type="password" class="form-control" id="sec_key" placeholder="Smartphone Token">
+								</div-->
+								<?php } ?>
+								<div class="spacing"></div>
+								<button type="submit" class="btn btn-success btn-sm  pull-right">Einloggen</button>
+
+							</fieldset>
+						</form>
+						<a ui-sref="forget-password" class="grey">Passwort vergessen?</a>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+

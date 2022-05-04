@@ -1,0 +1,140 @@
+<!-- main content -->
+<style>
+    .navi_button{
+        padding: 5px 0;
+        width: 90px;
+    }
+    .bestellungen:hover {
+        background-color: #ffff99;
+    }
+    th {
+        text-align:center;
+    }
+    input.input_err {
+        border-color: darkred;
+        border-width: 2px;
+    }
+    table>tbody>tr>td.artikel_table {
+        padding-top:0px;
+        padding-bottom:0px;
+        padding-left:4px;
+        padding-right:10px;
+    }
+</style>
+<div id="content">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="panel panel-default">
+            <!-- Menü -->
+            <div class="panel-heading card-head">
+                <div class="panel-title">
+                    <span class="bold head-title"> Bestellungen freigeben/verweigern</span>
+                    <img ng-if="showLoader == true" src="../assets/img/ajax_loader_35.gif">
+                </div>
+            </div>
+            <div class="panel panel-default panel-body col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <!-- Inhalt -->
+                <div style="margin-top: 20px;" ng-if="showData == true">
+                    <div style="margin-top: 20px;" ng-show="bestellungen_copy">
+                        <div class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="table table-bordered table-condensed">
+                                <thead>
+                                <tr>
+                                    <th colspan="9" style="text-align:center;background-color: lightgrey;">
+                                        <table width="100%">
+                                            <tr>
+                                                <td width="10%">
+                                                    <div ng-if="filter_aktiv" ng-click="removeFilter()" style="cursor: pointer">
+                                                        <i class="fa fa-filter"><i class="fa fa-remove"></i></i>
+                                                    </div>
+                                                </td>
+                                                <td width="80%">
+                                                    <strong> Bestellungen</strong>
+                                                </td>
+                                                <td width="10%">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                    <th ng-if="filter_aktiv==true" colspan="2" style="text-align:center;background-color: lightgrey;"></th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th>BelegNr</th>
+                                    <th>Belegbezeichnung</th>
+                                    <th>Belegdatum</th>
+                                    <th>Leistungsdatum</th>
+                                    <th>Lieferantennr</th>
+                                    <th>Lieferantenname</th>
+                                    <th>Anforderer</th>
+                                    <th>Freigabestatus</th>
+                                    <th>Netto</th>
+                                    <th ng-if="filter_aktiv==true">freigeben</th>
+                                    <th ng-if="filter_aktiv==true">verweigern</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-class="{bestellungen : filter_aktiv==false}" ng-repeat="bestellung in bestellungen_copy track by $index | orderBy: 'belegnummer':false" ng-style="{'cursor': filter_aktiv==true?'':'pointer'}" ng-click="getBestellPositionen(bestellung)">
+                                    <td align="center">{{bestellung.belegnummer}}</td>
+                                    <td align="center">{{bestellung.belegbezeichnung}}</td>
+                                    <td align="center">{{bestellung.belegdatum}}</td>
+                                    <td align="center">{{bestellung.leistungsdatum}}</td>
+                                    <td align="center">{{bestellung.lieferantennr}}</td>
+                                    <td align="center">{{bestellung.lieferantenname}}</td>
+                                    <td align="center">{{bestellung.anforderer}}</td>
+                                    <td align="center">{{bestellung.freigabestatus}}</td>
+                                    <td align="right" style="padding-right: 10px">{{bestellung.netto}}</td>
+                                    <td align="center" ng-if="filter_aktiv==true">
+                                        <button ng-show="bestellung.showButtons" class="btn btn-default has-ripple" ng-click="changeStatus(bestellung,3)">freigeben</button>
+                                        <i ng-if="bestellung.showOk" class="fa fa-check ng-scope" style="color:green; padding-left: 15px"></i>
+                                        <span ng-if="bestellung.showError" style="color: red">{{bestellung.showError}}</span>
+                                    </td>
+                                    <td align="center"ng-if="filter_aktiv==true">
+                                        <button ng-show="bestellung.showButtons" class="btn btn-default has-ripple" ng-click="openVerweigerungForm(bestellung)">verweigern</button>
+                                        <i ng-if="bestellung.showOk" class="fa fa-check ng-scope" style="color:green; padding-left: 15px"></i>
+                                        <span ng-if="bestellung.showError" style="color: red">{{bestellung.showError}}</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-12  col-md-12  col-lg-12" ng-if="showData == true && !bestellungen_copy" align="center" style="color: grey">
+                            <i class="fa fa-info-circle" style="font-size: 200%;"></i><br>
+                            <i style="font-weight: bold"> Für das ausgewählte Lager sind keine Daten vorhanden.</i><br>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div ng-if="showData == true && bestellungen_copy && filter_aktiv == true" class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="table table-bordered table-condensed">
+                                <thead>
+                                <tr>
+                                    <th colspan="5" style="text-align:center;background-color: lightgrey;">
+                                        <strong>Artikel</strong>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th>Artikelnummer</th>
+                                    <th>Artikelbezeichnung</th>
+                                    <th>Artikellangtext</th>
+                                    <th>Termin</th>
+                                    <th>Menge</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="position in bestellung_positionen track by $index | orderBy: 'belegnummer'">
+                                    <td align="center">{{position.artikelnummer}}</td>
+                                    <td align="left">{{position.artikelbezeichnung}}</td>
+                                    <td align="left">{{position.artikellangtext}}</td>
+                                    <td align="center">{{position.termin}}</td>
+                                    <td align="center">{{position.menge}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-12  col-md-12  col-lg-12" ng-if="showData == true && ( !bestellungen || bestellungen.length == 0 )" align="center" style="color: grey">
+                        <i class="fa fa-info-circle" style="font-size: 200%;"></i><br>
+                        <i style="font-weight: bold"> Für die Personalnummer {{personalnummer}} sind keine Daten vorhanden.</i><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-include="'app/modules/bestellungen/views/verweigerung_form.html'"></div>

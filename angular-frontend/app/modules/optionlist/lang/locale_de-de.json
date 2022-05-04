@@ -1,0 +1,10 @@
+{
+  "optionlist":{
+    "form":{
+      "optionId":"Option Id",
+      "optionName":"Option Name",
+      "optionAddSuccess":"Option erfolgreich hinzugefügt",
+      "optionUpdatedSuccess":"Option erfolgreich geändert"
+    }
+  }
+}

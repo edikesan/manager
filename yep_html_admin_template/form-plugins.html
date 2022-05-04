@@ -1,0 +1,2775 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Golabi Admin - Form Plugins</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css">
+		
+		<!-- Related css to this page -->	
+		<link rel="stylesheet" href="../assets/vendors/x-editable/css/bootstrap-editable.min.css">
+		<link rel="stylesheet" href="../assets/vendors/select2/css/select2.min.css">
+		<link rel="stylesheet" href="../assets/vendors/typeaheadjs/css/typeahead.js-bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+		<link rel="stylesheet" href="../assets/vendors/jasny-bootstrap/css/jasny-bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap-tagsinput/css/bootstrap-tagsinput.min.css">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+		<link rel="stylesheet" href="../assets/vendors/clockpicker/css/bootstrap-clockpicker.min.css">
+		<link rel="stylesheet" href="../assets/vendors/wysihtml5/css/bootstrap-wysihtml5-0.0.2.min.css">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+		
+		
+		<!-- Yeptemplate css --><!-- Please use *.min.css in production -->
+		<link rel="stylesheet" href="../assets/css/yep-style.css">
+		<link rel="stylesheet" href="../assets/css/yep-vendors.css">
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body id="mainbody">
+		<div id="container" class="container-fluid skin-3">
+			<!-- Add Task in sidebar list modal -->
+			<div class="modal fade" id="modal-add-task" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<form class="form-horizontal">
+							<div class="modal-header default">
+								 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+								<h4 class="modal-title" id="myModalLabel1">
+									Add Task
+								</h4>
+							</div>
+
+							<div class="modal-body">
+								<!-- Text input-->
+								<div class="control-group">
+								  	<label class="control-label" for="task-name">Task Name</label>
+								  	<div class="controls">
+								    	<input id="task-name" name="task-name" type="text" placeholder="" class="form-control">
+								  	</div>
+								</div>
+
+								<!-- Textarea -->
+								<div class="control-group">
+								  	<label class="control-label" for="Description">Description</label>
+								  	<div class="controls">                     
+								    	<textarea id="Description" name="Description" class="form-control"></textarea>
+								  	</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="control-group">
+								  	<label class="control-label" for="owner">Owner</label>
+								  	<div class="controls">
+								    	<input id="owner" name="owner" type="text" placeholder="" class="form-control">
+								    
+								  	</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> <button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</form>
+					</div>										
+				</div>									
+			</div>
+			<!--./ Add Task in sidebar list modal -->
+			
+			<!-- Add Contact in sidebar list modal -->
+			<div class="modal fade" id="modal-add-contact" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header default">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title" id="myModalLabel2">
+								Add Contact
+							</h4>
+						</div>
+						<div class="modal-body">
+							<!-- Text input-->
+							<div class="control-group">
+							  	<label class="control-label" for="name">Name</label>
+							  	<div class="controls">
+							    	<input id="name" name="name" type="text" placeholder="" class="form-control">
+							  	</div>
+							</div>
+
+							<!-- Textarea -->
+							<div class="control-group">
+							  	<label class="control-label" for="Address">Address</label>
+							  	<div class="controls">                     
+							    	<textarea id="Address" name="Address" class="form-control"></textarea>
+							  	</div>
+							</div>
+
+							<div class="control-group">
+							  	<label class="control-label" for="Phone">Phone</label>
+							  	<div class="controls">                     
+							    	<input id="Phone" name="Phone" type="number" placeholder="" class="form-control">
+							  	</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="control-group">
+							  	<label class="control-label" for="owner">Email</label>
+							  	<div class="controls">
+							    	<input id="Email" name="Email" type="text" placeholder="" class="form-control">
+							    
+							  	</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> <button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>										
+				</div>									
+			</div>
+			<!--./ Add Contact in sidebar list modal -->
+
+			<header id="header">
+				
+				<nav class="navbar navbar-default nopadding" >
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>						
+						<button type="button" id="menu-open" class="navbar-toggle menu-toggler pull-left">
+							<span class="sr-only">Toggle sidebar</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#" id="logo-panel">
+							<img src="../assets/img/logo.png" alt="Golabi Admin">
+						</a>						
+						
+						
+					</div>
+					<form action="#" class="form-search-mobile pull-right">
+						<input id="search-fld" class="search-mobile" type="text" name="param" placeholder="Search ...">
+						<button id="submit-search-mobile" type="submit">
+							<i class="fa fa-search"></i>
+						</button>
+						<a href="#" id="cancel-search-mobile" title="Cancel Search"><i class="fa fa-times"></i></a>
+					</form>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						
+						
+						<ul class="nav navbar-nav navbar-right">
+							<li id="search-show-li" class="dropdown">
+								<a href="#" id="search-mobile-show" class="dropdown-toggle" >
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
+							<li class="dropdown yep-dropdown-notify">
+								<a href="#" class="dropdown-toggle" >
+									<i class="fa fa-bell-o"></i>
+									<span class="label">1</span>
+								</a>
+								<ul class="dropdown-menu yep-notify">
+									<li>
+										<div class="btn-group btn-group-justified yep-btn-group-notify">
+											<a href="#msgs" class="btn btn-default active">Msgs (14)</a>
+											<a href="#notify" class="btn btn-default">notify (3)</a>
+											<a href="#task" class="btn btn-default">Tasks (4)</a>
+										</div>
+										<div class="tab-content yep-notify-content" >
+											<div class="tab-pane active thin-scroll" id="msgs">
+												
+												<ul class="notify-content-body ">
+													<li>
+														<span class="unread">
+															<a href="javascript:void(0);" class="msg" >
+																<img src="../assets/img/avatars/avatar.png" alt="" class="item item-top-left" >
+																<span class="from">John Doe <i class="icon-paperclip"></i></span>
+																<span class="time">2 minutes ago</span>
+																<span class="subject">Msed quia non numquam eius modi tempora</span>
+																<span class="msg-body">Hello again and thanks for being a part of the newsletter. </span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/female.png" alt="" class="item item-top-left">
+																<span class="from">Sonya Birthday</span>
+																<span class="time">Thursday, September 19th</span>
+																<span class="subject">Incidunt ut labor</span>
+																<span class="msg-body">sed quia non numquam eius modi tempora incidunt ut labor</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/female.png" alt="" class="item item-top-left">
+																<span class="from">Sonya Birthday</span>
+																<span class="time">Thursday, September 19th</span>
+																<span class="subject">Incidunt ut labor</span>
+																<span class="msg-body">sed quia non numquam eius modi tempora incidunt ut labor</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/avatar3.png" alt="" class="item item-top-left">
+																<span class="from">Cristina Algera</span>
+																<span class="time">Sunday, September 15th</span>
+																<span class="subject">Best-Selling Teethers</span>
+																<span class="msg-body"> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/male.png" alt="" class="item item-top-left">
+																<span class="from">Lam Tampora</span>
+																<span class="time">Saturday, September 14th</span>
+																<span class="subject">Deadline due date</span>
+																<span class="msg-body">imus qui blanditiis praesentium voluptatum deleniti atque corrup</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span class="unread">
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/avatar2.png" alt="" class="item item-top-left">
+																<span class="from">Project approved! <i class="icon-paperclip"></i></span>
+																<span class="time">September 14th</span>
+																<span class="subject">Et harum quidem rerum facilis est et expedita distinctio</span>
+																<span class="msg-body">...</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/male.png" alt="" class="item item-top-left" >
+																<span class="from">JEFF, me</span>
+																<span class="time">Friday, September 13th</span>
+																<span class="subject">Bugs fixed! </span>
+																<span class="msg-body">Nam libero tempore, cum soluta nobis est eligendi optio cumque</span>
+															</a>
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="notify">
+												<ul class="notify-content-body ">
+													<li>
+														<span class="padding-10 unread">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 new users just signed up! <span class="text-primary">martin.luther</span> and <span class="text-primary">kevin.reliey</span>
+																
+																<span class="pull-right font-xs text-muted"><i>1 min ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-check fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 projects were completed on time! Submitted for your approval - <a href="javascript:void(0);" class="display-normal">Click here</a>
+																
+																<span class="pull-right font-xs text-muted"><i>1 day ago...</i></span>
+															</span>
+															
+														</span>
+													</li>
+													<li>
+														<span class="padding-10 unread">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 new users just signed up! <span class="text-primary">martin.luther</span> and <span class="text-primary">kevin.reliey</span>
+																
+																<span class="pull-right font-xs text-muted"><i>1 min ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-lock fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																Your password was recently updated. Please complete your security questions from your profile page.
+																
+																<span class="pull-right font-xs text-muted"><i>2 weeks ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																<a href="javascript:void(0);" class="display-normal">Sofia</a> as contact? &nbsp;
+																<button class="btn btn-xs btn-primary margin-top-5">accept</button>
+																<button class="btn btn-xs btn-danger margin-top-5">reject</button>
+																<span class="pull-right font-xs text-muted"><i>3 hrs ago...</i></span>
+															</span>
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="task">
+												<ul class="notify-content-body ">
+													
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Software Update</span>
+																<span class="pull-right">65%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:65%" class="progress-bar"></div>
+															</div>
+															<span  class="progress-bottom"><a href="#">More Details </a><i class="fa fa-external-link"></i></span>
+														</div>														
+													</li>
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Hardware Upgrade</span>
+																<span class="pull-right">35%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:35%" class="progress-bar progress-bar-danger"></div>
+															</div>
+															<span  class="progress-bottom">2015/05/06 <i class="fa fa-clock-o"></i></span>
+														</div>														
+													</li>
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Unit Testing</span>
+																<span class="pull-right">15%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:15%" class="progress-bar progress-bar-warning"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>
+														</div>														
+													</li>
+													
+													<li>
+														<div class="task-progress">															
+															<div class="clearfix">
+																<span class="pull-left">Bug Fixes</span>
+																<span class="pull-right">90%</span>
+															</div>
+															<div class="progress progress-xs progress-striped active">
+																<div style="width:90%" class="progress-bar progress-bar-success"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>															
+														</div>
+													</li>
+													<li>
+														<div class="task-progress">	
+															<div class="clearfix">
+																<i class="fa fa-exclamation-triangle red icon-task"></i>
+																<span class="pull-left">Admin template change</span>
+																<span class="pull-right">20%</span>
+															</div>
+															<div class="progress progress-xs progress-striped active">
+																<div style="width:20%" class="progress-bar progress-bar-primary"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<span> Last updated on: 12/12/2013 9:43AM
+											<button type="button"  class="btn btn-xs btn-default pull-right">
+											<i class="fa fa-refresh"></i>
+											</button>
+										</span>
+									</li>
+								</ul>
+							</li>
+							
+							<li class="dropdown">
+								
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<img alt="Golabi Avatar Admin" src="../assets/img/avatars/avatar.png" height="50" width="50" class="img-circle" />
+									Albert Jackson
+									<strong class="caret"></strong>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Profile<span class="fa fa-user pull-right"></span></a>
+									</li>
+									<li>
+										<a href="#">Setting<span class="fa fa-cog pull-right"></span></a>
+									</li>
+									<li>
+										<a href="#">Messages<span class="badge pull-right"> 42 </span></a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#">Sign out<span class="fa fa-power-off pull-right"></span></a>
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+						
+						<ul class="nav navbar-nav navbar-right">
+
+							<li id="fullscreen-li">
+								<a href="#" id="fullscreen" class="dropdown-toggle" >
+									<i class="fa fa-arrows-alt"></i>
+								</a>
+							</li>
+							
+							<li id="side-hide-li" class="dropdown">
+								<a href="#" id="side-hide" class="dropdown-toggle" >
+									<i class="fa fa-reorder"></i>
+								</a>
+							</li>
+
+							
+						</ul>
+						<!-- search form in header -->
+						<form class="navbar-form navbar-right" >
+							<div class="form-group">
+								<input type="text" class="form-control search-header" placeholder="Enter Keyword" />
+								<button type="submit" class="btn btn-link search-header-btn" >
+								<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</form>
+						
+						
+					</div>
+					
+				</nav>
+			</header>
+
+			<!-- sidebar menu -->			
+			<div id="sidebar" class="sidebar" >	
+				<div class="tabbable-panel">
+					<div class="tabbable-line">
+						<ul class="nav nav-tabs nav-justified">
+							<li id="tab_menu_a" class="active">
+								<a href="#tab_menu_1" data-toggle="tab">
+									<i class="fa fa-reorder"></i>
+								</a>
+							</li>
+							<li id="contact-tab">
+								<a href="#tab_contact_2" data-toggle="tab">
+									<i class="fa fa-user"></i>
+								</a>
+							</li>
+							<li id="report-tab">
+								<a href="#tab_report_3" data-toggle="tab">
+									<i class="fa fa-pie-chart"></i>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab_menu_1">
+								<form class="search-menu-form" >
+									<div class="">
+										<input id="menu-list-search" placeholder="Search Menu..." type="text" class="form-control search-menu">										
+									</div>
+								</form>
+								
+								<!-- sidebar Menu -->
+								<div id="MainMenu" class="">
+									
+									<ul id="menu-list" class="nav nav-list">
+										<li class="separate-menu"><span>Main Menu</span></li>
+										<li>
+											<a href="index.html">
+												<i class="menu-icon fa fa-tachometer"></i>
+												<span class="menu-text"> Dashboard </span>
+											</a>
+
+											<b class="arrow"></b>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-desktop"></i>
+												<span class="menu-text"> UI &amp; Elements </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>											
+											<ul class="submenu nav-show"  >
+												<li class="">
+													<a href="generalelements.html" >
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">General Elements</span>
+													</a>
+
+													<b class="arrow"></b>													
+												</li>
+
+												<li >
+													<a href="typography.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Typography</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li >
+													<a href="tab.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Tab & Accordian</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												<li class="">
+													<a href="treeview.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Treeview</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="buttons.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Buttons &amp; Icons</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="jquery-ui.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">jQuery UI</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="nestable-list.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Nestable Lists</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="dual-list.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Dual Lists</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>																						
+												
+												<li class="">
+													<a href="image-crop.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Image Cropping</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="#" class="dropdown-toggle">
+														<i class="menu-icon fa fa-caret-right"></i>
+
+														<span class="menu-text">Three Level Menu</span>
+														<b class="arrow fa fa-angle-down"></b>
+													</a>
+
+													<b class="arrow"></b>
+
+													<ul class="submenu">
+														<li class="">
+															<a href="#">
+																<i class="menu-icon fa fa-leaf green"></i>
+																<span class="menu-text">Item #1</span>
+															</a>
+
+															<b class="arrow"></b>
+														</li>
+
+														<li class="">
+															<a href="#" class="dropdown-toggle">
+																<i class="menu-icon fa fa-pencil orange"></i>
+
+																<span class="menu-text">4th level</span>
+																<b class="arrow fa fa-angle-down"></b>
+															</a>
+
+															<b class="arrow"></b>
+
+															<ul class="submenu">
+																<li class="">
+																	<a href="#">
+																		<i class="menu-icon fa fa-plus purple"></i>
+																		<span class="menu-text">Add Product</span>
+																	</a>
+
+																	<b class="arrow"></b>
+																</li>
+
+																<li class="">
+																	<a href="#">
+																		<i class="menu-icon fa fa-eye pink"></i>
+																		<span class="menu-text">View Products</span>
+																	</a>
+
+																	<b class="arrow"></b>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-list"></i>
+												<span class="menu-text"> Tables </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu" >
+												<li class="">
+													<a href="tables.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Simple Tables</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="datatables.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Data Tables</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+											</ul>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-bar-chart-o"></i>
+												<span class="menu-text"> Charts </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="flotchart.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Flot Chart</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="morrischart.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Morris Charts</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="jquery-sparklines.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">JQuery Sparklines</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+											</ul>
+										</li>
+										
+										<li class="separate-menu"><span>Forms</span></li>
+										
+										<li class="open active">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-pencil-square-o"></i>
+												<span class="menu-text"> Forms </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="form-elements.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Elements</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="form-validations.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Validations</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="wizard-validation.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Wizard + Validation</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="WYSIWYG-editor.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">WYSIWYG Editor</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="active">
+													<a href="form-plugins.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Plugins </span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-upload"></i>
+												<span class="menu-text"> File Uploader </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												
+												<li class="">
+													<a href="dropzone-file.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Dropzone File Uploader</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li >
+													<a href="multiple-file-upload.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Multiple File Upload</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>																						
+
+											</ul>
+										</li>
+										
+										<li class="separate-menu"><span>Components</span></li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-map-marker"></i>
+												<span class="menu-text"> Maps </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="vector-maps.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Vector Maps</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="google-map.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Google Map</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+										
+										<li class="">
+											<a href="mailbox.html">
+												<i class="menu-icon fa fa-envelope"></i>
+												<span class="menu-text"> Mailbox </span>
+												<span class="badge badge-info">5</span>
+											</a>
+
+										</li>
+
+										<li class="">
+											<a href="gallery.html">
+												<i class="menu-icon fa fa-picture-o"></i>
+												<span class="menu-text"> Gallery </span>
+												<span class="badge badge-transparent" >
+													<i class="fa fa-lg fa-exclamation-triangle red"></i>
+												</span>
+											</a>
+											
+											<b class="arrow"></b>
+										</li>
+
+										<li>
+											<a href="calendar.html">
+												<i class="menu-icon fa fa-calendar"></i>
+												<span class="menu-text"> Calendar </span>
+											</a>
+
+											<b class="arrow"></b>
+										</li>
+										
+										<li class="separate-menu"><span>Pages</span></li> 
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-file-o"></i>
+												<span class="menu-text"> More Pages </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="timeline.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Timeline</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="profile.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Profile</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li>
+													<a href="invoice.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Invoice</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="login.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Login & Register</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												 <li class="">
+													<a href="lock.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Lock Screen</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li> 
+
+												 
+
+												<li class="">
+													<a href="sms-verify.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">SMS Verify</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="search-page.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Search Page</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="blank.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Blank Page</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="404.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Error 404</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="500.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Error 500</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+									</ul>
+
+
+									<a class="sidebar-collapse" id="sidebar-collapse" data-toggle="collapse" data-target="#test">
+										<i id="icon-sw-s-b" class="fa fa-angle-double-left"></i>
+									</a>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_contact_2">
+							                
+				                <div class="search-menu-form" role="search">
+									<div class="">
+										<input id="contact-list-search" placeholder="Search Contact..." type="text" class="form-control search-menu">
+										<a href="#modal-add-contact" data-toggle="modal" class="btn-modal btn-link" title="Add Contact">
+											<i class="fa fa-plus"></i>
+										</a>
+									</div>
+								</div>
+				                
+				                
+				                 <ul class="list-group" id="contact-list">
+
+				                	<li class="separate-menu"><span>Online</span></li>
+
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-6-ct.jpg" alt="Scott Stevens" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Scott Stevens</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-7-ct.jpg" alt="Seth Frazier" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Seth Frazier</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="7396 E North St"></span>
+				                            <span class="visible-xs"> <span class="text-muted">7396 E North St</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(560) 180-4143"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(560) 180-4143</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="seth.frazier@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">seth.frazier@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-8-ct.jpg" alt="Todd Shelton" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Todd Shelton</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5133 Pecan Acres Ln"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5133 Pecan Acres Ln</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(522) 991-3367"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(522) 991-3367</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="todd.shelton@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">todd.shelton@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-9-ct.jpg" alt="Rosemary Porter" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Rosemary Porter</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5267 Cackson St"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5267 Cackson St</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(497) 160-9776"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(497) 160-9776</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="rosemary.porter@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">rosemary.porter@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-10-ct.jpg" alt="Debbie Schmidt" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Debbie Schmidt</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="3903 W Alexander Rd"></span>
+				                            <span class="visible-xs"> <span class="text-muted">3903 W Alexander Rd</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(867) 322-1852"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(867) 322-1852</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="debbie.schmidt@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">debbie.schmidt@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+
+				                    <li class="separate-menu"><span>offline</span></li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-11-ct.jpg" alt="Glenda Patterson" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Glenda Patterson</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5020 Poplar Dr"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5020 Poplar Dr</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(538) 718-7548"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(538) 718-7548</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="glenda.patterson@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">glenda.patterson@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                </ul>
+							            
+							</div>
+							<div class="tab-pane " id="tab_report_3">
+
+								<div class="search-menu-form" role="search">
+									<div class="">
+										<input id="task-list-search" placeholder="Search Task..." type="text" class="form-control search-menu">
+										<a href="#modal-add-task" data-toggle="modal" class="btn-modal btn-link" title="Add Task">
+											<i class="fa fa-plus"></i>
+										</a>
+									</div>
+								</div>
+								<div class="task-content tasks-widget">
+                                  <ul id="sortable" class="task-list ui-sortable">
+                                      <li class="list-primary">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp">Flatlab is Modern Dashboard</span>
+                                              <span class="badge badge-sm label-success">2 Days</span>
+                                              
+                                          </div>
+                                      </li>
+
+                                      <li class="list-danger">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Fully Responsive &amp; Bootstrap 3.0.2 Compatible </span>
+                                              <span class="badge badge-sm label-danger">Done</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-success">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Daily Standup Meeting </span>
+                                              <span class="badge badge-sm label-warning">Company</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-warning">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Write well documentation for this theme </span>
+                                              <span class="badge badge-sm label-primary">3 Days</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-info">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> We have a plan to include more features in future update </span>
+                                              <span class="badge badge-sm label-info">Tomorrow</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-inverse">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Don't be hesitate to purchase this Dashbord </span>
+                                              <span class="badge badge-sm label-inverse">Now</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-primary">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Code compile and upload </span>
+                                              <span class="badge badge-sm label-success">2 Days</span>
+                                             
+                                          </div>
+                                      </li>
+
+                                      <li class="list-success">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Tell your friends to buy this dashboad </span>
+                                              <span class="badge badge-sm label-danger">Now</span>
+                                              
+                                          </div>
+                                      </li>
+									  <li class="">                                         
+                                          <div class="task-title">
+                                              <a href="#" class="center"> See All Tasks ...</a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              
+                             
+                             
+							</div>
+						</div><!-- end tab-content-->
+					</div><!-- end tabbable-line -->
+				</div><!-- end tabbable-panel -->
+			</div>
+			<!-- /end #sidebar -->
+
+			<!-- main content  -->
+			<div id="main" class="main">
+				<div class="row">
+					<!-- breadcrumb section -->
+					<div class="ribbon">
+						<ul class="breadcrumb">
+							<li>
+								<i class="fa fa-home"></i>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Library</a>
+							</li>
+							<li>
+								<a href="#">Data</a>
+							</li>
+						</ul>
+					</div>
+					
+					<!-- main content -->
+					<div id="content">
+						<div id="sortable-panel" class="">
+
+							<div id="titr-content" class="col-md-12">
+								<h2>Form Plugins</h2>
+								<h5>Anythings that related to form...</h5>
+								<div class="actions">
+									<button class="btn btn-success ">Add new</button>
+									<button class="btn btn-default ">Options</button>
+								</div>
+							</div>
+
+							<div class="col-md-12 ">
+								<div  class="panel panel-default">
+									<div class="panel-heading">
+										<div class="panel-title">
+											<i class="fa fa-edit"></i>
+											X-editable
+											<div class="bars pull-right">
+												<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+												<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+												<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="panel-body">
+										
+										<table id="user" class="table table-bordered table-striped" style="clear: both">
+											<tbody>
+												<tr>
+													<td style="width:35%;">Simple text field</td>
+													<td style="width:65%"><a href="#" id="username" data-type="text" data-pk="1" data-original-title="Enter username">superuser</a></td>
+												</tr>
+												<tr>
+													<td>Empty text field, required</td>
+													<td><a href="#" id="firstname" data-type="text" data-pk="1" data-placement="right" data-placeholder="Required" data-original-title="Enter your firstname"></a></td>
+												</tr>
+												<tr>
+													<td>Select, local array, custom display</td>
+													<td><a href="#" id="sex" data-type="select" data-pk="1" data-value="" data-original-title="Select sex"></a></td>
+												</tr>
+												<tr>
+													<td>Select, remote array, no buttons</td>
+													<td><a href="#" id="group" data-type="select" data-pk="1" data-value="5" data-source="/groups" data-original-title="Select group">Admin</a></td>
+												</tr>
+												<tr>
+													<td>Select, error while loading</td>
+													<td><a href="#" id="status" data-type="select" data-pk="1" data-value="0" data-source="/status" data-original-title="Select status">Active</a></td>
+												</tr>
+				
+												<tr>
+													<td>Datepicker</td>
+													<td><a href="#" id="vacation" data-type="date" data-viewformat="dd.mm.yyyy" data-pk="1" data-placement="right" data-original-title="When you want vacation to start?">25.02.2013</a></td>
+												</tr>
+												<tr>
+													<td>Combodate (date)</td>
+													<td><a href="#" id="dob" data-type="combodate" data-value="1984-05-15" data-format="YYYY-MM-DD" data-viewformat="DD/MM/YYYY" data-template="D / MMM / YYYY" data-pk="1" data-original-title="Select Date of birth"></a></td>
+												</tr>
+												<tr>
+													<td>Combodate (datetime)</td>
+													<td><a href="#" id="event" data-type="combodate" data-template="D MMM YYYY  HH:mm" data-format="YYYY-MM-DD HH:mm" data-viewformat="MMM D, YYYY, HH:mm" data-pk="1" data-original-title="Setup event date and time"></a></td>
+												</tr>
+				
+												<tr>
+													<td>Textarea, buttons below. Submit by <i>ctrl+enter</i></td>
+													<td><a href="#" id="comments" data-type="textarea" data-pk="1" data-placeholder="Your comments here..." data-original-title="Enter comments">awesome user!</a></td>
+												</tr>
+				
+												<tr>
+													<td>Twitter typeahead.js</td>
+													<td><a href="#" id="state2" data-type="typeaheadjs" data-pk="1" data-placement="right" data-original-title="Start typing State.."></a></td>
+												</tr>
+				
+												<tr>
+													<td>Checklist</td>
+													<td><a href="#" id="fruits" data-type="checklist" data-value="2,3" data-original-title="Select fruits"></a></td>
+												</tr>
+				
+												<tr>
+													<td>Select2 (tags mode)</td>
+													<td><a href="#" id="tags" data-type="select2" data-pk="1" data-original-title="Enter tags">html, javascript</a></td>
+												</tr>
+				
+												<tr>
+													<td>Select2 (dropdown mode)</td>
+													<td><a href="#" id="country" data-type="select2" data-pk="1" data-select-search="true" data-value="BS" data-original-title="Select country"></a></td>
+												</tr>
+				
+												<tr>
+													<td>Custom input, several fields</td>
+													<td><a href="#" id="address" data-type="address" data-pk="1" data-original-title="Please, fill address"></a></td>
+												</tr>
+												<tr>
+													<td>Notes <a id="pencil" href="#"><i class="fa fa-pencil"></i> [edit]</a>
+													<br>
+													<span class="text-muted">Wysihtml5 (bootstrap only).
+														<br>
+														Toggle by another element</span></td>
+													<td>
+													<div data-original-title="Enter notes" data-toggle="manual" data-type="wysihtml5" data-pk="1" id="note" class="editable" tabindex="-1" style="display: block;">
+														<h3>WYSIWYG</h3>
+														WYSIWYG means <i>What You See Is What You Get</i>.
+														<br>
+														But may also refer to:
+														<ul>
+															<li>
+																WYSIWYG (album), a 2000 album by Chumbawamba
+															</li>
+															<li>
+																"Whatcha See is Whatcha Get", a 1971 song by The Dramatics
+															</li>
+															<li>
+																WYSIWYG Film Festival, an annual Christian film festival
+															</li>
+														</ul>
+														<i>Source:</i>
+														<a href="http://en.wikipedia.org/wiki/WYSIWYG_%28disambiguation%29">
+															wikipedia.org
+														</a>
+													</div></td>
+												</tr>
+											</tbody>
+										</table>
+
+										
+									</div>
+									<div class="panel-footer">
+										<textarea id="console" style="width:100%"  rows="6"></textarea>
+									</div>
+								</div><!-- end panel -->
+							</div><!-- end .col-md-12 -->
+							
+							<div class="col-md-6">
+								<div class="col-md-12 layout no-padding">
+									<div  class="panel panel-default">
+										<div class="panel-heading">
+											<div class="panel-title">
+												<i class="fa fa-edit"></i>
+												File Input
+												<div class="bars pull-right">
+													<div class="dropdown ">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">																	
+															<i class="fa fa-cog"></i>
+														</a>
+														<ul class="dropdown-menu yep-panel-menu">
+															<li>
+																<a href="#">Daily<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Monthly<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Yearly<span class="badge pull-right"> 42 </span></a>
+															</li>
+															<li class="divider">
+															</li>
+															<li>
+																<a href="#">All time<span class="badge pull-right">56</span></a>
+															</li>
+														</ul>
+													</div>
+													<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+													<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+													<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+													
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+											
+											<fieldset>
+												<legend>
+													File Input
+												</legend>
+												
+												<label>File input widgets 1</label>
+												<div class="fileinput fileinput-new input-group" data-provides="fileinput">
+												  	<div class="form-control" data-trigger="fileinput"><i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
+												  	<span class="input-group-addon btn btn-default btn-file"><span class="fileinput-new">Select file</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+												 	<a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+												</div>
+												
+												<br>
+												<label>Image upload widgets</label><br>
+												<div class="fileinput fileinput-new" data-provides="fileinput">
+												  	<div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+												    	<img data-src="holder.js/100%x100%" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTkwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijk1IiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE5MHgxNDA8L3RleHQ+PC9zdmc+" alt="...">
+												  	</div>
+												  	<div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+												  	<div>
+												    	<span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+												    	<a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+												  	</div>
+												</div>
+				
+											</fieldset>
+										</div>	
+																						
+									</div><!-- end panel -->
+								</div><!-- end .col-md-12 -->
+
+								<div class="col-md-12 layout no-padding">
+									<div  class="panel panel-default">
+										<div class="panel-heading">
+											<div class="panel-title">
+												<i class="fa fa-tachometer"></i>
+												Knob Input
+												<div class="bars pull-right">
+													<div class="dropdown ">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">																	
+															<i class="fa fa-cog"></i>
+														</a>
+														<ul class="dropdown-menu yep-panel-menu">
+															<li>
+																<a href="#">Daily<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Monthly<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Yearly<span class="badge pull-right"> 42 </span></a>
+															</li>
+															<li class="divider">
+															</li>
+															<li>
+																<a href="#">All time<span class="badge pull-right">56</span></a>
+															</li>
+														</ul>
+													</div>
+													<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+													<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+													<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+													
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+
+									            <div class="yep-knob">
+									                
+									                <input class="knob" data-width="75" data-displayPrevious=true data-fgColor="#c99d00" data-skin="tron" data-cursor=true value="75" data-thickness=".2">
+									            </div>
+									            <div class="yep-knob" >
+									                
+									                <input class="knob" data-width="150" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" value="75">
+									            </div>
+									            <div class="yep-knob" >
+									               
+									                <input class="knob" data-width="150" data-angleOffset="180" data-fgColor="#0085ff" data-skin="tron" data-thickness=".1" value="35">
+									            </div>
+
+										</div>	
+										<div class="panel-footer">
+											<button class="btn btn-primary "><i class="fa fa-save"></i> Save</button>
+											<button class="btn btn-default ">Reset</button>
+										</div>												
+									</div><!-- end panel -->
+								</div><!-- end .col-md-12 -->
+
+
+								<div class="col-md-12 layout no-padding">
+									<div  class="panel panel-default">
+										<div class="panel-heading">
+											<div class="panel-title">
+												<i class="fa fa-calendar"></i>
+												Pickers
+												<div class="bars pull-right">
+													<div class="dropdown ">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">																	
+															<i class="fa fa-cog"></i>
+														</a>
+														<ul class="dropdown-menu yep-panel-menu">
+															<li>
+																<a href="#">Daily<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Monthly<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Yearly<span class="badge pull-right"> 42 </span></a>
+															</li>
+															<li class="divider">
+															</li>
+															<li>
+																<a href="#">All time<span class="badge pull-right">56</span></a>
+															</li>
+														</ul>
+													</div>
+													<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+													<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+													<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+													
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+									    	
+											<fieldset>
+												<legend>
+													Date Picker (Jquery UI)
+												</legend>
+				
+												<div class="row">
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Select a date (single):</label>
+															<div class="input-group">
+																<input type="text" name="mydate" placeholder="Select a date" class="form-control datepicker" data-dateformat="dd/mm/yy">
+																<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+															</div>
+														</div>
+													</div>
+				
+													<div class="col-sm-12">
+														<label>Select a date (range):</label>
+													</div>
+													<div class="col-sm-6">
+				
+														<div class="form-group">
+															<div class="input-group">
+																<input class="form-control" id="from" type="text" placeholder="From">
+																<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+															</div>
+														</div>
+				
+													</div>
+													<div class="col-sm-6">
+				
+														<div class="form-group">
+															<div class="input-group">
+																<input class="form-control" id="to" type="text" placeholder="Select a date">
+																<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+															</div>
+														</div>
+				
+													</div>
+				
+												</div>
+											</fieldset>
+
+											<fieldset>
+												<legend>
+													Bootstrap Timepicker
+												</legend>
+				
+												<div class="row">
+				
+													<div class="col-sm-12">
+														<div class="row">
+				
+															<div class="col-sm-12">
+																<div class="form-group">
+																	<label>Timepicker (default):</label>
+																	<div class="input-group">
+																		<input class="form-control" id="timepicker" type="text" placeholder="Select time">
+																		<span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+																	</div>
+																</div>
+															</div>
+				
+														</div>
+													</div>
+				
+												</div>
+											</fieldset>
+
+											<fieldset>
+												<legend>
+													Clockpicker
+												</legend>
+				
+												<div class="row">
+				
+													<div class="col-sm-12">
+														<div class="row">
+				
+															<div class="col-sm-12">
+																<div class="form-group">
+																	<label>Clockpicker:</label>
+																	<div class="input-group">
+																		<input class="form-control" id="clockpicker" type="text" placeholder="Select time" data-autoclose="true">
+																		<span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+																	</div>
+																</div>
+															</div>
+				
+														</div>
+													</div>
+				
+												</div>						
+											</fieldset>
+				
+											<fieldset>
+												<legend>
+													Color Pickers
+												</legend>
+				
+												<div class="row">
+				
+													<div class="col-sm-6">
+				
+														<div class="form-group">
+															<label>Color Picker (HEX)</label>
+															<input class="form-control" id="colorpicker-1" type="text" value="#8fff00">
+														</div>
+				
+													</div>
+													<div class="col-sm-6">
+														<label>Color Picker (RGBA)</label>																	
+														<div class="input-group" id="colorpicker-2">
+														    <input type="text" value="#5e0c0c" class="form-control" />
+														    <span class="input-group-addon"><i></i></span>
+														</div>
+													</div>
+												</div>
+											</fieldset>						
+
+										</div>	
+										<div class="panel-footer">
+											<button class="btn btn-primary "><i class="fa fa-save"></i> Submit</button>
+											<button class="btn btn-default ">Reset</button>
+										</div>	
+																						
+									</div><!-- end panel -->
+								</div><!-- end .col-md-12 -->
+							</div>
+							<!-- end .col-md-6 -->
+
+
+							<div class="col-md-6 ">
+								<div class="col-md-12 layout no-padding">
+									<div  class="panel panel-default">
+										<div class="panel-heading">
+											<div class="panel-title">
+												<i class="fa fa-edit"></i>
+												Jasny Input Masking
+												<div class="bars pull-right">
+													<div class="dropdown ">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">																	
+															<i class="fa fa-cog"></i>
+														</a>
+														<ul class="dropdown-menu yep-panel-menu">
+															<li>
+																<a href="#">Daily<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Monthly<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Yearly<span class="badge pull-right"> 42 </span></a>
+															</li>
+															<li class="divider">
+															</li>
+															<li>
+																<a href="#">All time<span class="badge pull-right">56</span></a>
+															</li>
+														</ul>
+													</div>
+													<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+													<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+													<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+													
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+											<p class="alert alert-info text-align-center">
+												USAGE: &lt;input type=&quot;text&quot; <strong>data-mask=&quot;99/99/9999&quot; data-placeholder= &quot;-&quot;&gt;</strong>
+											</p>
+
+											<form>
+			
+												<fieldset>
+													<legend>
+														Input Masking made easier!
+													</legend>
+					
+													<div class="form-group">
+														<label>Date masking</label>
+														<div class="input-group">
+															<input type="text" class="form-control" data-mask="99/99/9999" data-placeholder= "-">
+															<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+														</div>
+														<p class="note">
+															Data format **/**/****
+														</p>
+													</div>
+					
+													<div class="form-group">
+														<label>Phone masking</label>
+														<div class="input-group">
+															<input type="text" class="form-control" data-mask="(999) 999-9999" data-placeholder= "X">
+															<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+														</div>
+														<p class="note">
+															Data format (XXX) XXX-XXXX
+														</p>
+													</div>
+					
+													<div class="form-group">
+														<label>Credit card masking</label>
+														<div class="input-group">
+															<input type="text" class="form-control" data-mask="9999-9999-9999-9999" data-placeholder= "*">
+															<span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+														</div>
+														<p class="note">
+															Data format ****-****-****-****
+														</p>
+													</div>
+					
+													<div class="form-group">
+														<label>Serial number masking</label>
+														<div class="input-group">
+															<input type="text" class="form-control" data-mask="***-***-***-***-***-***" data-placeholder= "_">
+															<span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+														</div>
+														<p class="note">
+															Data format ***-***-***-***-***-***
+														</p>
+													</div>
+					
+													<div class="form-group">
+														<label>Tax ID masking</label>
+														<div class="input-group">
+															<input type="text" class="form-control" data-mask="99-9999999" data-placeholder= "X">
+															<span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
+														</div>
+														<p class="note">
+															Data format 99-9999999
+														</p>
+													</div>																			
+					
+												</fieldset>
+											</form>
+
+										</div>	
+										<div class="panel-footer">
+											<button class="btn btn-primary "><i class="fa fa-save"></i> Submit</button>
+											<button class="btn btn-default ">Reset</button>
+										</div>													
+									</div><!-- end panel -->
+								</div><!-- end .col-md-12 -->
+								
+								<div class="col-md-12 layout no-padding">
+									<div  class="panel panel-default">
+										<div class="panel-heading">
+											<div class="panel-title">
+												<i class="fa fa-edit"></i>
+												Select Elements
+												<div class="bars pull-right">
+													<div class="dropdown ">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">																	
+															<i class="fa fa-cog"></i>
+														</a>
+														<ul class="dropdown-menu yep-panel-menu">
+															<li>
+																<a href="#">Daily<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Monthly<span class="badge pull-right"></span></a>
+															</li>
+															<li>
+																<a href="#">Yearly<span class="badge pull-right"> 42 </span></a>
+															</li>
+															<li class="divider">
+															</li>
+															<li>
+																<a href="#">All time<span class="badge pull-right">56</span></a>
+															</li>
+														</ul>
+													</div>
+													<a href="#"><i class="maximum fa fa-expand" data-toggle="tooltip" data-placement="bottom" title="Maximize"></i></a>
+													<a href="#"><i class="minimize fa fa-chevron-down" data-toggle="tooltip" data-placement="bottom" title="Collapse"></i></a>
+													<a href="#"><i data-target="#panel2" data-dismiss="alert" data-toggle="tooltip" data-placement="bottom" title="Close" class="fa fa-times"></i></a>
+													
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+											
+											<fieldset>
+												<legend>
+													Standard Select
+												</legend>
+												<div class="row">
+													
+													<div class="col-sm-12">
+														<div class="form-group">
+															<select class="form-control">
+																<option value="1">Administrator</option>
+																<option value="1">Guest</option>
+																<option value="1">Power User</option>
+																<option value="1">Support User</option>
+															</select>
+														</div>
+													</div>
+													
+												</div>
+				
+											</fieldset>
+
+											<fieldset>
+												<legend>
+													Select 2
+												</legend>
+				
+												<div class="form-group">
+													<label>Select2 Plugin (select)</label>
+													<select style="width:100%" class="select2">
+														<optgroup label="Alaskan/Hawaiian Time Zone">
+															<option value="AK">Alaska</option>
+															<option value="HI">Hawaii</option>
+														</optgroup>
+														<optgroup label="Pacific Time Zone">
+															<option value="CA">California</option>
+															<option value="NV">Nevada</option>
+															<option value="OR">Oregon</option>
+															<option value="WA">Washington</option>
+														</optgroup>
+														<optgroup label="Mountain Time Zone">
+															<option value="AZ">Arizona</option>
+															<option value="CO">Colorado</option>
+															<option value="ID">Idaho</option>
+															<option value="MT">Montana</option><option value="NE">Nebraska</option>
+															<option value="NM">New Mexico</option>
+															<option value="ND">North Dakota</option>
+															<option value="UT">Utah</option>
+															<option value="WY">Wyoming</option>
+														</optgroup>
+														<optgroup label="Central Time Zone">
+															<option value="AL">Alabama</option>
+															<option value="AR">Arkansas</option>
+															<option value="IL">Illinois</option>
+															<option value="IA">Iowa</option>
+															<option value="KS">Kansas</option>
+															<option value="KY">Kentucky</option>
+															<option value="LA">Louisiana</option>
+															<option value="MN">Minnesota</option>
+															<option value="MS">Mississippi</option>
+															<option value="MO">Missouri</option>
+															<option value="OK">Oklahoma</option>
+															<option value="SD">South Dakota</option>
+															<option value="TX">Texas</option>
+															<option value="TN">Tennessee</option>
+															<option value="WI">Wisconsin</option>
+														</optgroup>
+														<optgroup label="Eastern Time Zone">
+															<option value="CT">Connecticut</option>
+															<option value="DE">Delaware</option>
+															<option value="FL">Florida</option>
+															<option value="GA">Georgia</option>
+															<option value="IN">Indiana</option>
+															<option value="ME">Maine</option>
+															<option value="MD">Maryland</option>
+															<option value="MA">Massachusetts</option>
+															<option value="MI">Michigan</option>
+															<option value="NH">New Hampshire</option><option value="NJ">New Jersey</option>
+															<option value="NY">New York</option>
+															<option value="NC">North Carolina</option>
+															<option value="OH">Ohio</option>
+															<option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option>
+															<option value="VT">Vermont</option><option value="VA">Virginia</option>
+															<option value="WV">West Virginia</option>
+														</optgroup>
+													</select>
+													<p></p>
+													<p class="alert alert-info text-align-center">
+														<strong>Usage:</strong> &lt;select style=&quot;width:100%&quot; class=&quot;select2&quot; &quot;&gt;...&lt;/select&gt;
+													</p>
+												</div>
+				
+												<div class="form-group">
+													<label>Select2 Plugin (multi-select)</label>
+													<select multiple style="width:100%" class="select2">
+														<optgroup label="Alaskan/Hawaiian Time Zone">
+															<option value="AK">Alaska</option>
+															<option value="HI">Hawaii</option>
+														</optgroup>
+														<optgroup label="Pacific Time Zone">
+															<option value="CA">California</option>
+															<option value="NV" selected="selected">Nevada</option>
+															<option value="OR">Oregon</option>
+															<option value="WA">Washington</option>
+														</optgroup>
+														<optgroup label="Mountain Time Zone">
+															<option value="AZ">Arizona</option>
+															<option value="CO">Colorado</option>
+															<option value="ID">Idaho</option>
+															<option value="MT" selected="selected">Montana</option><option value="NE">Nebraska</option>
+															<option value="NM">New Mexico</option>
+															<option value="ND">North Dakota</option>
+															<option value="UT">Utah</option>
+															<option value="WY">Wyoming</option>
+														</optgroup>
+														<optgroup label="Central Time Zone">
+															<option value="AL">Alabama</option>
+															<option value="AR">Arkansas</option>
+															<option value="IL">Illinois</option>
+															<option value="IA">Iowa</option>
+															<option value="KS">Kansas</option>
+															<option value="KY">Kentucky</option>
+															<option value="LA">Louisiana</option>
+															<option value="MN">Minnesota</option>
+															<option value="MS">Mississippi</option>
+															<option value="MO">Missouri</option>
+															<option value="OK">Oklahoma</option>
+															<option value="SD">South Dakota</option>
+															<option value="TX">Texas</option>
+															<option value="TN">Tennessee</option>
+															<option value="WI">Wisconsin</option>
+														</optgroup>
+														<optgroup label="Eastern Time Zone">
+															<option value="CT">Connecticut</option>
+															<option value="DE">Delaware</option>
+															<option value="FL">Florida</option>
+															<option value="GA">Georgia</option>
+															<option value="IN">Indiana</option>
+															<option value="ME">Maine</option>
+															<option value="MD">Maryland</option>
+															<option value="MA">Massachusetts</option>
+															<option value="MI" selected="selected">Michigan</option>
+															<option value="NH">New Hampshire</option>
+															<option value="NJ">New Jersey</option>
+															<option value="NY">New York</option>
+															<option value="NC">North Carolina</option>
+															<option value="OH">Ohio</option>
+															<option value="PA">Pennsylvania</option>
+															<option value="RI">Rhode Island</option>
+															<option value="SC">South Carolina</option>
+															<option value="VT">Vermont</option>
+															<option value="VA">Virginia</option>
+															<option value="WV">West Virginia</option>
+														</optgroup>
+													</select>
+				
+													<p></p>
+													<p class="alert alert-info text-align-center">
+														<strong>Usage:</strong> &lt;select multiple style=&quot;width:100%&quot; class=&quot;select2&quot; &gt;...&lt;/select&gt;
+													</p>
+												</div>
+				
+											</fieldset>
+
+											
+											<fieldset>
+												<legend>
+													Tags
+												</legend>
+				
+												<div class="row">
+													
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Type and enter to add tag</label>
+															<input class="form-control tagsinput" value="Amsterdam,Washington,Sydney,Beijing,Cairo" data-role="tagsinput">
+														</div>
+													</div>
+													
+												</div>
+				
+											</fieldset>
+
+										</div>	
+										<div class="panel-footer">
+											<button class="btn btn-primary "><i class="fa fa-save"></i> Submit</button>
+											<button class="btn btn-default ">Reset</button>
+										</div>													
+									</div><!-- end panel -->
+								</div><!-- end .col-md-12 -->
+							</div>
+	
+						</div>
+					</div><!-- end #content -->
+				</div><!-- end .row -->
+			</div>
+			<!-- ./end #main  -->
+			
+			<!-- footer -->
+			<div class="page-footer">				
+				<div class="col-xs-12 col-sm-12 text-center">
+					<strong class=""><a href="#">Golabi</a> YepTemplate  Application © 2015</strong>
+					<a href="#">
+						<i class="fa fa-twitter-square bigger-120"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-facebook-square bigger-120"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-rss-square orange bigger-120"></i>
+					</a>
+				</div>			
+			</div>
+			<!-- /footer -->			
+		</div>
+		<!-- end #container -->
+
+		<!-- General JS script library-->
+		<script type="text/javascript" src="../assets/vendors/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/jquery-ui/js/jquery-ui.min.js"></script>	
+		<script type="text/javascript" src="../assets/vendors/bootstrap/js/bootstrap.min.js"></script>						
+		<script type="text/javascript" src="../assets/vendors/jquery-searchable/js/jquery.searchable.min.js"></script>									
+		<script type="text/javascript" src="../assets/vendors/jquery-fullscreen/js/jquery.fullscreen.min.js"></script>																		
+		
+	
+		<!-- Yeptemplate JS Script --><!-- Please use *.min.js in production -->
+		<script type="text/javascript" src="../assets/js/yep-script.js"></script>
+		<script type="text/javascript" src="../assets/js/yep-demo.js"></script> 
+
+		<!-- Related JavaScript Library to This Page -->
+		<script type="text/javascript" src="../assets/vendors/x-editable/js/bootstrap-editable.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/momentjs/js/moment.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/typeaheadjs/js/typeahead.min.js"></script>					
+		<script type="text/javascript" src="../assets/vendors/typeaheadjs/js/typeaheadjs.min.js"></script>					
+		<script type="text/javascript" src="../assets/vendors/select2/js/select2.min.js"></script>							
+		<script type="text/javascript" src="../assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>												
+		<script type="text/javascript" src="../assets/vendors/jquery-mockjax/js/jquery.mockjax.min.js"></script><!-- Use for ajax simulate -->
+		<script type="text/javascript" src="../assets/vendors/jasny-bootstrap/js/jasny-bootstrap.min.js"></script><!-- Use for input mask -->
+		<script type="text/javascript" src="../assets/vendors/jquery-knob/js/jquery.knob.min.js"></script><!-- Use for jquery knob input -->
+		<script type="text/javascript" src="../assets/vendors/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js"></script><!-- Use for Input tags -->
+		<script type="text/javascript" src="../assets/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/wysihtml5/js/wysihtml5-0.3.0.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/wysihtml5/js/bootstrap-wysihtml5.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/wysihtml5/js/wysihtml5.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+		
+
+		<!-- Yeptemplate Vendors JS Script --><!-- Please use *.min.js in production -->
+		<script type="text/javascript" src="../assets/js/yep-vendors.js"></script>
+
+
+		<!-- Plugins Script -->
+		<script type="text/javascript">
+		
+	
+
+	   //ajax mocks
+	    $.mockjaxSettings.responseTime = 250;
+	
+	    $.mockjax({
+	        url: '/post',
+	        response: function (settings) {
+	            log(settings, this);
+	        }
+	    });
+	
+	    $.mockjax({
+	        url: '/error',
+	        status: 400,
+	        statusText: 'Bad Request',
+	        response: function (settings) {
+	            this.responseText = 'Please input correct value';
+	            log(settings, this);
+	        }
+	    });
+	
+	    $.mockjax({
+	        url: '/status',
+	        status: 500,
+	        response: function (settings) {
+	            this.responseText = 'Internal Server Error';
+	            log(settings, this);
+	        }
+	    });
+	
+	    $.mockjax({
+	        url: '/groups',
+	        response: function (settings) {
+	            this.responseText = [{
+	                value: 0,
+	                text: 'Guest'
+	            }, {
+	                value: 1,
+	                text: 'Service'
+	            }, {
+	                value: 2,
+	                text: 'Customer'
+	            }, {
+	                value: 3,
+	                text: 'Operator'
+	            }, {
+	                value: 4,
+	                text: 'Support'
+	            }, {
+	                value: 5,
+	                text: 'Admin'
+	            }];
+	           log(settings, this);
+	        }
+	    });
+	
+		 //console log related to x-editable
+	    function log(settings, response) {
+	        var s = [],
+	            str;
+	        s.push(settings.type.toUpperCase() + ' url = "' + settings.url + '"');
+	        for (var a in settings.data) {
+	            if (settings.data[a] && typeof settings.data[a] === 'object') {
+	                str = [];
+	                for (var j in settings.data[a]) {
+	                    str.push(j + ': "' + settings.data[a][j] + '"');
+	                }
+	                str = '{ ' + str.join(', ') + ' }';
+	            } else {
+	                str = '"' + settings.data[a] + '"';
+	            }
+	            s.push(a + ' = ' + str);
+	        }
+	        s.push('RESPONSE: status = ' + response.status);
+	
+	        if (response.responseText) {
+	            if ($.isArray(response.responseText)) {
+	                s.push('[');
+	                $.each(response.responseText, function (i, v) {
+	                    s.push('{value: ' + v.value + ', text: "' + v.text + '"}');
+	                });
+	                s.push(']');
+	            } else {
+	                s.push($.trim(response.responseText));
+	            }
+	        }
+	        s.push('--------------------------------------\n');
+	        $('#console').val(s.join('\n') + $('#console').val());
+	    }
+	    /*
+	     * X-EDITABLES
+	     */
+	     (function (e) {
+	        "use strict";
+	        var t = function (e) {
+	            this.init("address", e, t.defaults)
+	        };
+	        e.fn.editableutils.inherit(t, e.fn.editabletypes.abstractinput);
+	        e.extend(t.prototype, {
+	            render: function () {
+	                this.$input = this.$tpl.find("input")
+	            },
+	            value2html: function (t, n) {
+	                if (!t) {
+	                    e(n).empty();
+	                    return
+	                }
+	                var r = e("<div>").text(t.city).html() + ", " + e("<div>").text(t.street).html() +
+	                    " st., bld. " + e("<div>").text(t.building).html();
+	                e(n).html(r)
+	            },
+	            html2value: function (e) {
+	                return null
+	            },
+	            value2str: function (e) {
+	                var t = "";
+	                if (e)
+	                    for (var n in e)
+	                        t = t + n + ":" + e[n] + ";";
+	                return t
+	            },
+	            str2value: function (e) {
+	                return e
+	            },
+	            value2input: function (e) {
+	                if (!e)
+	                    return;
+	                this.$input.filter('[name="city"]').val(e.city);
+	                this.$input.filter('[name="street"]').val(e.street);
+	                this.$input.filter('[name="building"]').val(e.building)
+	            },
+	            input2value: function () {
+	                return {
+	                    city: this.$input.filter('[name="city"]').val(),
+	                    street: this.$input.filter('[name="street"]').val(),
+	                    building: this.$input.filter('[name="building"]').val()
+	                }
+	            },
+	            activate: function () {
+	                this.$input.filter('[name="city"]').focus()
+	            },
+	            autosubmit: function () {
+	                this.$input.keydown(function (t) {
+	                    t.which === 13 && e(this).closest("form").submit()
+	                })
+	            }
+	        });
+	        t.defaults = e.extend({}, e.fn.editabletypes.abstractinput.defaults, {
+	            tpl: '<div class="editable-address"><label><span>City: </span><input type="text" name="city" class="input-small"></label></div><div class="editable-address"><label><span>Street: </span><input type="text" name="street" class="input-small"></label></div><div class="editable-address"><label><span>Building: </span><input type="text" name="building" class="input-mini"></label></div>',
+	            inputclass: ""
+	        });
+	        e.fn.editabletypes.address = t
+	    })(window.jQuery);
+	
+	    //defaults
+	    $.fn.editable.defaults.url = '/post';
+	    $.fn.editable.defaults.mode = 'inline'; //use this to edit inline
+	
+	    //enable / disable
+	    $('#enable').click(function () {
+	        $('#user .editable').editable('toggleDisabled');
+	    });
+	
+	    //editables
+	    $('#username').editable({
+	        url: '/post',
+	        type: 'text',
+	        pk: 1,
+	        name: 'username',
+	        title: 'Enter username'
+	    });
+	
+	    $('#firstname').editable({
+	        validate: function (value) {
+	            if ($.trim(value) == '')
+	                return 'This field is required';
+	        }
+	    });
+	
+	    $('#sex').editable({
+	        prepend: "not selected",
+	        source: [{
+	            value: 1,
+	            text: 'Male'
+	        }, {
+	            value: 2,
+	            text: 'Female'
+	        }],
+	        display: function (value, sourceData) {
+	            var colors = {
+	                "": "gray",
+	                1: "green",
+	                2: "blue"
+	            }, elem = $.grep(sourceData, function (o) {
+	                    return o.value == value;
+	                });
+	
+	            if (elem.length) {
+	                $(this).text(elem[0].text).css("color", colors[value]);
+	            } else {
+	                $(this).empty();
+	            }
+	        }
+	    });
+	
+	    $('#status').editable();
+	
+	    $('#group').editable({
+	        showbuttons: false
+	    });
+	
+	    $('#vacation').editable({	        
+	    	tpl:'<div class="input-group date">\
+					<input class="form-control" type="text" placeholder="From" >\
+					<span class="input-group-btn">\
+	 					<button class="btn btn-default" type="button">\
+	 						<i class="glyphicon glyphicon-calendar"></i>\
+	 					</button>\
+	 				</span>\
+				</div>',
+		    type: 'datetime',
+		    url: '/post',
+		    format : 'yyyy-mm-dd',
+		    viewformat : 'yyyy-mm-dd',
+		    inputclass : "datepick",
+		    placement: function (context, source) {
+		      var popupWidth = 336;
+		      if(($(window).scrollLeft() + popupWidth) > $(source).offset().left){
+		        return "right";
+		      } else {
+		        return "left";
+		      }
+		    },
+		    emptytext: '...',
+		    persianDatepicker : {
+		      	altField: '#starttime',
+				altFormat: "YYYY/MM/DD HH:mm",
+				starttime: true,
+				format: 'YYYY/MM/DD HH:mm',					
+		    }		   
+	    });
+	
+	    $('#dob').editable();
+	
+	    $('#event').editable({
+	        placement: 'right',
+	        combodate: {
+	            firstItem: 'name'
+	        }
+	    });
+	
+	    $('#meeting_start').editable({
+	        format: 'yyyy-mm-dd hh:ii',
+	        viewformat: 'dd/mm/yyyy hh:ii',
+	        validate: function (v) {
+	            if (v && v.getDate() == 10)
+	                return 'Day cant be 10!';
+	        },
+	        datetimepicker: {
+	            todayBtn: 'linked',
+	            weekStart: 1
+	        }
+	    });
+	
+	    $('#comments').editable({
+	        showbuttons: 'bottom'
+	    });
+	
+	    $('#note').editable();
+	    $('#pencil').click(function (e) {
+	        e.stopPropagation();
+	        e.preventDefault();
+	        $('#note').editable('toggle');
+	    });
+	
+	    $('#state').editable({
+	        source: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut",
+	            "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas",
+	            "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
+	            "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey",
+	            "New Mexico", "New York", "North Dakota", "North Carolina", "Ohio", "Oklahoma", "Oregon",
+	            "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas",
+	            "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+	        ]
+	    });
+	
+	    $('#state2').editable({
+	        value: 'California',
+	        typeahead: {
+	            name: 'state',
+	            local: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut",
+	                "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa",
+	                "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan",
+	                "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire",
+	                "New Jersey", "New Mexico", "New York", "North Dakota", "North Carolina", "Ohio",
+	                "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
+	                "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia",
+	                "Wisconsin", "Wyoming"
+	            ]
+	        }
+	    });
+	
+	    $('#fruits').editable({
+	        pk: 1,
+	        limit: 3,
+	        source: [{
+	            value: 1,
+	            text: 'banana'
+	        }, {
+	            value: 2,
+	            text: 'peach'
+	        }, {
+	            value: 3,
+	            text: 'apple'
+	        }, {
+	            value: 4,
+	            text: 'watermelon'
+	        }, {
+	            value: 5,
+	            text: 'orange'
+	        }]
+	    });
+	
+	    $('#tags').editable({
+	        inputclass: 'input-large',
+	        select2: {
+	            tags: ['html', 'javascript', 'css', 'ajax'],
+	            tokenSeparators: [",", " "]
+	        }
+	    });
+	
+	    var countries = [];
+	    $.each({
+	        "BD": "Bangladesh",
+	        "BE": "Belgium",
+	        "BF": "Burkina Faso",
+	        "BG": "Bulgaria",
+	        "BA": "Bosnia and Herzegovina",
+	        "BB": "Barbados",
+	        "WF": "Wallis and Futuna",
+	        "BL": "Saint Bartelemey",
+	        "BM": "Bermuda",
+	        "BN": "Brunei Darussalam",
+	        "BO": "Bolivia",
+	        "BH": "Bahrain",
+	        "BI": "Burundi",
+	        "BJ": "Benin",
+	        "BT": "Bhutan",
+	        "JM": "Jamaica",
+	        "BV": "Bouvet Island",
+	        "BW": "Botswana",
+	        "WS": "Samoa",
+	        "BR": "Brazil",
+	        "BS": "Bahamas",
+	        "JE": "Jersey",
+	        "BY": "Belarus",
+	        "O1": "Other Country",
+	        "LV": "Latvia",
+	        "RW": "Rwanda",
+	        "RS": "Serbia",
+	        "TL": "Timor-Leste",
+	        "RE": "Reunion",
+	        "LU": "Luxembourg",
+	        "TJ": "Tajikistan",
+	        "RO": "Romania",
+	        "PG": "Papua New Guinea",
+	        "GW": "Guinea-Bissau",
+	        "GU": "Guam",
+	        "GT": "Guatemala",
+	        "GS": "South Georgia and the South Sandwich Islands",
+	        "GR": "Greece",
+	        "GQ": "Equatorial Guinea",
+	        "GP": "Guadeloupe",
+	        "JP": "Japan",
+	        "GY": "Guyana",
+	        "GG": "Guernsey",
+	        "GF": "French Guiana",
+	        "GE": "Georgia",
+	        "GD": "Grenada",
+	        "GB": "United Kingdom",
+	        "GA": "Gabon",
+	        "SV": "El Salvador",
+	        "GN": "Guinea",
+	        "GM": "Gambia",
+	        "GL": "Greenland",
+	        "GI": "Gibraltar",
+	        "GH": "Ghana",
+	        "OM": "Oman",
+	        "TN": "Tunisia",
+	        "JO": "Jordan",
+	        "HR": "Croatia",
+	        "HT": "Haiti",
+	        "HU": "Hungary",
+	        "HK": "Hong Kong",
+	        "HN": "Honduras",
+	        "HM": "Heard Island and McDonald Islands",
+	        "VE": "Venezuela",
+	        "PR": "Puerto Rico",
+	        "PS": "Palestinian Territory",
+	        "PW": "Palau",
+	        "PT": "Portugal",
+	        "SJ": "Svalbard and Jan Mayen",
+	        "PY": "Paraguay",
+	        "IQ": "Iraq",
+	        "PA": "Panama",
+	        "PF": "French Polynesia",
+	        "BZ": "Belize",
+	        "PE": "Peru",
+	        "PK": "Pakistan",
+	        "PH": "Philippines",
+	        "PN": "Pitcairn",
+	        "TM": "Turkmenistan",
+	        "PL": "Poland",
+	        "PM": "Saint Pierre and Miquelon",
+	        "ZM": "Zambia",
+	        "EH": "Western Sahara",
+	        "RU": "Russian Federation",
+	        "EE": "Estonia",
+	        "EG": "Egypt",
+	        "TK": "Tokelau",
+	        "ZA": "South Africa",
+	        "EC": "Ecuador",
+	        "IT": "Italy",
+	        "VN": "Vietnam",
+	        "SB": "Solomon Islands",
+	        "EU": "Europe",
+	        "ET": "Ethiopia",
+	        "SO": "Somalia",
+	        "ZW": "Zimbabwe",
+	        "SA": "Saudi Arabia",
+	        "ES": "Spain",
+	        "ER": "Eritrea",
+	        "ME": "Montenegro",
+	        "MD": "Moldova, Republic of",
+	        "MG": "Madagascar",
+	        "MF": "Saint Martin",
+	        "MA": "Morocco",
+	        "MC": "Monaco",
+	        "UZ": "Uzbekistan",
+	        "MM": "Myanmar",
+	        "ML": "Mali",
+	        "MO": "Macao",
+	        "MN": "Mongolia",
+	        "MH": "Marshall Islands",
+	        "MK": "Macedonia",
+	        "MU": "Mauritius",
+	        "MT": "Malta",
+	        "MW": "Malawi",
+	        "MV": "Maldives",
+	        "MQ": "Martinique",
+	        "MP": "Northern Mariana Islands",
+	        "MS": "Montserrat",
+	        "MR": "Mauritania",
+	        "IM": "Isle of Man",
+	        "UG": "Uganda",
+	        "TZ": "Tanzania, United Republic of",
+	        "MY": "Malaysia",
+	        "MX": "Mexico",
+	        "IL": "Israel",
+	        "FR": "France",
+	        "IO": "British Indian Ocean Territory",
+	        "FX": "France, Metropolitan",
+	        "SH": "Saint Helena",
+	        "FI": "Finland",
+	        "FJ": "Fiji",
+	        "FK": "Falkland Islands (Malvinas)",
+	        "FM": "Micronesia, Federated States of",
+	        "FO": "Faroe Islands",
+	        "NI": "Nicaragua",
+	        "NL": "Netherlands",
+	        "NO": "Norway",
+	        "NA": "Namibia",
+	        "VU": "Vanuatu",
+	        "NC": "New Caledonia",
+	        "NE": "Niger",
+	        "NF": "Norfolk Island",
+	        "NG": "Nigeria",
+	        "NZ": "New Zealand",
+	        "NP": "Nepal",
+	        "NR": "Nauru",
+	        "NU": "Niue",
+	        "CK": "Cook Islands",
+	        "CI": "Cote d'Ivoire",
+	        "CH": "Switzerland",
+	        "CO": "Colombia",
+	        "CN": "China",
+	        "CM": "Cameroon",
+	        "CL": "Chile",
+	        "CC": "Cocos (Keeling) Islands",
+	        "CA": "Canada",
+	        "CG": "Congo",
+	        "CF": "Central African Republic",
+	        "CD": "Congo, The Democratic Republic of the",
+	        "CZ": "Czech Republic",
+	        "CY": "Cyprus",
+	        "CX": "Christmas Island",
+	        "CR": "Costa Rica",
+	        "CV": "Cape Verde",
+	        "CU": "Cuba",
+	        "SZ": "Swaziland",
+	        "SY": "Syrian Arab Republic",
+	        "KG": "Kyrgyzstan",
+	        "KE": "Kenya",
+	        "SR": "Suriname",
+	        "KI": "Kiribati",
+	        "KH": "Cambodia",
+	        "KN": "Saint Kitts and Nevis",
+	        "KM": "Comoros",
+	        "ST": "Sao Tome and Principe",
+	        "SK": "Slovakia",
+	        "KR": "Korea, Republic of",
+	        "SI": "Slovenia",
+	        "KP": "Korea, Democratic People's Republic of",
+	        "KW": "Kuwait",
+	        "SN": "Senegal",
+	        "SM": "San Marino",
+	        "SL": "Sierra Leone",
+	        "SC": "Seychelles",
+	        "KZ": "Kazakhstan",
+	        "KY": "Cayman Islands",
+	        "SG": "Singapore",
+	        "SE": "Sweden",
+	        "SD": "Sudan",
+	        "DO": "Dominican Republic",
+	        "DM": "Dominica",
+	        "DJ": "Djibouti",
+	        "DK": "Denmark",
+	        "VG": "Virgin Islands, British",
+	        "DE": "Germany",
+	        "YE": "Yemen",
+	        "DZ": "Algeria",
+	        "US": "United States",
+	        "UY": "Uruguay",
+	        "YT": "Mayotte",
+	        "UM": "United States Minor Outlying Islands",
+	        "LB": "Lebanon",
+	        "LC": "Saint Lucia",
+	        "LA": "Lao People's Democratic Republic",
+	        "TV": "Tuvalu",
+	        "TW": "Taiwan",
+	        "TT": "Trinidad and Tobago",
+	        "TR": "Turkey",
+	        "LK": "Sri Lanka",
+	        "LI": "Liechtenstein",
+	        "A1": "Anonymous Proxy",
+	        "TO": "Tonga",
+	        "LT": "Lithuania",
+	        "A2": "Satellite Provider",
+	        "LR": "Liberia",
+	        "LS": "Lesotho",
+	        "TH": "Thailand",
+	        "TF": "French Southern Territories",
+	        "TG": "Togo",
+	        "TD": "Chad",
+	        "TC": "Turks and Caicos Islands",
+	        "LY": "Libyan Arab Jamahiriya",
+	        "VA": "Holy See (Vatican City State)",
+	        "VC": "Saint Vincent and the Grenadines",
+	        "AE": "United Arab Emirates",
+	        "AD": "Andorra",
+	        "AG": "Antigua and Barbuda",
+	        "AF": "Afghanistan",
+	        "AI": "Anguilla",
+	        "VI": "Virgin Islands, U.S.",
+	        "IS": "Iceland",
+	        "IR": "Iran, Islamic Republic of",
+	        "AM": "Armenia",
+	        "AL": "Albania",
+	        "AO": "Angola",
+	        "AN": "Netherlands Antilles",
+	        "AQ": "Antarctica",
+	        "AP": "Asia/Pacific Region",
+	        "AS": "American Samoa",
+	        "AR": "Argentina",
+	        "AU": "Australia",
+	        "AT": "Austria",
+	        "AW": "Aruba",
+	        "IN": "India",
+	        "AX": "Aland Islands",
+	        "AZ": "Azerbaijan",
+	        "IE": "Ireland",
+	        "ID": "Indonesia",
+	        "UA": "Ukraine",
+	        "QA": "Qatar",
+	        "MZ": "Mozambique"
+	    }, function (k, v) {
+	        countries.push({
+	            id: k,
+	            text: v
+	        });
+	    });
+	
+	    $('#country').editable({
+	        source: countries,
+	        select2: {
+	            width: 200
+	        }
+	    });
+	
+	   
+		 $('#address').editable({
+	        url: '/post',
+	        value: {
+	            city: "Moscow",
+	            street: "Lenina",
+	            building: "12"
+	        },
+	        validate: function (value) {
+	            if (value.city == '')
+	                return 'city is required!';
+	        },
+	        display: function (value) {
+	            if (!value) {
+	                $(this).empty();
+	                return;
+	            }
+	            var html = '<b>' + $('<div>').text(value.city).html() + '</b>, ' + $('<div>').text(value.street)
+	                .html() + ' st., bld. ' + $('<div>').text(value.building).html();
+	            $(this).html(html);
+	        }
+	    });
+	   	
+	   	// Select Script
+		$('.select2').select2({
+            allowClear : true,
+            width : '100%'
+        });
+
+	 	// Jquery knob initialize
+        $(".knob").knob();		                  		                 
+
+        
+		// Bootstrap time picker
+		$('#timepicker').timepicker();
+
+
+		 // Date Range Picker
+		$("#from").datepicker({
+		    defaultDate: "+1w",
+		    changeMonth: true,
+		    numberOfMonths: 3,
+		    prevText: '<i class="fa fa-chevron-left"></i>',
+		    nextText: '<i class="fa fa-chevron-right"></i>',
+		    onClose: function (selectedDate) {
+		        $("#to").datepicker("option", "maxDate", selectedDate);
+		    }
+	
+		});
+		$("#to").datepicker({
+		    defaultDate: "+1w",
+		    changeMonth: true,
+		    numberOfMonths: 3,
+		    prevText: '<i class="fa fa-chevron-left"></i>',
+		    nextText: '<i class="fa fa-chevron-right"></i>',
+		    onClose: function (selectedDate) {
+		        $("#from").datepicker("option", "minDate", selectedDate);
+		    }
+		});
+
+
+		// ClockPicker 						
+		$('#clockpicker').clockpicker({
+			placement: 'top',
+		    donetext: 'Done'
+		});	
+
+
+
+		
+		/* COLOR PICKER */
+		 
+	
+	    $('#colorpicker-1').colorpicker()
+	    $('#colorpicker-2').colorpicker()
+
+
+		</script>
+
+		<!-- Google Analytics Script -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-67070957-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	</body>
+</html>

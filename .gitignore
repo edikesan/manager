@@ -1,0 +1,4 @@
+/.sql/rsd.sql
+.idea/
+./backend/storage/framework/sessions/
+./backend/public/

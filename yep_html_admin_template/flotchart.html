@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Golabi Admin - Flot Charts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css">
+		
+		<!-- Related css to this page -->	
+		
+
+		<!-- Yeptemplate css --><!-- Please use *.min.css in production -->
+		<link rel="stylesheet" href="../assets/css/yep-style.css">
+	</head>
+
+	<body id="mainbody">
+		<div id="container" class="container-fluid skin-3">
+			<!-- Add Task in sidebar list modal -->
+			<div class="modal fade" id="modal-add-task" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<form class="form-horizontal">
+							<div class="modal-header default">
+								 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+								<h4 class="modal-title" id="myModalLabel1">
+									Add Task
+								</h4>
+							</div>
+
+							<div class="modal-body">
+								<!-- Text input-->
+								<div class="control-group">
+								  	<label class="control-label" for="task-name">Task Name</label>
+								  	<div class="controls">
+								    	<input id="task-name" name="task-name" type="text" placeholder="" class="form-control">
+								  	</div>
+								</div>
+
+								<!-- Textarea -->
+								<div class="control-group">
+								  	<label class="control-label" for="Description">Description</label>
+								  	<div class="controls">                     
+								    	<textarea id="Description" name="Description" class="form-control"></textarea>
+								  	</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="control-group">
+								  	<label class="control-label" for="owner">Owner</label>
+								  	<div class="controls">
+								    	<input id="owner" name="owner" type="text" placeholder="" class="form-control">
+								    
+								  	</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> <button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</form>
+					</div>										
+				</div>									
+			</div>
+			<!--./ Add Task in sidebar list modal -->
+			
+			<!-- Add Contact in sidebar list modal -->
+			<div class="modal fade" id="modal-add-contact" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header default">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title" id="myModalLabel2">
+								Add Contact
+							</h4>
+						</div>
+						<div class="modal-body">
+							<!-- Text input-->
+							<div class="control-group">
+							  	<label class="control-label" for="name">Name</label>
+							  	<div class="controls">
+							    	<input id="name" name="name" type="text" placeholder="" class="form-control">
+							  	</div>
+							</div>
+
+							<!-- Textarea -->
+							<div class="control-group">
+							  	<label class="control-label" for="Address">Address</label>
+							  	<div class="controls">                     
+							    	<textarea id="Address" name="Address" class="form-control"></textarea>
+							  	</div>
+							</div>
+
+							<div class="control-group">
+							  	<label class="control-label" for="Phone">Phone</label>
+							  	<div class="controls">                     
+							    	<input id="Phone" name="Phone" type="number" placeholder="" class="form-control">
+							  	</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="control-group">
+							  	<label class="control-label" for="owner">Email</label>
+							  	<div class="controls">
+							    	<input id="Email" name="Email" type="text" placeholder="" class="form-control">
+							    
+							  	</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> <button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>										
+				</div>									
+			</div>
+			<!--./ Add Contact in sidebar list modal -->
+
+			<header id="header">
+				<nav class="navbar navbar-default nopadding" >
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>						
+						<button type="button" id="menu-open" class="navbar-toggle menu-toggler pull-left">
+							<span class="sr-only">Toggle sidebar</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#" id="logo-panel">
+							<img src="../assets/img/logo.png" alt="Golabi Admin">
+						</a>						
+						
+						
+					</div>
+					<form action="#" class="form-search-mobile pull-right">
+						<input id="search-fld" class="search-mobile" type="text" name="param" placeholder="Search ...">
+						<button id="submit-search-mobile" type="submit">
+							<i class="fa fa-search"></i>
+						</button>
+						<a href="#" id="cancel-search-mobile" title="Cancel Search"><i class="fa fa-times"></i></a>
+					</form>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						
+						
+						<ul class="nav navbar-nav navbar-right">
+							<li id="search-show-li" class="dropdown">
+								<a href="#" id="search-mobile-show" class="dropdown-toggle" >
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
+							<li class="dropdown yep-dropdown-notify">
+								<a href="#" class="dropdown-toggle" >
+									<i class="fa fa-bell-o"></i>
+									<span class="label">1</span>
+								</a>
+								<ul class="dropdown-menu yep-notify">
+									<li>
+										<div class="btn-group btn-group-justified yep-btn-group-notify">
+											<a href="#msgs" class="btn btn-default active">Msgs (14)</a>
+											<a href="#notify" class="btn btn-default">notify (3)</a>
+											<a href="#task" class="btn btn-default">Tasks (4)</a>
+										</div>
+										<div class="tab-content yep-notify-content" >
+											<div class="tab-pane active thin-scroll" id="msgs">
+												
+												<ul class="notify-content-body ">
+													<li>
+														<span class="unread">
+															<a href="javascript:void(0);" class="msg" >
+																<img src="../assets/img/avatars/avatar.png" alt="" class="item item-top-left" >
+																<span class="from">John Doe <i class="icon-paperclip"></i></span>
+																<span class="time">2 minutes ago</span>
+																<span class="subject">Msed quia non numquam eius modi tempora</span>
+																<span class="msg-body">Hello again and thanks for being a part of the newsletter. </span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/female.png" alt="" class="item item-top-left">
+																<span class="from">Sonya Birthday</span>
+																<span class="time">Thursday, September 19th</span>
+																<span class="subject">Incidunt ut labor</span>
+																<span class="msg-body">sed quia non numquam eius modi tempora incidunt ut labor</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/female.png" alt="" class="item item-top-left">
+																<span class="from">Sonya Birthday</span>
+																<span class="time">Thursday, September 19th</span>
+																<span class="subject">Incidunt ut labor</span>
+																<span class="msg-body">sed quia non numquam eius modi tempora incidunt ut labor</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/avatar3.png" alt="" class="item item-top-left">
+																<span class="from">Cristina Algera</span>
+																<span class="time">Sunday, September 15th</span>
+																<span class="subject">Best-Selling Teethers</span>
+																<span class="msg-body"> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/male.png" alt="" class="item item-top-left">
+																<span class="from">Lam Tampora</span>
+																<span class="time">Saturday, September 14th</span>
+																<span class="subject">Deadline due date</span>
+																<span class="msg-body">imus qui blanditiis praesentium voluptatum deleniti atque corrup</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span class="unread">
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/avatar2.png" alt="" class="item item-top-left">
+																<span class="from">Project approved! <i class="icon-paperclip"></i></span>
+																<span class="time">September 14th</span>
+																<span class="subject">Et harum quidem rerum facilis est et expedita distinctio</span>
+																<span class="msg-body">...</span>
+															</a>
+														</span>
+													</li>
+													<li>
+														<span>
+															<a href="javascript:void(0);" class="msg">
+																<img src="../assets/img/avatars/male.png" alt="" class="item item-top-left" >
+																<span class="from">JEFF, me</span>
+																<span class="time">Friday, September 13th</span>
+																<span class="subject">Bugs fixed! </span>
+																<span class="msg-body">Nam libero tempore, cum soluta nobis est eligendi optio cumque</span>
+															</a>
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="notify">
+												<ul class="notify-content-body ">
+													<li>
+														<span class="padding-10 unread">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 new users just signed up! <span class="text-primary">martin.luther</span> and <span class="text-primary">kevin.reliey</span>
+																
+																<span class="pull-right font-xs text-muted"><i>1 min ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-check fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 projects were completed on time! Submitted for your approval - <a href="javascript:void(0);" class="display-normal">Click here</a>
+																
+																<span class="pull-right font-xs text-muted"><i>1 day ago...</i></span>
+															</span>
+															
+														</span>
+													</li>
+													<li>
+														<span class="padding-10 unread">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																2 new users just signed up! <span class="text-primary">martin.luther</span> and <span class="text-primary">kevin.reliey</span>
+																
+																<span class="pull-right font-xs text-muted"><i>1 min ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-lock fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																Your password was recently updated. Please complete your security questions from your profile page.
+																
+																<span class="pull-right font-xs text-muted"><i>2 weeks ago...</i></span>
+															</span>
+														</span>
+													</li>
+													<li>
+														<span class="padding-10">
+															<em class="badge img-notify">
+															<i class="fa fa-user fa-fw fa-2x"></i>
+															</em>
+															
+															<span>
+																<a href="javascript:void(0);" class="display-normal">Sofia</a> as contact? &nbsp;
+																<button class="btn btn-xs btn-primary margin-top-5">accept</button>
+																<button class="btn btn-xs btn-danger margin-top-5">reject</button>
+																<span class="pull-right font-xs text-muted"><i>3 hrs ago...</i></span>
+															</span>
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="task">
+												<ul class="notify-content-body ">
+													
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Software Update</span>
+																<span class="pull-right">65%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:65%" class="progress-bar"></div>
+															</div>
+															<span  class="progress-bottom"><a href="#">More Details </a><i class="fa fa-external-link"></i></span>
+														</div>														
+													</li>
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Hardware Upgrade</span>
+																<span class="pull-right">35%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:35%" class="progress-bar progress-bar-danger"></div>
+															</div>
+															<span  class="progress-bottom">2015/05/06 <i class="fa fa-clock-o"></i></span>
+														</div>														
+													</li>
+													<li>														
+														<div class="task-progress">
+															<div class="clearfix">
+																<span class="pull-left">Unit Testing</span>
+																<span class="pull-right">15%</span>
+															</div>
+															<div class="progress progress-xs">
+																<div style="width:15%" class="progress-bar progress-bar-warning"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>
+														</div>														
+													</li>
+													
+													<li>
+														<div class="task-progress">															
+															<div class="clearfix">
+																<span class="pull-left">Bug Fixes</span>
+																<span class="pull-right">90%</span>
+															</div>
+															<div class="progress progress-xs progress-striped active">
+																<div style="width:90%" class="progress-bar progress-bar-success"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>															
+														</div>
+													</li>
+													<li>
+														<div class="task-progress">	
+															<div class="clearfix">
+																<i class="fa fa-exclamation-triangle red icon-task"></i>
+																<span class="pull-left">Admin template change</span>
+																<span class="pull-right">20%</span>
+															</div>
+															<div class="progress progress-xs progress-striped active">
+																<div style="width:20%" class="progress-bar progress-bar-primary"></div>
+															</div>
+															<span  class="progress-bottom">Last update: 2015/05/06</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<span> Last updated on: 12/12/2013 9:43AM
+											<button type="button"  class="btn btn-xs btn-default pull-right">
+											<i class="fa fa-refresh"></i>
+											</button>
+										</span>
+									</li>
+								</ul>
+							</li>
+							
+							<li class="dropdown">
+								
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<img alt="Golabi Avatar Admin" src="../assets/img/avatars/avatar.png" height="50" width="50" class="img-circle" />
+									Albert Jackson
+									<strong class="caret"></strong>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Profile<span class="fa fa-user pull-right"></span></a>
+									</li>
+									<li>
+										<a href="#">Setting<span class="fa fa-cog pull-right"></span></a>
+									</li>
+									<li>
+										<a href="#">Messages<span class="badge pull-right"> 42 </span></a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#">Sign out<span class="fa fa-power-off pull-right"></span></a>
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+						
+						<ul class="nav navbar-nav navbar-right">
+
+							<li id="fullscreen-li">
+								<a href="#" id="fullscreen" class="dropdown-toggle" >
+									<i class="fa fa-arrows-alt"></i>
+								</a>
+							</li>
+							
+							<li id="side-hide-li" class="dropdown">
+								<a href="#" id="side-hide" class="dropdown-toggle" >
+									<i class="fa fa-reorder"></i>
+								</a>
+							</li>
+
+							
+						</ul>
+						<!-- search form in header -->
+						<form class="navbar-form navbar-right" >
+							<div class="form-group">
+								<input type="text" class="form-control search-header" placeholder="Enter Keyword" />
+								<button type="submit" class="btn btn-link search-header-btn" >
+								<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</form>
+						
+						
+					</div>
+					
+				</nav>
+			</header>
+
+			<!-- sidebar menu -->			
+			<div id="sidebar" class="sidebar" >				
+				<div class="tabbable-panel">
+					<div class="tabbable-line">
+						<ul class="nav nav-tabs nav-justified">
+							<li id="tab_menu_a" class="active">
+								<a href="#tab_menu_1" data-toggle="tab">
+									<i class="fa fa-reorder"></i>
+								</a>
+							</li>
+							<li id="contact-tab">
+								<a href="#tab_contact_2" data-toggle="tab">
+									<i class="fa fa-user"></i>
+								</a>
+							</li>
+							<li id="report-tab">
+								<a href="#tab_report_3" data-toggle="tab">
+									<i class="fa fa-pie-chart"></i>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab_menu_1">
+								<form class="search-menu-form" >
+									<div class="">
+										<input id="menu-list-search" placeholder="Search Menu..." type="text" class="form-control search-menu">										
+									</div>
+								</form>
+								
+								<!-- sidebar Menu -->
+								<div id="MainMenu" class="">
+									
+									<ul id="menu-list" class="nav nav-list">
+										<li class="separate-menu"><span>Main Menu</span></li>
+										<li>
+											<a href="index.html">
+												<i class="menu-icon fa fa-tachometer"></i>
+												<span class="menu-text"> Dashboard </span>
+											</a>
+
+											<b class="arrow"></b>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-desktop"></i>
+												<span class="menu-text"> UI &amp; Elements </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>											
+											<ul class="submenu nav-show"  >
+												<li class="">
+													<a href="generalelements.html" >
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">General Elements</span>
+													</a>
+
+													<b class="arrow"></b>													
+												</li>
+
+												<li >
+													<a href="typography.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Typography</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li >
+													<a href="tab.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Tab & Accordian</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												<li class="">
+													<a href="treeview.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Treeview</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="buttons.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Buttons &amp; Icons</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="jquery-ui.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">jQuery UI</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="nestable-list.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Nestable Lists</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="dual-list.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Dual Lists</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>																						
+												
+												<li class="">
+													<a href="image-crop.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Image Cropping</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="#" class="dropdown-toggle">
+														<i class="menu-icon fa fa-caret-right"></i>
+
+														<span class="menu-text">Three Level Menu</span>
+														<b class="arrow fa fa-angle-down"></b>
+													</a>
+
+													<b class="arrow"></b>
+
+													<ul class="submenu">
+														<li class="">
+															<a href="#">
+																<i class="menu-icon fa fa-leaf green"></i>
+																<span class="menu-text">Item #1</span>
+															</a>
+
+															<b class="arrow"></b>
+														</li>
+
+														<li class="">
+															<a href="#" class="dropdown-toggle">
+																<i class="menu-icon fa fa-pencil orange"></i>
+
+																<span class="menu-text">4th level</span>
+																<b class="arrow fa fa-angle-down"></b>
+															</a>
+
+															<b class="arrow"></b>
+
+															<ul class="submenu">
+																<li class="">
+																	<a href="#">
+																		<i class="menu-icon fa fa-plus purple"></i>
+																		<span class="menu-text">Add Product</span>
+																	</a>
+
+																	<b class="arrow"></b>
+																</li>
+
+																<li class="">
+																	<a href="#">
+																		<i class="menu-icon fa fa-eye pink"></i>
+																		<span class="menu-text">View Products</span>
+																	</a>
+
+																	<b class="arrow"></b>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-list"></i>
+												<span class="menu-text"> Tables </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu" >
+												<li class="">
+													<a href="tables.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Simple Tables</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="datatables.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Data Tables</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+											</ul>
+										</li>
+
+										<li class="open active">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-bar-chart-o"></i>
+												<span class="menu-text"> Charts </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="active">
+													<a href="flotchart.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Flot Chart</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="morrischart.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Morris Charts</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="jquery-sparklines.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">JQuery Sparklines</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+											</ul>
+										</li>
+										
+										<li class="separate-menu"><span>Forms</span></li>
+										
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-pencil-square-o"></i>
+												<span class="menu-text"> Forms </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="form-elements.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Elements</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="form-validations.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Validations</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="wizard-validation.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Wizard + Validation</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="WYSIWYG-editor.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">WYSIWYG Editor</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="form-plugins.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Form Plugins </span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-upload"></i>
+												<span class="menu-text"> File Uploader </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												
+												<li class="">
+													<a href="dropzone-file.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Dropzone File Uploader</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li >
+													<a href="multiple-file-upload.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Multiple File Upload</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>																						
+
+											</ul>
+										</li>
+										
+										<li class="separate-menu"><span>Components</span></li>
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-map-marker"></i>
+												<span class="menu-text"> Maps </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="vector-maps.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Vector Maps</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="google-map.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Google Map</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+										
+										<li class="">
+											<a href="mailbox.html">
+												<i class="menu-icon fa fa-envelope"></i>
+												<span class="menu-text"> Mailbox </span>
+												<span class="badge badge-info">5</span>
+											</a>
+
+										</li>
+
+										<li class="">
+											<a href="gallery.html">
+												<i class="menu-icon fa fa-picture-o"></i>
+												<span class="menu-text"> Gallery </span>
+												<span class="badge badge-transparent" >
+													<i class="fa fa-lg fa-exclamation-triangle red"></i>
+												</span>
+											</a>
+											
+											<b class="arrow"></b>
+										</li>
+
+										<li>
+											<a href="calendar.html">
+												<i class="menu-icon fa fa-calendar"></i>
+												<span class="menu-text"> Calendar </span>
+											</a>
+
+											<b class="arrow"></b>
+										</li>
+										
+										<li class="separate-menu"><span>Pages</span></li> 
+
+										<li class="">
+											<a href="#" class="dropdown-toggle">
+												<i class="menu-icon fa fa-file-o"></i>
+												<span class="menu-text"> More Pages </span>
+
+												<b class="arrow fa fa-angle-down"></b>
+											</a>
+
+											<b class="arrow"></b>
+
+											<ul class="submenu">
+												<li class="">
+													<a href="timeline.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Timeline</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li class="">
+													<a href="profile.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Profile</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+												
+												<li>
+													<a href="invoice.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Invoice</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="login.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Login & Register</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												 <li class="">
+													<a href="lock.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Lock Screen</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li> 
+
+												 
+
+												<li class="">
+													<a href="sms-verify.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">SMS Verify</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="search-page.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Search Page</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="blank.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Blank Page</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="404.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Error 404</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+												<li class="">
+													<a href="500.html">
+														<i class="menu-icon fa fa-caret-right"></i>
+														<span class="menu-text">Error 500</span>
+													</a>
+
+													<b class="arrow"></b>
+												</li>
+
+											</ul>
+										</li>
+									</ul>
+
+
+									<a class="sidebar-collapse" id="sidebar-collapse" data-toggle="collapse" data-target="#test">
+										<i id="icon-sw-s-b" class="fa fa-angle-double-left"></i>
+									</a>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_contact_2">
+							                
+				                <div class="search-menu-form" role="search">
+									<div class="">
+										<input id="contact-list-search" placeholder="Search Contact..." type="text" class="form-control search-menu">
+										<a href="#modal-add-contact" data-toggle="modal" class="btn-modal btn-link" title="Add Contact">
+											<i class="fa fa-plus"></i>
+										</a>
+									</div>
+								</div>
+				                
+				                
+				                 <ul class="list-group" id="contact-list">
+
+				                	<li class="separate-menu"><span>Online</span></li>
+
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-6-ct.jpg" alt="Scott Stevens" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Scott Stevens</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-7-ct.jpg" alt="Seth Frazier" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Seth Frazier</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="7396 E North St"></span>
+				                            <span class="visible-xs"> <span class="text-muted">7396 E North St</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(560) 180-4143"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(560) 180-4143</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="seth.frazier@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">seth.frazier@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-8-ct.jpg" alt="Todd Shelton" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Todd Shelton</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5133 Pecan Acres Ln"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5133 Pecan Acres Ln</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(522) 991-3367"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(522) 991-3367</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="todd.shelton@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">todd.shelton@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-9-ct.jpg" alt="Rosemary Porter" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Rosemary Porter</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5267 Cackson St"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5267 Cackson St</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(497) 160-9776"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(497) 160-9776</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="rosemary.porter@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">rosemary.porter@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-10-ct.jpg" alt="Debbie Schmidt" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9">
+				                            <span class="name">Debbie Schmidt</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="3903 W Alexander Rd"></span>
+				                            <span class="visible-xs"> <span class="text-muted">3903 W Alexander Rd</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(867) 322-1852"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(867) 322-1852</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="debbie.schmidt@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">debbie.schmidt@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+
+				                    <li class="separate-menu"><span>offline</span></li>
+				                    <li class="list-group-item">
+				                        <div class="col-xs-12 col-sm-3 avatar-contact">
+				                            <img src="../assets/img/avatars/avatar-11-ct.jpg" alt="Glenda Patterson" class="img-responsive img-flat" />
+				                        </div>
+				                        <div class="col-xs-12 col-sm-9 ">
+				                            <span class="name">Glenda Patterson</span><br/>
+				                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5020 Poplar Dr"></span>
+				                            <span class="visible-xs"> <span class="text-muted">5020 Poplar Dr</span><br/></span>
+				                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(538) 718-7548"></span>
+				                            <span class="visible-xs"> <span class="text-muted">(538) 718-7548</span><br/></span>
+				                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="glenda.patterson@example.com"></span>
+				                            <span class="visible-xs"> <span class="text-muted">glenda.patterson@example.com</span><br/></span>
+				                        </div>
+				                        <div class="clearfix"></div>
+				                    </li>
+				                </ul>
+							            
+							</div>
+							<div class="tab-pane " id="tab_report_3">
+
+								<div class="search-menu-form" role="search">
+									<div class="">
+										<input id="task-list-search" placeholder="Search Task..." type="text" class="form-control search-menu">
+										<a href="#modal-add-task" data-toggle="modal" class="btn-modal btn-link" title="Add Task">
+											<i class="fa fa-plus"></i>
+										</a>
+									</div>
+								</div>
+								<div class="task-content tasks-widget">
+                                  <ul id="sortable" class="task-list ui-sortable">
+                                      <li class="list-primary">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp">Flatlab is Modern Dashboard</span>
+                                              <span class="badge badge-sm label-success">2 Days</span>
+                                              
+                                          </div>
+                                      </li>
+
+                                      <li class="list-danger">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Fully Responsive &amp; Bootstrap 3.0.2 Compatible </span>
+                                              <span class="badge badge-sm label-danger">Done</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-success">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Daily Standup Meeting </span>
+                                              <span class="badge badge-sm label-warning">Company</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-warning">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Write well documentation for this theme </span>
+                                              <span class="badge badge-sm label-primary">3 Days</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-info">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> We have a plan to include more features in future update </span>
+                                              <span class="badge badge-sm label-info">Tomorrow</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-inverse">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Don't be hesitate to purchase this Dashbord </span>
+                                              <span class="badge badge-sm label-inverse">Now</span>
+                                             
+                                          </div>
+                                      </li>
+                                      <li class="list-primary">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Code compile and upload </span>
+                                              <span class="badge badge-sm label-success">2 Days</span>
+                                             
+                                          </div>
+                                      </li>
+
+                                      <li class="list-success">
+                                          <i class=" fa fa-ellipsis-v"></i>
+                                          <div class="task-checkbox m-checkbox">
+                                              <input type="checkbox" class="list-child">
+                                          </div>
+                                          <div class="task-title">
+                                              <span class="task-title-sp"> Tell your friends to buy this dashboad </span>
+                                              <span class="badge badge-sm label-danger">Now</span>
+                                              
+                                          </div>
+                                      </li>
+									  <li class="">                                         
+                                          <div class="task-title">
+                                              <a href="#" class="center"> See All Tasks ...</a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              
+                             
+                             
+							</div>
+						</div><!-- end tab-content-->
+					</div><!-- end tabbable-line -->
+				</div><!-- end tabbable-panel -->
+			</div>
+			<!-- /end #sidebar -->
+
+			<!-- main content  -->
+			<div id="main" class="main">
+				<div class="row">
+					<!-- breadcrumb section -->
+					<div class="ribbon">
+						<ul class="breadcrumb">
+							<li>
+								<i class="fa fa-home"></i>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Library</a>
+							</li>
+							<li>
+								<a href="#">Data</a>
+							</li>
+						</ul>
+					</div>
+					
+					<!-- main content -->
+					<div id="content">
+						<div id="sortable-panel" class="">
+
+							<div id="titr-content" class="col-md-12">
+								<h2>Flot Chart</h2>
+								<h5>pure JavaScript plotting library for jQuery...</h5>
+								<div class="actions">
+									<button class="btn btn-success ">Add new</button>
+									<button class="btn btn-default ">Options</button>
+								</div>
+							</div>
+						
+						
+							<div class="col-md-8 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Pie Chart									
+										</h4>
+										<strong>Pie Chart with multiple options that useful for any reports and monitorings. You can hidden label and legend and change style. </strong>
+										<h4></h4>
+										<div class="row">
+											<div class="col-md-8">
+												<div id="pie" class="chart-placeholder"></div>
+											</div>
+											<div class="col-md-4">
+												<div id="menu">
+												<button id="example-1" class="btn btn-info btn-block">Default Options</button>
+												<button id="example-2" class="btn btn-info btn-block">Without Legend</button>
+												<button id="example-3" class="btn btn-info btn-block">Label Formatter</button>
+												<button id="example-4" class="btn btn-info btn-block">Label Radius</button>
+												<button id="example-5" class="btn btn-info btn-block">Label Styles #1</button>
+												<button id="example-6" class="btn btn-info btn-block">Label Styles #2</button>													
+												<button id="example-9" class="btn btn-info btn-block">Rectangular Pie</button>
+												<button id="example-10" class="btn btn-info btn-block">Tilted Pie</button>
+												<button id="example-11" class="btn btn-info btn-block">Donut Hole</button>
+												
+											</div>
+											</div>
+										</div>
+
+									</div>
+									
+								</div><!-- end panel -->
+							</div><!-- end .col-md-8 -->
+
+							<div class="col-md-4 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Percentiles								
+										</h4>
+										<strong>As this example can be useful for plotting percentiles.</strong>
+										<h4></h4>
+
+										<div id="Percentiles" class="chart-placeholder"></div>
+
+									</div>
+									
+								</div><!-- end panel -->
+							</div><!-- end .col-md-4 -->
+							
+							<div class="col-md-6 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Basic Options Chart							
+										</h4>
+										<strong>Basic options chart to show somethings.</strong>
+										<h4></h4>
+
+										<div id="basic" class="chart-placeholder"></div>
+										
+									</div>	
+																						
+								</div><!-- end panel -->
+							</div><!-- end .col-md-6 -->
+							
+							<div class="col-md-6 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Interactivity							
+										</h4>
+										<strong>One of the goals of Flot is to support user interactions.</strong>
+										<h4></h4>
+
+										<div id="Interactivity" class="chart-placeholder"></div>
+
+									</div>
+									
+								</div><!-- end panel -->
+							</div><!-- end .col-md-6 -->
+
+							<div class="col-md-8 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Toggling							
+										</h4>
+										<strong>One of the goals of Flot is to support user interactions.</strong>
+										<h4></h4>
+
+										<div class="row">
+											<div class="col-md-10">
+												<div id="toggling" class="chart-placeholder"></div>
+											</div>
+											<div class="col-md-2">
+												<div id="choices" ></div>
+											</div>
+										</div>
+										
+										
+
+									</div>
+									
+								</div><!-- end panel -->
+							</div><!-- end .col-md-6 -->
+
+							<div class="col-md-4 ">
+								<div  class="panel panel-default">									
+									<div class="panel-body">
+										<h4 class="bold uppercase">
+											<i class="fa fa-bar-chart-o"></i>
+											Real Time Chart							
+										</h4>
+										<strong>You can update a chart periodically to get a real-time effect.</strong>
+										<h4></h4>
+
+										<div id="updating-chart" class="chart-placeholder"></div>
+
+									</div>
+									
+								</div><!-- end panel -->
+							</div><!-- end .col-md-4 -->
+							
+						</div><!-- end col-md-12 -->
+					</div><!-- end #content -->
+				</div><!-- end .row -->
+			</div>
+			<!-- ./end #main  -->
+			
+			<!-- footer -->
+			<div class="page-footer">				
+				<div class="col-xs-12 col-sm-12 text-center">
+					<strong class=""><a href="#">Golabi</a> YepTemplate  Application © 2015</strong>
+					<a href="#">
+						<i class="fa fa-twitter-square bigger-120"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-facebook-square bigger-120"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-rss-square orange bigger-120"></i>
+					</a>
+				</div>			
+			</div>
+			<!-- /footer -->
+			
+		</div>
+		<!-- end #container -->
+
+		<!-- General JS script library-->
+		<script type="text/javascript" src="../assets/vendors/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/jquery-ui/js/jquery-ui.min.js"></script>	
+		<script type="text/javascript" src="../assets/vendors/bootstrap/js/bootstrap.min.js"></script>						
+		<script type="text/javascript" src="../assets/vendors/jquery-searchable/js/jquery.searchable.min.js"></script>									
+		<script type="text/javascript" src="../assets/vendors/jquery-fullscreen/js/jquery.fullscreen.min.js"></script>																		
+		
+	
+		<!-- Yeptemplate JS Script --><!-- Please use *.min.js in production -->
+		<script type="text/javascript" src="../assets/js/yep-script.js"></script>
+		<script type="text/javascript" src="../assets/js/yep-demo.js"></script> 
+
+		<!-- Related JavaScript Library to This Pagee -->
+		<!--[if lte IE 8]>
+			<script language="javascript" type="text/javascript" src="../assets/vendors/flot/js/excanvas.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="../assets/vendors/flot/js/jquery.flot.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/flot/js/jquery.flot.fillbetween.min.js"></script>
+		<script type="text/javascript" src="../assets/vendors/flot/js/jquery.flot.pie.min.js"></script>
+		
+
+		<!-- Yeptemplate Vendors JS Script --><!-- Please use *.min.js in production -->
+		<script type="text/javascript" src="../assets/js/yep-vendors.js"></script>
+
+
+		<!-- Plugins Script -->
+		<script type="text/javascript">
+			/* Flot Basic */
+			$(document).ready(function () {
+				var d1 = [];
+				for (var i = 0; i < Math.PI * 2; i += 0.25) {
+					d1.push([i, Math.sin(i)]);
+				}
+
+				var d2 = [];
+				for (var i = 0; i < Math.PI * 2; i += 0.25) {
+					d2.push([i, Math.cos(i)]);
+				}
+
+				var d3 = [];
+				for (var i = 0; i < Math.PI * 2; i += 0.1) {
+					d3.push([i, Math.tan(i)]);
+				}
+
+				$.plot("#basic", [
+					{ label: "sin(x)", data: d1 },
+					{ label: "cos(x)", data: d2 },
+					{ label: "tan(x)", data: d3 }
+				], {
+					series: {
+						lines: { show: true },
+						points: { show: true }
+					},
+					xaxis: {
+						ticks: [
+							0, [ Math.PI/2, "\u03c0/2" ], [ Math.PI, "\u03c0" ],
+							[ Math.PI * 3/2, "3\u03c0/2" ], [ Math.PI * 2, "2\u03c0" ]
+						]
+					},
+					yaxis: {
+						ticks: 10,
+						min: -2,
+						max: 2,
+						tickDecimals: 3
+					},
+					grid: {
+						backgroundColor: { colors: [ "#fff", "#eee" ] },
+						borderWidth: {
+							top: 1,
+							right: 1,
+							bottom: 2,
+							left: 2
+						}
+					},
+					colors: ['#2196F3','#673AB7','#E91E63'],
+				});
+
+			});
+
+
+			/* Flot Percentiles Chart */
+			$(function() {
+				var males = {"15%": [[2, 88.0], [3, 93.3], [4, 102.0], [5, 108.5], [6, 115.7], [7, 115.6], [8, 124.6], [9, 130.3], [10, 134.3], [11, 141.4], [12, 146.5], [13, 151.7], [14, 159.9], [15, 165.4], [16, 167.8], [17, 168.7], [18, 169.5], [19, 168.0]], "90%": [[2, 96.8], [3, 105.2], [4, 113.9], [5, 120.8], [6, 127.0], [7, 133.1], [8, 139.1], [9, 143.9], [10, 151.3], [11, 161.1], [12, 164.8], [13, 173.5], [14, 179.0], [15, 182.0], [16, 186.9], [17, 185.2], [18, 186.3], [19, 186.6]], "25%": [[2, 89.2], [3, 94.9], [4, 104.4], [5, 111.4], [6, 117.5], [7, 120.2], [8, 127.1], [9, 132.9], [10, 136.8], [11, 144.4], [12, 149.5], [13, 154.1], [14, 163.1], [15, 169.2], [16, 170.4], [17, 171.2], [18, 172.4], [19, 170.8]], "10%": [[2, 86.9], [3, 92.6], [4, 99.9], [5, 107.0], [6, 114.0], [7, 113.5], [8, 123.6], [9, 129.2], [10, 133.0], [11, 140.6], [12, 145.2], [13, 149.7], [14, 158.4], [15, 163.5], [16, 166.9], [17, 167.5], [18, 167.1], [19, 165.3]], "mean": [[2, 91.9], [3, 98.5], [4, 107.1], [5, 114.4], [6, 120.6], [7, 124.7], [8, 131.1], [9, 136.8], [10, 142.3], [11, 150.0], [12, 154.7], [13, 161.9], [14, 168.7], [15, 173.6], [16, 175.9], [17, 176.6], [18, 176.8], [19, 176.7]], "75%": [[2, 94.5], [3, 102.1], [4, 110.8], [5, 117.9], [6, 124.0], [7, 129.3], [8, 134.6], [9, 141.4], [10, 147.0], [11, 156.1], [12, 160.3], [13, 168.3], [14, 174.7], [15, 178.0], [16, 180.2], [17, 181.7], [18, 181.3], [19, 182.5]], "85%": [[2, 96.2], [3, 103.8], [4, 111.8], [5, 119.6], [6, 125.6], [7, 131.5], [8, 138.0], [9, 143.3], [10, 149.3], [11, 159.8], [12, 162.5], [13, 171.3], [14, 177.5], [15, 180.2], [16, 183.8], [17, 183.4], [18, 183.5], [19, 185.5]], "50%": [[2, 91.9], [3, 98.2], [4, 106.8], [5, 114.6], [6, 120.8], [7, 125.2], [8, 130.3], [9, 137.1], [10, 141.5], [11, 149.4], [12, 153.9], [13, 162.2], [14, 169.0], [15, 174.8], [16, 176.0], [17, 176.8], [18, 176.4], [19, 177.4]]};
+
+				var females = {"15%": [[2, 84.8], [3, 93.7], [4, 100.6], [5, 105.8], [6, 113.3], [7, 119.3], [8, 124.3], [9, 131.4], [10, 136.9], [11, 143.8], [12, 149.4], [13, 151.2], [14, 152.3], [15, 155.9], [16, 154.7], [17, 157.0], [18, 156.1], [19, 155.4]], "90%": [[2, 95.6], [3, 104.1], [4, 111.9], [5, 119.6], [6, 127.6], [7, 133.1], [8, 138.7], [9, 147.1], [10, 152.8], [11, 161.3], [12, 166.6], [13, 167.9], [14, 169.3], [15, 170.1], [16, 172.4], [17, 169.2], [18, 171.1], [19, 172.4]], "25%": [[2, 87.2], [3, 95.9], [4, 101.9], [5, 107.4], [6, 114.8], [7, 121.4], [8, 126.8], [9, 133.4], [10, 138.6], [11, 146.2], [12, 152.0], [13, 153.8], [14, 155.7], [15, 158.4], [16, 157.0], [17, 158.5], [18, 158.4], [19, 158.1]], "10%": [[2, 84.0], [3, 91.9], [4, 99.2], [5, 105.2], [6, 112.7], [7, 118.0], [8, 123.3], [9, 130.2], [10, 135.0], [11, 141.1], [12, 148.3], [13, 150.0], [14, 150.7], [15, 154.3], [16, 153.6], [17, 155.6], [18, 154.7], [19, 153.1]], "mean": [[2, 90.2], [3, 98.3], [4, 105.2], [5, 112.2], [6, 119.0], [7, 125.8], [8, 131.3], [9, 138.6], [10, 144.2], [11, 151.3], [12, 156.7], [13, 158.6], [14, 160.5], [15, 162.1], [16, 162.9], [17, 162.2], [18, 163.0], [19, 163.1]], "75%": [[2, 93.2], [3, 101.5], [4, 107.9], [5, 116.6], [6, 122.8], [7, 129.3], [8, 135.2], [9, 143.7], [10, 148.7], [11, 156.9], [12, 160.8], [13, 163.0], [14, 165.0], [15, 165.8], [16, 168.7], [17, 166.2], [18, 167.6], [19, 168.0]], "85%": [[2, 94.5], [3, 102.8], [4, 110.4], [5, 119.0], [6, 125.7], [7, 131.5], [8, 137.9], [9, 146.0], [10, 151.3], [11, 159.9], [12, 164.0], [13, 166.5], [14, 167.5], [15, 168.5], [16, 171.5], [17, 168.0], [18, 169.8], [19, 170.3]], "50%": [[2, 90.2], [3, 98.1], [4, 105.2], [5, 111.7], [6, 118.2], [7, 125.6], [8, 130.5], [9, 138.3], [10, 143.7], [11, 151.4], [12, 156.7], [13, 157.7], [14, 161.0], [15, 162.0], [16, 162.8], [17, 162.2], [18, 162.8], [19, 163.3]]};
+
+				var dataset = [
+					{ label: "Female mean", data: females["mean"], lines: { show: true }, color: "rgb(255,50,50)" },
+					{ id: "f15%", data: females["15%"], lines: { show: true, lineWidth: 0, fill: false }, color: "rgb(255,50,50)" },
+					{ id: "f25%", data: females["25%"], lines: { show: true, lineWidth: 0, fill: 0.2 }, color: "rgb(255,50,50)", fillBetween: "f15%" },
+					{ id: "f50%", data: females["50%"], lines: { show: true, lineWidth: 0.5, fill: 0.4, shadowSize: 0 }, color: "rgb(255,50,50)", fillBetween: "f25%" },
+					{ id: "f75%", data: females["75%"], lines: { show: true, lineWidth: 0, fill: 0.4 }, color: "rgb(255,50,50)", fillBetween: "f50%" },
+					{ id: "f85%", data: females["85%"], lines: { show: true, lineWidth: 0, fill: 0.2 }, color: "rgb(255,50,50)", fillBetween: "f75%" },
+
+					{ label: "Male mean", data: males["mean"], lines: { show: true }, color: "rgb(50,50,255)" },
+					{ id: "m15%", data: males["15%"], lines: { show: true, lineWidth: 0, fill: false }, color: "rgb(50,50,255)" },
+					{ id: "m25%", data: males["25%"], lines: { show: true, lineWidth: 0, fill: 0.2 }, color: "rgb(50,50,255)", fillBetween: "m15%" },
+					{ id: "m50%", data: males["50%"], lines: { show: true, lineWidth: 0.5, fill: 0.4, shadowSize: 0 }, color: "rgb(50,50,255)", fillBetween: "m25%" },
+					{ id: "m75%", data: males["75%"], lines: { show: true, lineWidth: 0, fill: 0.4 }, color: "rgb(50,50,255)", fillBetween: "m50%" },
+					{ id: "m85%", data: males["85%"], lines: { show: true, lineWidth: 0, fill: 0.2 }, color: "rgb(50,50,255)", fillBetween: "m75%" }
+				];
+
+				$.plot($("#Percentiles"), dataset, {
+					xaxis: {
+						tickDecimals: 0
+					},
+					yaxis: {
+						tickFormatter: function (v) {
+							return v + " cm";
+						}
+					},
+					legend: {
+						position: "se"
+					},
+					colors: ['#2196F3','#673AB7','#E91E63'],
+				});
+
+			});
+
+			/* Flot Interactivity Chart*/
+			$(function() {
+				var sin = [],
+					cos = [];
+
+				for (var i = 0; i < 14; i += 0.5) {
+					sin.push([i, Math.sin(i)]);
+					cos.push([i, Math.cos(i)]);
+				}
+
+				var plot = $.plot("#Interactivity", [
+					{ data: sin, label: "sin(x)"},
+					{ data: cos, label: "cos(x)"}
+				], {
+					series: {
+						lines: {
+							show: true
+						},
+						points: {
+							show: true
+						}
+					},
+					grid: {
+						hoverable: true,
+						clickable: true
+					},
+					yaxis: {
+						min: -1.2,
+						max: 1.2
+					},
+					colors: ['#2196F3','#673AB7','#E91E63'],
+
+				});
+
+				$("<div id='tooltip'></div>").css({
+					position: "absolute",
+					display: "none",
+					border: "1px solid #fdd",
+					padding: "2px",
+					"background-color": "#fee",
+					opacity: 0.80
+				}).appendTo("body");
+
+				$("#Interactivity").bind("plothover", function (event, pos, item) {
+
+					if ($("#enablePosition:checked").length > 0) {
+						var str = "(" + pos.x.toFixed(2) + ", " + pos.y.toFixed(2) + ")";
+						$("#hoverdata").text(str);
+					}
+
+					if ($("#enableTooltip:checked").length > 0) {
+						if (item) {
+							var x = item.datapoint[0].toFixed(2),
+								y = item.datapoint[1].toFixed(2);
+
+							$("#tooltip").html(item.series.label + " of " + x + " = " + y)
+								.css({top: item.pageY+5, left: item.pageX+5})
+								.fadeIn(200);
+						} else {
+							$("#tooltip").hide();
+						}
+					}
+				});
+
+				$("#Interactivity").bind("plotclick", function (event, pos, item) {
+					if (item) {
+						$("#clickdata").text(" - click point " + item.dataIndex + " in " + item.series.label);
+						plot.highlight(item.series, item.datapoint);
+					}
+				});
+			});
+
+
+
+			/* Flot Pie Chart */
+			$(function() {
+
+				function setCode(lines) {
+					$("#code").text(lines.join("\n"));
+				}
+				// Example Data						
+
+				var data = [],
+					series = Math.floor(Math.random() * 6) + 3;
+
+				
+				data = [
+					{
+						label: "Series 1",
+						data: 50,
+						color: '#03A9F4'
+					},
+					{
+						label: "Series 2",
+						data: 20,
+						color: '#3F51B5'
+					},					
+					{
+						label: "Series 4",
+						data: 5,
+						color:'#9C27B0'
+					},
+					{
+						label: "Series 3",
+						data: 10,
+						color: '#00BCD4'
+					},
+				]
+				
+
+				var placeholder = $("#pie");
+
+				$("#example-1").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true
+							}
+						}
+					});
+
+					
+				});
+
+				$("#example-2").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-3").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 1,
+								label: {
+									show: true,
+									radius: 1,
+									formatter: labelFormatter,
+									background: {
+										opacity: 0.8
+									}
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-4").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 1,
+								label: {
+									show: true,
+									radius: 3/4,
+									formatter: labelFormatter,
+									background: {
+										opacity: 0.5
+									}
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-5").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 1,
+								label: {
+									show: true,
+									radius: 3/4,
+									formatter: labelFormatter,
+									background: { 
+										opacity: 0.5,
+										color: "#000"
+									}
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-6").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 3/4,
+								label: {
+									show: true,
+									radius: 3/4,
+									formatter: labelFormatter,
+									background: { 
+										opacity: 0.5,
+										color: "#000"
+									}
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+				
+
+				$("#example-9").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 500,
+								label: {
+									show: true,
+									formatter: labelFormatter,
+									threshold: 0.1
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-10").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								show: true,
+								radius: 1,
+								tilt: 0.5,
+								label: {
+									show: true,
+									radius: 1,
+									formatter: labelFormatter,
+									background: {
+										opacity: 0.8
+									}
+								},
+								combine: {
+									color: "#999",
+									threshold: 0.1
+								}
+							}
+						},
+						legend: {
+							show: false
+						}
+					});
+
+					
+				});
+
+				$("#example-11").click(function() {
+
+					placeholder.unbind();
+
+					$.plot(placeholder, data, {
+						series: {
+							pie: { 
+								innerRadius: 0.5,
+								show: true
+							}
+						}
+					});
+
+					
+				});
+
+				// Show the initial default chart
+
+				$("#example-1").click();
+
+				// Add the Flot version string to the footer
+
+				$("#footer").prepend("Flot " + $.plot.version + " &ndash; ");
+			});
+
+			/* Flot Toggling Series */
+			$(function() {
+				var datasets = {
+					
+					"usa": {
+						label: "USA",
+						data: [[1988, 100], [1989, 150], [1990, 200], [1991, 250], [1992, 300], [1993, 320], [1994, 330], [1995, 340], [1996, 350]]
+					},
+					
+					"denmark": {
+						label: "Denmark",
+						data: [[1988, 200], [1989, 600], [1990, 500], [1991, 450], [1992, 480], [1993, 600], [1994, 560], [1995, 320], [1996, 450]]
+					},
+					"sweden": {
+						label: "Sweden",
+						data: [[1988, 150], [1989, 180], [1990, 190], [1991, 200], [1992, 210], [1993, 215], [1994, 220], [1995, 223], [1996, 225]]
+					}
+				};
+
+				// hard-code color indices to prevent them from shifting as
+				// countries are turned on/off
+
+				var i = 0;
+				$.each(datasets, function(key, val) {
+					val.color = i;
+					++i;
+				});
+
+				// insert checkboxes 
+				var choiceContainer = $("#choices");
+				$.each(datasets, function(key, val) {
+					choiceContainer.append("<div class='checkbox checkbox-primary'><input checked id='id" + key + "' type='checkbox'  name='" + key +"'><label for='id" + key + "'>"+ val.label + "</label></div>");
+				});
+
+				choiceContainer.find("input").click(plotAccordingToChoices);
+
+				function plotAccordingToChoices() {
+
+					var data = [];
+
+					choiceContainer.find("input:checked").each(function () {
+						var key = $(this).attr("name");
+						if (key && datasets[key]) {
+							data.push(datasets[key]);
+						}
+					});
+
+					if (data.length > 0) {
+						$.plot("#toggling", data, {
+							yaxis: {
+								min: 0
+							},
+							xaxis: {
+								tickDecimals: 0
+							},
+							colors: ['#2196F3','#673AB7','#E91E63'],
+						});
+					}
+				}
+
+				plotAccordingToChoices();
+
+			});
+
+
+			/* Flot Real time chart*/
+			var $chrt_fourth = "#7e9d3a";
+			if ($('#updating-chart').length) {
+
+				// For the demo we use generated data, but normally it would be coming from the server
+				var data = [], totalPoints = 200;
+				function getRandomData() {
+					if (data.length > 0)
+						data = data.slice(1);
+
+					// do a random walk
+					while (data.length < totalPoints) {
+						var prev = data.length > 0 ? data[data.length - 1] : 50;
+						var y = prev + Math.random() * 10 - 5;
+						if (y < 0)
+							y = 0;
+						if (y > 100)
+							y = 100;
+						data.push(y);
+					}
+
+					// zip the generated y values with the x values
+					var res = [];
+					for (var i = 0; i < data.length; ++i)
+						res.push([i, data[i]])
+					return res;
+				}
+
+				// setup control widget
+				var updateInterval = 500;
+				$("#updating-chart").val(updateInterval).change(function() {
+					var v = $(this).val();
+					if (v && !isNaN(+v)) {
+						updateInterval = +v;
+						if (updateInterval < 1)
+							updateInterval = 1;
+						if (updateInterval > 2000)
+							updateInterval = 2000;
+						$(this).val("" + updateInterval);
+					}
+				});
+
+				// setup plot
+				var options = {
+					yaxis : {
+						min : 0,
+						max : 100
+					},
+					xaxis : {
+						min : 0,
+						max : 100
+					},
+					colors: ["#03A9F4"],
+					series : {
+						lines : {
+							lineWidth : 1,
+							fill : true,
+							fillColor : {
+								colors : [{
+									opacity : 0.4
+								}, {
+									opacity : 0
+								}]
+							},
+							steps : false
+
+						}
+					}
+				};
+				var plot = $.plot($("#updating-chart"), [getRandomData()], options);
+
+				function update() {
+					plot.setData([getRandomData()]);
+					// since the axes don't change, we don't need to call plot.setupGrid()
+					plot.draw();
+
+					setTimeout(update, updateInterval);
+				}
+
+				update();
+
+			}
+			
+		</script>
+
+		<!-- Google Analytics Script -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-67070957-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	</body>
+</html>

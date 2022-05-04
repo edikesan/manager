@@ -1,0 +1,33 @@
+ngLaravel v1.4.5
+	- Fix search in user list issue
+	- Fix search & per page toggle issue
+
+
+ngLaravel v1.3.4
+	- Add multi language feature with change direction for RTL languages
+	- Add and imporove notification  
+	- Add dynamic load angular-local
+	- Add modular partial loading language file by module	
+
+ngLaravel v1.2.3
+	- Add cacheFactory
+	- Add Import wizard from XLS & CSV file
+	- Add export XLS & CSV & PDF
+	- Improve load page speed with cache method
+	- Fix Task delete issue as promis
+	- Fix user password in edit mode
+
+ngLaravel v1.1.3
+	- Add preloader in login page
+	- Add preloader in stateChange
+	- Add Demo version restriction 
+	- Add load data before opening page
+	- Improve documention and add video tutorial
+	- Fix Task edit issue
+	- Fix user list preview issues
+        - Fix edit image gallery with multi uploader 	
+
+ngLaravel v1.0
+	- Initial release
+
+

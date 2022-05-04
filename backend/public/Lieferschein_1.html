@@ -1,0 +1,131 @@
+<style>
+    small {
+        font-size: smaller;
+    },
+    table{
+        font-size: 10px;
+        font-family: "Sans-serif";
+    }
+</style>
+<body>
+<script type="text/php">
+        $text = 'Seite {PAGE_NUM} von {PAGE_COUNT}';
+        $size = 10;
+        $font = Font_Metrics::get_font("Sans-serif", "normal");
+        $width = Font_Metrics::get_text_width($text, $font, $size) / 2;
+//        $x = ($pdf->get_width() - $width) / 2;
+//        $y = $pdf->get_height() - 35;
+//        $pdf->page_text($x, $y, $text, $font, $size);
+        $pdf->page_text(352, 200, $text, $font, 8);
+ </script>
+<table width="100%">
+    <tr>
+        <td width="50%">
+            <img style="margin-top: -17px;margin-left: -13px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAB5klEQVR4nO2byW7EIBAFM1b+/5Ot3Lggka5uMFhTdZwFrFI/gVk+933/SIxr9wO8CWUBlAVQFkBZAGUBlAVQFkBZAGUBlAVQFkBZAGUBlAVQFkBZgN/c366rZHmwPDtouf1rXe9jrCyAsgDJGDZQSffxKYau2DvFygIoC1CNYSMXlv6r1g5Kzayo/tPLrIa+AWUBpsUwRx+fQTC3c8pzvAJlATbHcNbr3jO84BHPQVmAaTHMzf1a+gaDYKTlZ47kWVkAZQGqMZw+ivXpi0T1GawsgLIAn0OOdqOxbxdWFkBZgCf2DXNbD5FhMfdJGisLoCxAdTQs5jHSe+THg/QNHoNiZQGUBUjGcLDRkHtfy52rGfS+YnJrZQGUBUhOStHqJVpjiewk9j92NDwOZQHmn6Lpi3wQjcgBG0fDV6IswOaV0uKizeCrFWs1VhZAWYDjblgUJ65LD5daWQBlAapLNLk7DmjNM9cymgBHeyn+/6tQFmDzDYtZK66RF1InpY+iLMDmo90RIq97S3ftG1YWQFmA42KIFlsarpQeh7IAm29Y5NpB2xyOhntQFuCUGxbFDUTPlB6HsgCn3LB4BVYWQFkAZQGUBVAWQFkAZQGUBVAWQFkAZQGUBVAWQFkAZQGUBVAWQFmAP5D5Dq+AGIOuAAAAAElFTkSuQmCC">
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="40%">
+            <strong>Propan Rheingas GmbH & Co. KG</strong><br>
+            Fischenicher Str. 23<br>
+            50321 Brühl<br>
+            <small>www.rheingas.de</small>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><span style="font-size:6pt;">Propan Rheingas GmbH & Co. KG - Postfach 17 20 - 50309 Brühl</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>Musterfirma</td>
+        <td>&nbsp;</td>
+        <td><strong>Kundenservice</strong></td>
+    </tr>
+    <tr>
+        <td>237686</td>
+        <td>&nbsp;</td>
+        <td>Telefon: 0800 / 65 65 65 8 (gebührenfrei)</td>
+    </tr>
+    <tr>
+        <td>237686</td>
+        <td>&nbsp;</td>
+        <td>Telefax: 01801 / 862 862</td>
+    </tr>
+    <tr>
+        <td>237686</td>
+        <td>&nbsp;</td>
+        <td><small>E-Mail: flaschengas@rheingas.de</small></td>
+    </tr>
+    <tr>
+        <td height="40">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+            <table cellspacing="0">
+                <tr>
+                    <td style="border-left:1px solid #000; border-top:1px solid #000"><strong> Kunden-Nr. </strong></td>
+                    <td style="border-right:1px solid #000; border-top:1px solid #000"><strong> Beleg-Nr. </strong></td>
+                    <td align="center"><strong>Datum</strong></td>
+                </tr>
+                <tr>
+                    <td style="border-left:1px solid #000; border-bottom:1px solid #000">237686</td>
+                    <td style="border-right:1px solid #000; border-bottom:1px solid #000">3060102 </td>
+                    <td align="center" style="padding-left: 5px;">22.10.2019</td>
+                </tr>
+            </table>
+            <span style="font-size:6pt;">bei Zahlung und Rückfragen immer angeben</span>
+        </td>
+    </tr>
+    <tr>
+        <td height="10">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+            <table cellspacing="0">
+                <tr>
+                    <td>Bestell-Nr.: </td>
+                    <td>per Fax</td>
+                </tr>
+                <tr>
+                    <td>Telefon-Nr. Kunde(LA)</td>
+                    <td>3060102 </td>
+                </tr>
+                <tr>
+                    <td>Mobil-Tel-Nr. Kunde</td>
+                    <td>3060102 </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><span style="font-size:16pt;">Lieferschein</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<table width="100%" cellspacing="0" style="margin-top: 20px" cellpadding="5">
+    <tr>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000; border-left:1px solid #000;">Artikel-Nummer</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Bezeichnung</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Bestell-menge</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Einheit</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Liefer-menge</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Anzahl Leergut</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000;">Einzelpreis netto</td>
+        <td style="border-bottom:1px solid #000; border-top:1px solid #000; border-right:1px solid #000;">Gesamtpreis netto</td>
+    </tr>
+</table>
+</body>

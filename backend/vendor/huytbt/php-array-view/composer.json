@@ -1,0 +1,33 @@
+{
+    "name": "huytbt/php-array-view",
+    "description": "PHP Array View",
+    "keywords": ["view", "array", "helper"],
+    "support": {
+        "issues": "https://github.com/huytbt/php-array-view/issues",
+        "source": "https://github.com/huytbt/php-array-view"
+    },
+    "authors": [
+        {
+            "name": "Huy Ta",
+            "email": "huytbt@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChickenCoder\\ArrayView\\": "src/ArrayView"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

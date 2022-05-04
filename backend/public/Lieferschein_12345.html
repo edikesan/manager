@@ -1,0 +1,88 @@
+<style>
+    small {
+        font-size: smaller;
+    },
+    table{
+        font-size: 10px;
+    }
+</style>
+<script type="text/php">
+        $text = 'Seite {PAGE_NUM} von {PAGE_COUNT}';
+        $size = 10;
+        $font = Font_Metrics::get_font("helvetica", "normal");
+        $width = Font_Metrics::get_text_width($text, $font, $size) / 2;
+        $x = ($pdf->get_width() - $width) / 2;
+        $y = $pdf->get_height() - 35;
+        $pdf->page_text($x, $y, $text, $font, $size);
+        $pdf->page_text(510, 823, $text, $font, 8);
+ </script>
+<body>
+<table width="100%">
+    <tr>
+        <td width="50%">
+            <img style="margin-top: -17px;margin-left: -13px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAB5klEQVR4nO2bS47EIAwFp6O+/5Gj2bFBYlzGBKKpWnY+RCU/hZjmc9/3j8S4dj/Am1AWQFkAZQGUBVAWQFkAZQGUBVAWQFkAZQGUBVAWQFkAZQGUBfjmLruuKct9e3ZwQ3RybvQgVhZAWYBkDBuopPv4tF9yWZscnWJlAZQFmI1hA73OIvdpVw2iWj76H89WdaP/gLIAZTHM0WdtcM52rCyAsgCbYxiZlBrDV6IsQFkMq8KSS98zUbWyAMoCzMZwvu8RH6K8ZYqf5MnB3o6yAJ+9U75XfBI2rCyAsgBl64aRxubgqsE5g95pz+Cc+VxbWQBlAWbfhpE85g5NLlis6PlYWQBlAcompbkvuMjouT/YrHgtWlkAZQGSMZx8s5TPaZ9Z3bCyAMoClHVKc3PRntwX5eB5IoeCWFkAZQGSMRxUMjrUojGZEZT0NFYWQFmAU3ZYTK4JRho7dkofRVmAzTssUCNlsJbR/7LiI9HKAigLcNwOi/I72yndg7IAp/y1O3co0ikt/Gy0sgDKApy70Sm38Oek9BSUBdi8w6J8i/3S+1hZAGUBTtlh0b/7cgldum/RygIoC7B5h8W7sLIAygIoC6AsgLIAygIoC6AsgLIAygIoC6AsgLIAygIoC6AsgLIAygL8AhXD/7X0SaWPAAAAAElFTkSuQmCC">
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="40%">
+            <strong>Propan Rheingas GmbH & Co. KG</strong><br>
+            Fischenicher Str. 23<br>
+            50321 Brühl<br>
+            <small>www.rheingas.de</small>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><span style="font-size:6pt;">Rheingas GmbH & Co. KG - Postfach 17 20 - 50309 Brühl</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>Mustermann</td>
+        <td>&nbsp;</td>
+        <td><strong>Kundenservice</strong></td>
+    </tr>
+    <tr>
+        <td>110557</td>
+        <td>&nbsp;</td>
+        <td>Telefon: 0800 / 65 65 65 8 (gebührenfrei)</td>
+    </tr>
+    <tr>
+        <td>110557</td>
+        <td>&nbsp;</td>
+        <td>Telefax: 01801 / 862 862</td>
+    </tr>
+    <tr>
+        <td>110557</td>
+        <td>&nbsp;</td>
+        <td><small>E-Mail: flaschengas@rheingas.de</small></td>
+    </tr>
+    <tr>
+        <td height="100">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+            <span style="font-size:6pt;">bei Zahlung und Rückfragen immer angeben</span>
+            <table cellspacing="0" cellpadding="5">
+                <tr>
+                    <td style="border-left:1px solid #000; border-top:1px solid #000"><strong> Kunden-Nr. </strong</td>
+                    <td style="border-right:1px solid #000; border-top:1px solid #000"><strong> Beleg-Nr. </strong></td>
+                    <td><strong>Datum</strong></td>
+                </tr>
+                <tr>
+                    <td style="border-left:1px solid #000; border-bottom:1px solid #000">110557</td>
+                    <td style="border-right:1px solid #000; border-bottom:1px solid #000">3060101 </td>
+                    <td>21.10.2019</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>

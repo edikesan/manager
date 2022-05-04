@@ -1,0 +1,118 @@
+---------- 05-11-2121 15:55:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.5.2021","menge":"1","mengeleer":2}
+---------- 05-11-2121 15:57:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":"1","mengeleer":2}
+---------- 05-11-2121 16:02:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":2}
+---------- 05-11-2121 16:29:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":0}
+---------- 05-11-2121 16:34:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":0}
+---------- 05-11-2121 16:34:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":0}
+---------- 05-11-2121 16:35:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":4}
+---------- 05-11-2121 16:43:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":5}
+---------- 05-11-2121 16:49:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":5}
+---------- 05-11-2121 16:52:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"11.05.2021","menge":1,"mengeleer":5}
+---------- 05-12-2121 09:17:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":3}
+---------- 05-12-2121 10:18:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":2}
+---------- 05-12-2121 10:23:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":4}
+---------- 05-12-2121 10:49:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":2,"mengeleer":4}
+---------- 05-12-2121 10:50:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":2}
+---------- 05-12-2121 10:51:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":3,"mengeleer":4}
+---------- 05-12-2121 10:54:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":3,"mengeleer":2}
+---------- 05-12-2121 10:56:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":3}
+---------- 05-12-2121 10:59:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":2,"mengeleer":1}
+---------- 05-12-2121 11:37:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":2,"mengeleer":3}
+---------- 05-12-2121 14:26:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":1,"mengeleer":0}
+---------- 05-12-2121 14:28:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":2,"mengeleer":3}
+---------- 05-12-2121 14:30:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"12.05.2021","menge":2,"mengeleer":-1}
+---------- 05-12-2121 14:45:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":1}
+---------- 05-12-2121 15:08:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:09:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:09:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"12.05.2021","menge":1,"mengeleer":0}
+---------- 05-12-2121 15:10:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:11:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"12.05.2021","menge":1,"mengeleer":0}
+---------- 05-12-2121 15:12:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:15:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:16:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"12.05.2021","menge":1,"mengeleer":0}
+---------- 05-12-2121 15:17:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"12.05.2021","menge":2,"mengeleer":0}
+---------- 05-12-2121 15:17:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"12.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 10:51:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":1}
+---------- 05-14-2121 10:54:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:03:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:24:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:26:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:27:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:32:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 11:35:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:36:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:37:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:40:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:42:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:43:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 11:46:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:51:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:51:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 11:52:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:52:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:52:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 11:52:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 11:53:58 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 11:54:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259158","termin":"14.05.2021","menge":2,"mengeleer":0}
+---------- 05-14-2121 11:54:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259156","termin":"14.05.2021","menge":1,"mengeleer":0}
+---------- 05-14-2121 13:18:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}
+---------- 05-14-2121 13:34:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_UPDATE_AUFTRAEGE_TAXI_POSITION","belegzeilenid":"14259114","termin":"14.05.2021","menge":3,"mengeleer":0}

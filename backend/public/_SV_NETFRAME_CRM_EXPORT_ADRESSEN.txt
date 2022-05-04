@@ -1,0 +1,152 @@
+---------- 09-06-2121 16:35:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN"}
+---------- 09-06-2121 16:38:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","plz":"06901"}
+---------- 09-06-2121 16:49:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-06-2121 16:56:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-06-2121 16:56:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-06-2121 16:56:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-06-2121 16:59:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-06-2121 17:01:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Haupt","plz":"06901"}
+---------- 09-06-2121 17:02:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Haupt","plz":"06901"}
+---------- 09-06-2121 17:02:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Haupt","plz":"06901"}
+---------- 09-07-2121 09:17:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Bahnhofstrasse","plz":"06901"}
+---------- 09-07-2121 09:17:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"","plz":"06901"}
+---------- 09-07-2121 09:17:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:19:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:19:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:21:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:22:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:24:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:25:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:41:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 09:59:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:02:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:04:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:05:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:26:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 10:26:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 10:26:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:28:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:30:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:31:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:35:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:38:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:39:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:54:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:55:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 10:56:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:00:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:00:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:01:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:04:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:08:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 11:08:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 11:10:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 11:48:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"","strasse":"","plz":""}
+---------- 09-07-2121 11:50:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 11:52:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:01:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:02:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:04:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:07:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:35:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 12:36:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:10:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:11:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:13:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:15:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:18:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:24:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:25:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:25:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:28:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:35:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:38:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:43:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"buchspies","strasse":"","plz":""}
+---------- 09-07-2121 14:43:58 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"buchspies","strasse":"","plz":""}
+---------- 09-07-2121 14:44:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"wagner","strasse":"","plz":""}
+---------- 09-07-2121 14:44:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 14:55:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 15:06:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 15:11:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 15:30:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"06901"}
+---------- 09-07-2121 16:21:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Hauptstr","plz":"00000"}
+---------- 09-07-2121 16:23:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mustermann","strasse":"Mustermann","plz":"00000"}
+---------- 10-07-2121 10:41:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mix","strasse":"Am Klosterhof 4","plz":"52249"}
+---------- 10-07-2121 10:41:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Mix","strasse":"Am Klosterho","plz":"52249"}
+---------- 10-07-2121 10:42:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_CRM_EXPORT_ADRESSEN","name":"Daute","strasse":"Fliederst","plz":"06179"}

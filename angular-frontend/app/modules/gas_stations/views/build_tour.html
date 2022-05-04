@@ -1,0 +1,65 @@
+<div class="modal fade ng-scope in" id="buildTourModal" style="width: 50%; margin-left: 30%;" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="buildTourModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="20%">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <div class="table-responsive" style="margin-top: 10px;">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Tour</td>
+                            <td>
+                                <input ng-model="editTour.name" ng-change="setStyles();" type="text" class="pull-left form-control" style="{{tour_style}}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ladedatum</td>
+                            <td>
+                                <input type="input" id="date" ng-model="editTour.ladedatum" ng-change="setStyles();" class="pull-left form-control" data-date-format="DD.MM.YYYY"  style="{{ladedatum_style}}" readonly="true">
+                                <!--input type="input" id="date" ng-model="change_data.ladedatum" style="" ng-change="setLadedatumStyle();" class="form-control hasDatepicker ng-pristine ng-valid ng-touched" readonly="true"-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Terminal</td>
+                            <td>
+                                <select ng-model="editTour.lager" ng-change="setStyles();" required ng-change="setStyles();" class="pull-left form-control" style="{{lager_style}}">
+                                    <option ng-repeat="terminal in terminals" value="{{terminal.id}}">{{terminal.name}}</option>
+                                </select>
+                                <!--input ng-model="editTour.lager" ng-change="setStyles();" type="text" class="pull-left form-control" style="{{lager_style}}" maxlength="12"-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lademenge</td>
+                            <td>
+                                <input ng-model="editTour.lademenge" ng-change="setStyles();" type="text" class="pull-left form-control" style="{{lademenge_style}}">
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        <button class="btn btn-success change pull-right" ng-if="editTour.name != '' && editTour.ladedatum != '' && editTour.lager != '' && editTour.lademenge != ''" ng-click="createTour(editTour)">
+                            <i class="fa fa-save"></i> Save
+                        </button>
+                        <div ng-if="!(editTour.name != '' && editTour.ladedatum != '' && editTour.lager != '' && editTour.lademenge != '')" class="pull-right" style="color: darkred;"><i class="fa fa-info-circle" style="font-size: 150%;"></i>
+                            Um zu speichern, füllen Sie bitte die rot markierten Felder aus.
+                        </div>
+                        <button class="btn btn-danger change pull-left" ng-click="tourBuildAbbrechen()"><i class="fa fa-ban"></i> Cancel </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        if (!$.fn.bootstrapDP && $.fn.datepicker && $.fn.datepicker.noConflict) {
+            var datepicker = $.fn.datepicker.noConflict();
+            $.fn.bootstrapDP = datepicker;
+        }
+        $("#date").datepicker({
+            dateFormat: "dd.mm.yy",
+            firstDay: 1,
+            showButtonPanel: true,
+            showAnim: 'blind',
+            ignoreReadonly: true,
+            allowInputToggle: true
+        });
+    });
+</script>

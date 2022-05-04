@@ -1,0 +1,26 @@
+---------- 05-22-2020 16:04:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:04:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:05:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259497"}
+---------- 05-22-2020 16:07:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:11:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:17:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:18:58 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:19:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259497"}
+---------- 05-22-2020 16:19:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:19:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:20:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-22-2020 16:20:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}
+---------- 05-25-2020 10:18:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_BESTELLUNG_FREIGABE_POS","belegid":"2259523"}

@@ -1,0 +1,92 @@
+---------- 05-28-2020 15:15:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"28.05.2020","positionen":[{"artikel":{"artikelnr":"152","menge":"1"}},{"artikel":{"artikelnr":"172","menge":"2"}}]}
+---------- 05-29-2020 09:55:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"[object Object]","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"800","menge":"5"}}]}
+---------- 05-29-2020 09:56:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"[object Object]","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"112","menge":"2"}}]}
+---------- 05-29-2020 09:59:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"800","menge":"5"}}]}
+---------- 05-29-2020 10:11:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"800","menge":"5"}}]}
+---------- 05-29-2020 10:52:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"112","menge":"2"}}]}
+---------- 05-29-2020 10:59:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"152","menge":"1"}}]}
+---------- 05-29-2020 11:00:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"172","menge":"2"}}]}
+---------- 05-29-2020 11:44:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"102","menge":"1"}},{"artikel":{"artikelnr":"112","menge":"2"}},{"artikel":{"artikelnr":"132","menge":"3"}},{"artikel":{"artikelnr":"152","menge":"4"}},{"artikel":{"artikelnr":"172","menge":"1"}}]}
+---------- 05-29-2020 11:48:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"112","menge":"2"}}]}
+---------- 05-29-2020 11:49:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"172","menge":"1"}}]}
+---------- 05-29-2020 11:49:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"152","menge":"2"}}]}
+---------- 05-29-2020 11:49:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"152","menge":"2"}}]}
+---------- 05-29-2020 11:50:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"132","menge":"2"}}]}
+---------- 05-29-2020 11:50:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"132","menge":"1"}}]}
+---------- 05-29-2020 11:51:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"102","menge":"10"}}]}
+---------- 05-29-2020 11:51:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"102","menge":"1"}}]}
+---------- 05-29-2020 11:51:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1414","lagernr":"HC1","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"102","menge":"10"}}]}
+---------- 05-29-2020 15:48:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"HC1","lagernr":"1414","datum":"29.05.2020","positionen":[{"artikel":{"artikelnr":"132","menge":"10"}},{"artikel":{"artikelnr":"402","menge":"3"}},{"artikel":{"artikelnr":"1000","menge":"4"}}]}
+---------- 02-01-2222 17:19:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"01.02.2022","positionen":[{"artikel":{"artikelnr":"101477","menge":"1"}},{"artikel":{"artikelnr":"1522","menge":"1"}}]}
+---------- 02-01-2222 17:21:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"01.02.2022","positionen":[{"artikel":{"artikelnr":"101477","menge":"1"}}]}
+---------- 02-02-2222 11:38:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"02.02.2022","positionen":[{"artikel":{"artikelnr":"1523","menge":"1"}}]}
+---------- 02-02-2222 11:39:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1368","lagernr":"E01","datum":"02.02.2022","positionen":[{"artikel":{"artikelnr":"1523","menge":"1"}}]}
+---------- 02-02-2222 11:43:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"02.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"1"}}]}
+---------- 02-07-2222 11:12:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2"}}]}
+---------- 02-07-2222 12:16:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"3"}}]}
+---------- 02-07-2222 12:19:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"3","zaehlern":[{"zaelher":"68285"},{"zaelher":"68283"},{"zaelher":"68275"}]}}]}
+---------- 02-07-2222 12:19:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"3","zaehlern":[{"zaelher":"68283"},{"zaelher":"68285"},{"zaelher":"68286"}]}}]}
+---------- 02-07-2222 12:23:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"3931","menge":"1","zaehlern":[]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehlern":[{"zaelher":"67358"},{"zaelher":"68197"}]}},{"artikel":{"artikelnr":"1523","menge":"2","zaehlern":[]}}]}
+---------- 02-07-2222 12:29:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"3931","menge":"1","zaehler":[]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"seriennummer":"67358"},{"seriennummer":"68197"}]}},{"artikel":{"artikelnr":"1523","menge":"1","zaehler":[]}}]}
+---------- 02-07-2222 12:36:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"07.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"76881"},{"objektid":"76882"}]}},{"artikel":{"artikelnr":"1523","menge":"3","zaehler":[]}}]}
+---------- 02-09-2222 11:50:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"09.02.2022","positionen":[{"artikel":{"artikelnr":"101805","menge":"1","zaehler":[{"objektid":"57979"}]}},{"artikel":{"artikelnr":"101973","menge":"1","zaehler":[{"objektid":"82005"}]}},{"artikel":{"artikelnr":"7042","menge":"5","zaehler":[{"objektid":"79196"},{"objektid":"79195"},{"objektid":"25135"},{"objektid":"82430"},{"objektid":"52890"}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-09-2222 11:50:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"09.02.2022","positionen":[{"artikel":{"artikelnr":"101805","menge":"1","zaehler":[{"objektid":"57979"}]}},{"artikel":{"artikelnr":"101973","menge":"1","zaehler":[{"objektid":"82005"}]}},{"artikel":{"artikelnr":"7042","menge":"5","zaehler":[{"objektid":"79196"},{"objektid":"79195"},{"objektid":"25135"},{"objektid":"82430"},{"objektid":"52890"}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-09-2222 11:50:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"09.02.2022","positionen":[{"artikel":{"artikelnr":"101805","menge":"1","zaehler":[{"objektid":"57979"}]}},{"artikel":{"artikelnr":"101973","menge":"1","zaehler":[{"objektid":"82005"}]}},{"artikel":{"artikelnr":"7042","menge":"5","zaehler":[{"objektid":"79196"},{"objektid":"79195"},{"objektid":"25135"},{"objektid":"82430"},{"objektid":"52890"}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-09-2222 15:18:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"09.02.2022","positionen":[{"artikel":{"artikelnr":"3931","menge":"1","zaehler":[]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68290"}]}},{"artikel":{"artikelnr":"1523","menge":"1","zaehler":[]}}]}
+---------- 02-09-2222 17:16:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"09.02.2022","positionen":[{"artikel":{"artikelnr":"7042","menge":"1","zaehler":[{"objektid":"79237"}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-10-2222 13:34:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"7042","menge":"1","zaehler":[{"objektid":"25169"}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"68055"},{"objektid":"76782"}]}},{"artikel":{"artikelnr":"7010","menge":"1","zaehler":[]}}]}
+---------- 02-10-2222 13:53:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-10-2222 13:54:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-10-2222 14:50:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"68290"},{"objektid":"68055"}]}}]}
+---------- 02-10-2222 14:56:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-10-2222 15:03:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"10.02.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}}]}
+---------- 02-11-2222 09:18:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"11.02.2022","positionen":[{"artikel":{"artikelnr":"7007","menge":"1","zaehler":[]}},{"artikel":{"artikelnr":"3931","menge":"1","zaehler":[]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objektid":"67358"},{"objektid":"68197"}]}},{"artikel":{"artikelnr":"1523","menge":"1","zaehler":[]}}]}
+---------- 03-03-2222 13:31:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"03.03.2022","positionen":[{"artikel":{"artikelnr":"7042","menge":"1","zaehler":[{"objekt":{"id":"67388"}}]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objekt":{"id":"67358"}},{"objekt":{"id":"68197"}}]}},{"artikel":{"artikelnr":"1523","menge":"1","zaehler":[]}}]}
+---------- 03-16-2222 09:35:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"1368","lagernr":"E01","datum":"16.03.2022","positionen":[{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objekt":{"id":"68197"}},{"objekt":{"id":"68283"}}]}}]}
+---------- 03-16-2222 09:37:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_IMPORT_MATERIALUMBUCHUNG","abgangslagernr":"E01","lagernr":"1368","datum":"16.03.2022","positionen":[{"artikel":{"artikelnr":"3931","menge":"2","zaehler":[]}},{"artikel":{"artikelnr":"1522","menge":"2","zaehler":[{"objekt":{"id":"68197"}},{"objekt":{"id":"68275"}}]}}]}

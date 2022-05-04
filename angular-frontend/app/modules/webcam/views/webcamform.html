@@ -1,0 +1,53 @@
+<!-- Modal Adresse hinzufügen -->
+<div class="modal fade" id="webcamModal" style="z-index:1060;" tabindex="-1" data-backdrop="false" role="dialog" aria-labelledby="webcamModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="webcamModalLabel">{{ modal.label }}</h4>
+            </div>
+            <div class="modal-body" align="center">
+                <style>
+                    #webcam_container {
+                        margin: 0px auto;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    #videoElement {
+                        width: 100%;
+                        height: 100%;
+                    }
+                </style>
+                <div id="webcam_container">
+                    <video autoplay="true" id="videoElement">
+
+                    </video>
+                </div>
+                <script>
+                    function initJsWebcam() {
+                        var video = document.querySelector("#videoElement");
+
+                        navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+
+                        if (navigator.getUserMedia) {
+                            navigator.getUserMedia({video: true}, handleVideo, videoError);
+                        }
+
+                        function handleVideo(stream) {
+                            video.src = window.URL.createObjectURL(stream);
+                        }
+
+                        function videoError(e) {
+                            // do something
+                        }
+                    }
+                </script>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                <button class="btn btn-success" ng-click="createAddress(address)" ng-if="!address.id" ng-class="{'working':isDisabled===true}"><i class="fa fa-save"></i>  {{"app.shared.common.save" | translate }}</button>
+                <button class="btn btn-info" ng-click="updateAddress(address)" ng-if="address.id" ng-class="{'working':isDisabled===true}"> {{"app.shared.common.update" | translate }}</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,76 @@
+<!-- main content -->
+<div id="content">
+    <div class="col-md-12">
+        <div class="panel panel-default yep-card">
+            <div class="panel-heading card-head">
+                <div class="panel-title">
+                    <span class="bold head-title"> Postleitzahlen, Orte und Zuordnungen</span>
+                </div>
+            </div>
+            <div class="panel-body ">
+                <hr>
+                <!-- optionlist list -->
+                <div class="col-md-6 layout no-padding">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>PLZ</th>
+                            <th>Ort</th>
+                            <th>Ortschaft</th>
+                            <th>Regionalleiter</th>
+                            <th><i class="fa fa-bolt"></i></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="postcode in postcodes">
+                            <th scope="row">{{postcode.id}}</th>
+                            <td>{{postcode.postcode}}</td>
+                            <td>{{postcode.city}}</td>
+                            <td>{{postcode.district}}</td>
+                            <td>{{postcode.sales_staff}}</td>
+                            <td>
+                                <a href="" data-target="#" ng-click="edit(postcode)" show-if-has-permit="edit_postcode"><i class="fa fa-pencil primary"></i></a>
+                                <a href="" data-target="#" ng-click="delete(postcode)" show-if-has-permit="delete_postcode"><i class="fa fa-trash red"></i></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- optionlist list -->
+
+                <!-- form -->
+                <div class="col-md-6" show-if-has-any-permit="add_optionlist, edit_optionlist">
+                    <form role="form">
+                        <fieldset ng-disabled="isDisabled">
+                            <div class="form-group">
+                                <label for="optionlist">
+                                    Optionlist
+                                </label>
+                                <input ng-model="optionlist.optionlist" type="text" class="form-control" id="optionlist" />
+                            </div>
+                            <div class="form-group">
+                                <label for="optionlistoptionid">
+                                    Option ID
+                                </label>
+                                <input ng-model="optionlist.option_id" type="text" class="form-control" id="optionlistoptionid" />
+                            </div>
+                            <div class="form-group">
+
+                                <label for="optionlistname">
+                                    Option Name
+                                </label>
+                                <input ng-model="optionlist.name" type="text" class="form-control" id="optionlistname" />
+                            </div>
+                            <button ng-click="create(optionlist)" ng-if="!optionlist.id" show-if-has-permit="add_optionlist" class="btn btn-success" ng-class="{'working':isDisabled===true}"> {{"app.shared.common.save" | translate }}</button>
+                            <button ng-click="update(optionlist)" ng-if="optionlist.id" show-if-has-permit="edit_optionlist" class="btn btn-info" ng-class="{'working':isDisabled===true}"> {{"app.shared.common.update" | translate }}</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- form -->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./end content  -->

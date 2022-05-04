@@ -1,0 +1,42 @@
+<div class="modal fade ng-scope in" id="umbuchungFormModal" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="umbuchungFormModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="{{width}}">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <div class="table-responsive">
+                    <form name="myArtUmbuchCtrl.ArtUmbuchForm" novalidate>
+                        <table class="table table-bordered">
+                            <tr>
+                                <td>LieferscheinNr.</td>
+                                <td><input type="text" name="LieferscheinNr" ng-model="artikel_umbuchungen_erp_copy[0].lieferscheinnr" class="form-control"
+                                           ng-class="{'input_err':myArtUmbuchCtrl.ArtUmbuchForm.LieferscheinNr.$invalid}" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Termin</td>
+                                <td>
+                                    <input type="text" id="date" name="Termin" ng-model="artikel_umbuchungen_erp_copy[0].termin" class="pull-left form-control" data-date-format="DD.MM.YYYY"
+                                           ng-class="{'input_err':myArtUmbuchCtrl.ArtUmbuchForm.Termin.$invalid}" readonly="true" autocomplete="off" required />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div show-if-has-permit="view_admin">
+                        <ul ng-repeat="errs in myArtUmbuchCtrl.ArtUmbuchForm.$error">
+                            <li ng-repeat="err in errs" style="color: red;">{{err.$name}}-> {{err.$error}}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button style="margin-bottom: 1px;" class="btn btn-danger change pull-left" ng-click="cancel('umbuchungFormModal')"><i class="fa fa-ban"></i>  Abbrechen</button>
+                        <div ng-if="myArtUmbuchCtrl.ArtUmbuchForm.LieferscheinNr.$invalid || myArtUmbuchCtrl.ArtUmbuchForm.Termin.$invalid" class="pull-right" style="color: darkred;">
+                            <i class="fa fa-info-circle" style="font-size: 150%;"></i> Um zu speichern, füllen Sie bitte die rot markierten Felder aus.
+                        </div>
+                        <button ng-if="!(myArtUmbuchCtrl.ArtUmbuchForm.LieferscheinNr.$invalid || myArtUmbuchCtrl.ArtUmbuchForm.Termin.$invalid)" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="umbuchen(product, 'product')"><i class="fa fa-save"></i>  Umbuchen</button>
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pull-right" style="margin-right: 10px">
+                            <img ng-if="showLoader == true" src="../assets/img/ajax_loader_35.gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

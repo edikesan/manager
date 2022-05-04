@@ -1,0 +1,30 @@
+<div class="modal fade ng-scope in" id="verweigerungFormModal" tabindex="-1" data-backdrop="true" role="dialog" aria-labelledby="verweigerungFormModalLabel" aria-hidden="false" >
+    <div class="modal-dialog" role="document" style="{{width}}">
+        <div class="modal-content">
+            <div class="modal-body form-group">
+                <div class="table-responsive">
+                    <div class="modal-header">
+                        <span style="font-size: larger;"><strong>Wollen Sie die ausgewählten Bestellung verweigern?</strong></span>
+                    </div>
+                    <div class="modal-body form-group">
+                        <label class="col-sm-2 control-label">
+                            Grund:
+                        </label>
+                        <div class="col-sm-10 panel-flat-textarea">
+                            <textarea ng-model="aktBestellung.grund" rows="4" style="width: 100%">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer">
+                        <button style="margin-bottom: 1px;" class="btn btn-danger change pull-left" ng-click="cancel('verweigerungFormModal')"><i class="fa fa-ban"></i>  Abbrechen</button>
+                        <button ng-if="aktBestellung.grund.length>3" style="margin-bottom: 1px;" class="btn btn-success change pull-right" ng-click="changeStatus(aktBestellung,4)"><i class="fa fa-save"></i>  Verweigern</button>
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pull-right" style="margin-right: 10px">
+                            <img ng-if="showLoader == true" src="../assets/img/ajax_loader_35.gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

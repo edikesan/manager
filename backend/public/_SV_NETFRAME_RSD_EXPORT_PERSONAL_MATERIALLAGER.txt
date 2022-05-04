@@ -1,0 +1,734 @@
+---------- 05-25-2020 11:28:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 05-28-2020 14:13:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 05-28-2020 14:13:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 05-28-2020 14:17:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 05-28-2020 14:27:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 05-28-2020 14:47:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:04:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:05:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:05:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:07:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:09:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:13:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:15:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:21:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:21:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:28:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:35:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 15:52:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:44:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:44:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:46:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:50:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:51:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:52:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 16:52:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 18:01:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-28-2020 18:01:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 09:55:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 09:56:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 09:59:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 09:59:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:00:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:10:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:11:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:12:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:18:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:36:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:37:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:43:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:45:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:49:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:50:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:52:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:59:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 10:59:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:13:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:40:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:42:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:44:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:48:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:48:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:49:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:50:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:50:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:51:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:51:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 11:52:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:34:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:35:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:35:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:37:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:38:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:38:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:39:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:40:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 12:40:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 15:46:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 15:47:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 05-29-2020 15:48:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 06-02-2020 11:53:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 06-02-2020 11:53:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 06-15-2020 10:51:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 06-15-2020 10:51:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1414"}
+---------- 11-11-2020 10:17:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 10:25:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 10:25:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:37:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:37:58 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:44:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:45:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:45:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:45:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:46:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:46:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:46:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:49:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:49:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:49:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:49:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:49:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:52:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:53:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-11-2020 12:53:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-12-2020 10:34:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-12-2020 10:34:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-12-2020 10:35:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-12-2020 10:35:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 11-12-2020 10:35:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 04-06-2121 11:47:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 04-06-2121 12:05:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 04-06-2121 12:30:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1011"}
+---------- 04-21-2121 09:30:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-21-2121 09:48:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-21-2121 09:49:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-21-2121 09:51:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-21-2121 09:52:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-21-2121 10:15:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 09:52:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 10:01:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 10:22:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:09:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:10:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:10:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:11:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:14:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:25:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:27:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:29:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:32:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:33:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 11:35:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 04-26-2121 12:04:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 07-09-2121 10:46:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-25-2222 16:27:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 09:48:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 10:28:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 10:34:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 11:02:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 11:50:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:04:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:06:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:07:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:08:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:10:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:28:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:32:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:32:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:55:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:57:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 12:58:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:14:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:23:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:25:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:27:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:38:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:45:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:46:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:50:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:51:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 13:55:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:00:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:03:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:05:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:06:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:07:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:11:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:13:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-28-2222 14:36:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 10:22:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 10:23:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 10:25:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 11:34:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 11:45:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 11:50:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 12:22:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 12:26:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 12:27:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 12:28:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 14:28:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 14:29:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 14:31:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 14:31:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 14:32:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:20:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:22:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:22:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:25:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:26:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:27:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:29:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:30:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:31:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:34:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:35:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:38:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:43:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:45:03 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:47:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:49:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:50:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:51:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:54:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 15:56:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 17:11:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 17:20:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 17:23:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 01-31-2222 17:26:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 08:50:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 08:52:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 08:53:43 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 08:56:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 08:58:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:37:05 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:44:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:47:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:51:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:55:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 09:56:58 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:11:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:14:55 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:22:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:24:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:25:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:28:11 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:30:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:31:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:35:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 10:59:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:01:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:02:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:02:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:03:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:25:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 11:53:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 12:17:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 12:19:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 12:20:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:34:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:37:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:39:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:40:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:40:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:42:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:52:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 14:53:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:16:51 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:17:40 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:18:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:20:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:21:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:24:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:26:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:26:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:28:25 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:31:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:38:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:42:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:45:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:45:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:50:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:55:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 15:59:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:02:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:03:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:05:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:06:26 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:07:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:09:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:10:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:16:39 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:27:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 16:30:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:00:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:16:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:19:23 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:20:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:21:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:22:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:22:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:25:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-01-2222 17:27:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 09:11:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 11:33:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 11:38:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 11:39:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 11:47:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-02-2222 11:47:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 12:00:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 14:44:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 14:49:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 14:51:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:02:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:08:57 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:16:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:18:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:19:21 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:28:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 15:50:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:24:15 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:35:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:35:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:39:10 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:40:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:49:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:50:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:54:14 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:55:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 16:56:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 17:03:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 17:06:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 17:10:19 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-03-2222 17:14:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 09:57:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:01:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:04:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:09:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:18:27 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:20:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:22:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:27:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:29:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:30:35 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:41:44 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 10:44:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 11:02:41 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 11:03:30 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 11:06:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:13:59 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:16:24 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:19:09 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:19:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:21:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:23:34 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:29:32 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:31:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:31:53 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:33:20 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:34:01 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-07-2222 12:35:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-08-2222 13:07:07 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 10:08:12 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 10:29:06 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 11:52:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:27:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:29:29 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:31:49 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:37:37 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:39:22 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:40:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:51:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:51:48 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:53:38 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-09-2222 16:59:46 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 09:25:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 13:32:54 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 13:51:45 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 13:53:02 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 13:54:18 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 14:50:13 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 14:56:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 15:00:04 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 15:00:52 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 15:03:31 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 15:03:33 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 16:02:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-10-2222 16:45:47 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-11-2222 08:36:28 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 02-11-2222 09:17:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-03-2222 13:30:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-04-2222 08:04:56 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-07-2222 11:35:00 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-07-2222 12:05:08 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-07-2222 12:06:16 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-16-2222 09:26:42 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-16-2222 09:33:50 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-16-2222 09:34:36 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}
+---------- 03-16-2222 09:36:17 ----------
+Parameter: {"makro":"_SV_NETFRAME_RSD_EXPORT_PERSONAL_MATERIALLAGER","lagernr":"1368"}

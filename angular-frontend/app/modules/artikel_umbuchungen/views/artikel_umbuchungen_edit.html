@@ -1,0 +1,288 @@
+<!-- main content -->
+<style>
+    .navi_button{
+        padding: 5px 0;
+        width: 90px;
+    }
+    .navi_button_clicked{
+        background-color: lightgreen;
+    }
+    .bestellungen:hover {
+        background-color: #ffff99;
+    }
+    th {
+        text-align:center;
+    }
+    input.input_err {
+        border-color: darkred;
+        border-width: 2px;
+    }
+    table>tbody>tr>td.artikel_table {
+        padding-top:0px;
+        padding-bottom:0px;
+        padding-left:4px;
+        padding-right:10px;
+    }
+    .dataTables_wrapper .dataTables_filter input::-webkit-search-cancel-button {
+        -webkit-appearance: button !important;
+    }
+    .required {
+        border: 5px solid #ffdddd;
+    }
+</style>
+
+<div id="content">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="panel panel-default">
+            <!-- Menü -->
+            <div class="panel-heading card-head">
+                <div class="panel-title">
+                    <span class="bold head-title"> Bestandsbewegungen</span>
+                </div>
+            </div>
+            <div class="panel panel-default panel-body col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-bottom: 5px">
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-default has-ripple" ng-click="getErpBestellt()" ng-class="{'navi_button_clicked': MenuFunktion === 'ERP' }">Artikel wurde geliefert<span class="ripple ripple-animate" style="animation-duration: 0.4s; animation-timing-function: linear; "></span></button>
+                            <button class="btn btn-default has-ripple" ng-click="getLieferanten()" ng-class="{'navi_button_clicked': MenuFunktion === 'SELBST' }">Selbstabh. beim Lieferanten<span class="ripple ripple-animate" style="animation-duration: 0.4s; animation-timing-function: linear; "></span></button>
+                            <button class="btn btn-default has-ripple" ng-click="getLagerbestand('AUS_LAGERBESTAND')" ng-class="{'navi_button_clicked': MenuFunktion === 'AUS_LAGERBESTAND' }">Selbstabh. bei Rheingas<span class="ripple ripple-animate" style="animation-duration: 0.4s; animation-timing-function: linear; "></span></button>
+                            <!--button class="btn btn-default has-ripple" ng-click="getPersonallagerArtikel()">mein Lagerbestand<span class="ripple ripple-animate" style="animation-duration: 0.4s; animation-timing-function: linear; "></span></button-->
+                            <button class="btn btn-default has-ripple" ng-click="getLagerbestand('AUS_MEINEM_LAGERBESTAND')" ng-class="{'navi_button_clicked': MenuFunktion === 'AUS_MEINEM_LAGERBESTAND' }">Rückgabe an Rheingas<span class="ripple ripple-animate" style="animation-duration: 0.4s; animation-timing-function: linear; "></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div ng-show="( MenuFunktion === 'AUS_LAGERBESTAND' || MenuFunktion === 'AUS_MEINEM_LAGERBESTAND' ) && laegerGeladen"  class="col-xs-12 col-sm-7 col-md-7 col-lg-6 col-xl-3" style="padding-bottom: 10px">
+                    <div class="input-group">
+                        <select id="storeInput" class="form-control" style="width: 230px;" ng-model="store" ng-options="personallager as personallager.lagerbezeichnung for personallager in personallaeger"></select>
+                        <span class="input-group-btn" style="left: 5px; display: inline;">
+                           <button class="btn btn-success change" ng-click="getArtikelAusLagerbestand()" ng-class="{'working':isDisabled===true}" ng-disabled="store=='' || store==undefinded" style="padding: 5px">
+                               <i class="glyphicon glyphicon-play"></i> Suchen
+                           </button>
+                        </span>
+                    </div>
+                </div>
+                <div ng-show="MenuFunktion === 'SELBST' && lieferantenGeladen"  class="col-xs-12 col-sm-7 col-md-7 col-lg-6 col-xl-3" style="padding-bottom: 10px">
+                    <div class="input-group">
+                        <select class="form-control" style="width: 230px;" ng-model="lieferant" ng-options="lieferant as lieferant.lieferantenname for lieferant in lieferanten"></select>
+                        <span class="input-group-btn" style="left: 5px; display: inline;">
+                           <button class="btn btn-success change" ng-click="getLieferantenArtikel(lieferant.lieferantenid)" ng-class="{'working':isDisabled===true}" ng-disabled="lieferant=='' || lieferant==undefinded"><i class="glyphicon glyphicon-play"></i> Suchen</button>
+                        </span>
+                    </div>
+                </div>
+                <!--div class="clearfix visible-xs-block"></div-->
+                <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pull-left">
+                    <img ng-if="showLoader == true" src="../assets/img/ajax_loader_35.gif">
+                </div>
+
+                <div class="clearfix"></div>
+                <!-- Inhalt -->
+                <div style="margin-top: 20px;" ng-if="showData == true">
+                    <div ng-if="MenuFunktion == 'ERP'">
+                        <div class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="table table-bordered table-condensed">
+                                <thead>
+                                <tr>
+                                    <th colspan="7" style="text-align:center;;background-color: lightgrey;">
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td style="width:10%">
+                                                    <div ng-if="filter_aktiv" ng-click="removeFilter()" style="cursor: pointer">
+                                                        <i class="fa fa-filter"><i class="fa fa-remove"></i></i>
+                                                    </div>
+                                                </td>
+                                                <td style="width:80%">
+                                                    <strong> ERP Bestellungen</strong>
+                                                </td>
+                                                 <td style="width:10%">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th>BelegNr</th>
+                                    <th>Belegbezeichnung</th>
+                                    <th>Belegdatum</th>
+                                    <th>Leistungsdatum</th>
+                                    <th>Lieferantennr</th>
+                                    <th>Lieferantenname</th>
+                                    <th>BuchungsNr</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-class="{bestellungen : filter_aktiv==false}" ng-repeat="artikel in artikel_umbuchungen_erp_copy track by $index | orderBy: 'Belegnummer':false" ng-style="{'cursor': filter_aktiv==true?'':'pointer'}" ng-click="getErpBestelltPositionen(artikel)">
+                                    <td style="align:center;">{{artikel.belegnummer}}</td>
+                                    <td style="align:center;">{{artikel.belegbezeichnung}}</td>
+                                    <td style="align:center;">{{artikel.belegdatum}}</td>
+                                    <td style="align:center;">{{artikel.leistungsdatum}}</td>
+                                    <td style="align:center;">{{artikel.lieferantennr}}</td>
+                                    <td style="align:center;">{{artikel.lieferantenname}}</td>
+                                    <td style="align:center;">{{artikel.buchungsnummer}}
+                                        <i ng-if="artikel.showOk" class="fa fa-check ng-scope" style="color:green; padding-left: 15px"></i>
+                                        <span ng-if="artikel.showError" style="color: red">{{artikel.showError}}</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div ng-if="MenuFunktion == 'ERP' && filter_aktiv == true" class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="table table-bordered table-condensed">
+                                <thead>
+                                <tr>
+                                    <th colspan="6" style="text-align:center;;background-color: lightgrey;">
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td style="width:20%"></td>
+                                                <td style="width:50%">
+                                                    <strong>Artikel</strong>
+                                                </td>
+                                                <td style="width:30%" align="right">&nbsp;
+                                                    <button ng-if="artikel_umbuchungen_erp_copy[0].showButton==true" class="btn btn-success change pull-right ng-scope has-ripple fa fa-save" ng-click="getUmbuchungsForm()"> Erfassen</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th style="width:10%">Artikelnummer</th>
+                                    <th style="width:40%">Artikelbezeichnung</th>
+                                    <th style="width:40%">Artikellangtext</th>
+                                    <th>Termin</th>
+                                    <th>bestellte Menge</th>
+                                    <th>erhaltene Menge</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="position in artikel_positionen_erp track by $index | orderBy: 'belegnummer'">
+                                    <td style="align:center;">{{position.artikelnummer}}</td>
+                                    <td align="left">{{position.artikelbezeichnung}}</td>
+                                    <td align="left">{{position.artikellangtext}}</td>
+                                    <td style="align:center;">{{position.termin}}</td>
+                                    <td style="align:center;">{{position.vorhandene_menge}}</td>
+                                    <td style="align:center;">
+                                        <input type="text" ng-model="position.erhaltene_menge" class="form-control" style="max-width: 30px;" min="0" ng-max="position.menge" required >
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div ng-if="MenuFunktion == 'SELBST'">
+                        <div class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table id="lieferantenArtikelTable" ui-jq="dataTable" ui-options="lieferantenArtikel_datatable_options" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                    <th colspan="7" style="text-align:center;;background-color: lightgrey;">
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td style="width:20%" align="left">
+                                                    <div style="cursor: pointer; padding-left: 20px;">
+                                                        <i ng-if="filter_aktiv" ng-click="removeArtikelFilter('lieferantenArtikelTable')" class="fa fa-filter"><i class="fa fa-remove"></i><span> alle</span></i>
+                                                        <i ng-if="!filter_aktiv" ng-click="setzeArtikelFilter('lieferantenArtikelTable')" class="fa fa-filter"><span > nur gewählte</span></i>
+                                                    </div>
+                                                </td>
+                                                <td style="width:50%">
+                                                    <strong>Artikel vom Lieferanten {{lieferant.lieferantenname}}</strong>
+                                                    <span ng-show="gewaehlteArtikel.buchungsnummer" style="color: #00CC00"> erfasst, Belegnummer: {{gewaehlteArtikel.buchungsnummer}}</span>
+                                                </td>
+                                                <td style="width:30%" align="right">&nbsp;
+                                                    <button class="btn btn-success change pull-right ng-scope has-ripple fa fa-save" ng-click="getUmbuchungBestaetigungForm('lieferantenArtikel')"> Erfassen</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th>Artikelnr</th>
+                                    <th style="width:30%">Bezeichnung</th>
+                                    <th style="width:40%">Langtext</th>
+                                    <th>Bestellnr.</th>
+                                    <th>Std.-Einheit</th>
+                                    <th>EK-Mengeneinheit</th>
+                                    <th>Menge</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="artikel in lieferantenArtikel track by $index">
+                                    <td class="artikel_table" align="right" style="padding-right: 20px;">{{artikel.artikelnr}}</td>
+                                    <td class="artikel_table">{{artikel.artikelbezeichnung}}</td>
+                                    <td class="artikel_table">{{artikel.artikellangtext}}</td>
+                                    <td style="align:center;" class="artikel_table">{{artikel.bestellnummer}}</td>
+                                    <td style="align:center;" class="artikel_table">{{artikel.std}}</td>
+                                    <td style="align:center;" class="artikel_table">{{artikel.ekm}}</td>
+                                    <td class="artikel_table" style="align:center;"><input type="text" ng-model="artikel.menge" style="max-width: 35px;" min="0"></td>
+                                    <i ng-if="artikel.showOk" class="fa fa-check ng-scope" style="color:green; padding-left: 15px"></i>
+                                    <span ng-if="artikel.showError" style="color: red">{{artikel.showError}}</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div ng-if="MenuFunktion == 'AUS_LAGERBESTAND' || MenuFunktion == 'AUS_MEINEM_LAGERBESTAND'">
+                        <div class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                            <table id="artikelLagerbestandTable" ui-jq="dataTable" ui-options="artikelLagerbestand_datatable_options" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                    <th colspan="7" style="text-align:center;;background-color: lightgrey;">
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td style="width:20%" align="left">
+                                                    <div style="cursor: pointer; padding-left: 20px;">
+                                                        <i ng-if="filter_aktiv" ng-click="removeArtikelFilter('artikelLagerbestandTable')" class="fa fa-filter"><i class="fa fa-remove"></i><span> alle</span></i>
+                                                        <i ng-if="!filter_aktiv" ng-click="setzeArtikelFilter('artikelLagerbestandTable')" class="fa fa-filter"><span > nur gewählte</span></i>
+                                                    </div>
+                                                </td>
+                                                <td style="width:65%">
+                                                    <strong>Artikel
+                                                        <span ng-if="MenuFunktion == 'AUS_LAGERBESTAND'"> aus Hauptlagerbestand auf mein Lagerbestand</span>
+                                                        <span ng-if="MenuFunktion == 'AUS_MEINEM_LAGERBESTAND'"> aus meinem Lagerbestand auf {{store.lagerbezeichnung}}</span>
+                                                        <span ng-show="gewaehlteArtikel.buchungsnummer" style="color: #00CC00"> erfasst, Belegnummer: {{gewaehlteArtikel.buchungsnummer}}</span>
+                                                    </strong>
+                                                </td>
+                                                <td style="width:15%" align="right">&nbsp;
+                                                    <button class="btn btn-success change pull-right ng-scope has-ripple fa fa-save" ng-click="getUmbuchungBestaetigungForm('artikelLagerbestand')"> Erfassen</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight: bold;">
+                                    <th>Artikelnr</th>
+                                    <th style="width:30%">Bezeichnung</th>
+                                    <th style="width:40%">Langtext</th>
+                                    <th>Bestand</th>
+                                    <th>Menge</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="artikel in lagerArtikel track by $index">
+                                    <td class="artikel_table" align="right" style="padding-right: 20px;">{{artikel.artikelnr}}</td>
+                                    <td class="artikel_table">{{artikel.artikelbezeichnung}}</td>
+                                    <td class="artikel_table">{{artikel.artikellangtext}}</td>
+                                    <td class="artikel_table" align="right">{{artikel.bestand}}</td>
+                                    <td class="artikel_table" style="align:center;">
+                                        <input type="text" ng-model="artikel.menge" style="max-width: 35px;" min="0" ng-change="getSeriennummern(artikel)">
+                                        <i ng-if="artikel.showOk" class="fa fa-check ng-scope" style="color:green; padding-left: 15px"></i>
+                                        <span ng-if="artikel.showError" style="color: red">{{artikel.showError}}</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-12  col-lg-12" ng-if="showData == true && !artikel_umbuchungen_erp_copy && !lagerArtikel && !lieferantenArtikel" style="align:center;" style="color: grey">
+                    <i class="fa fa-info-circle" style="font-size: 200%;"></i><br>
+                    <i style="font-weight: bold"> Für das ausgewählte Lager sind keine Daten vorhanden.</i><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-include="'app/modules/artikel_umbuchungen/views/umbuchung_form.html'"></div>
+    <div ng-include="'app/modules/artikel_umbuchungen/views/umbuchung_bestaetigung_form.html'"></div>
+</div>
